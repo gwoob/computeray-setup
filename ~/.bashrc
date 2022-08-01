@@ -14,6 +14,7 @@ alias clone=’git clone’
 alias hack='cmatrix'
 alias cleanup=’xbps-install -Su && xbps-remove -oO && flatpak update'
 alias query='xbps-query -Rs'
+alias code='code-oss'
 
 export GREP_OPTIONS=' — color=auto'
 export EDITOR=micro

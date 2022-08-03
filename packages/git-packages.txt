@@ -1,7 +1,6 @@
-# git packages /home/git/
 svtools                 # https://github.com/Nughm3/svtools
 clustergit              # https://github.com/mnagel/clustergit
-gamescope               # fps cap - https://github.com/Plagman/gamescope
+gamescope               # fps cap https://github.com/Plagman/gamescope
 leetmouse               # https://github.com/Skyl3r/leetmouse
 leetmouse-gui           # https://github.com/Skyl3r/leetmouse-gui
 protonup                # https://github.com/AUNaseef/protonup

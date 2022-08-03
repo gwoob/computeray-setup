@@ -14,6 +14,8 @@ intel-ucode - https://wiki.archlinux.org/title/microcode
 mesa
 mesa-32bit # if not installed with the mesa package
 mesa-dri-32bit # if not installed with the mesa package
+mesa-opencl # if not installed with mesa package
+mesa-opencl-32bit # if not installed with mesa package
 libgcc-32bit # if not installed with mesa-dri-32bit package
 libstdc++-32bit # if not installed with mesa-dri-32bit package
 libdrm-32bit # if not installed with mesa-dri-32bit package

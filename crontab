@@ -1,2 +1,2 @@
-0 15 * * fstrim /
+0 15 * * /sbin/fstrim /
 0 16 1 * vkpurge rm all

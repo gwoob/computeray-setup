@@ -1,0 +1,45 @@
+# xbps
+void-repo-nonfree
+void-repo-multilib
+void-repo-multilib-nonfree	
+void-repo-debug
+vpsm
+linux
+linux-firmware
+intel-ucode - https://wiki.archlinux.org/title/microcode
+mesa
+mesa-32bit
+libavcodec
+dbus # enable service
+python3-dbus
+networkmanager # https://docs.voidlinux.org/config/network/networkmanager.html
+xorg
+xinit
+intel-undervolt
+corectrl # undervolt gpu
+snapper
+gnome
+gnome-apps
+kitty # https://sw.kovidgoyal.net/kitty/shell-integration/
+xtools
+base-devel
+python3
+python3-pip
+git
+curl
+gcc
+tree
+neofetch
+htop
+axel
+micro
+wine
+pipewire https://docs.voidlinux.org/config/media/pipewire.html
+alsa-pipewire
+libjack-pipewire
+NoiseTorch
+helvum
+easyeffects - https://github.com/jaakkopasanen/AutoEq
+steam # proton experimental
+dolphin-emu
+firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/

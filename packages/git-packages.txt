@@ -1,0 +1,14 @@
+# git packages /home/git/
+clustergit - https://github.com/mnagel/clustergit
+gamescope - fps cap - https://github.com/Plagman/gamescope
+leetmouse - https://github.com/Skyl3r/leetmouse
+leetmouse-gui - https://github.com/Skyl3r/leetmouse-gui
+protonup - https://github.com/AUNaseef/protonup
+yuzu - https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux - switch to mainline - mods - 4k textures
+Grapejuice - https://brinkervii.gitlab.io/grapejuice/docs/Installing-from-source/Void-Linux.html
+libvibrant - https://github.com/libvibrant/libvibrant
+portmaster # https://docs.safing.io/portmaster/install/linux#manual-install-and-launching
+adw-gtk3 # https://github.com/lassekongo83/adw-gtk3
+KvLibadwaita # https://github.com/GabePoel/KvLibadwaita
+firefox-gnome-theme # https://github.com/rafaelmardojai/firefox-gnome-theme
+reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton

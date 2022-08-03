@@ -3,7 +3,6 @@ set monitor refresh rate # https://youtu.be/F-GDmxLKuQs
 setup monitor # https://youtu.be/avJTz1JhkR4 https://youtu.be/aqCRZI521h4 https://youtu.be/uil0jhgdN8M
 prevent resolv.conf from being overriden # https://bbs.archlinux.org/viewtopic.php?id=245162
 enable resizable bar bios
-cp /etc/X11/xinit/xinitrc ~/.xinitrc
 enable nesisary kernel modules, start nesesary services
 set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
 xbps-pkgdb -m hold gnome gnome-apps

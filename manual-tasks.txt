@@ -6,3 +6,4 @@ enable resizable bar bios
 enable nesisary kernel modules, start nesesary services
 set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
 xbps-pkgdb -m hold gnome gnome-apps
+crontab -e root

@@ -5,3 +5,4 @@ prevent resolv.conf from being overriden # https://bbs.archlinux.org/viewtopic.p
 enable resizable bar bios
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 enable nesisary kernel modules, start nesesary services
+set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/

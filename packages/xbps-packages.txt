@@ -3,12 +3,21 @@ void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
+popcorn
+base-system
+socklog-void
+xtools
 vpsm
 linux
 linux-firmware
 intel-ucode - https://wiki.archlinux.org/title/microcode
 mesa
-mesa-32bit
+mesa-32bit # if not installed with the mesa package
+mesa-dri-32bit # if not installed with the mesa package
+libgcc-32bit # if not installed with mesa-dri-32bit package
+libstdc++-32bit # if not installed with mesa-dri-32bit package
+libdrm-32bit # if not installed with mesa-dri-32bit package
+libglvnd-32bit # if not installed with mesa-dri-32bit package
 libavcodec
 dbus # enable service
 python3-dbus
@@ -21,8 +30,8 @@ snapper
 gnome
 gnome-apps
 kitty # https://sw.kovidgoyal.net/kitty/shell-integration/
-xtools
 base-devel
+p7zip
 python3
 python3-pip
 git

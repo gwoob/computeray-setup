@@ -1,12 +1,11 @@
-# xbps
 void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
 dkms
-dbus # enable service
+dbus	# enable service
 python3-dbus
-networkmanager # https://docs.voidlinux.org/config/network/networkmanager.html
+networkmanager		# https://docs.voidlinux.org/config/network/networkmanager.html
 popcorn
 base-system
 socklog-void
@@ -29,7 +28,8 @@ libdrm-32bit
 libglvnd-32bit
 libavcodec
 linux-firmware
-intel-ucode - https://wiki.archlinux.org/title/microcode
+linux-firmware-intel	# if amd linux-firmware-amd
+intel-ucode 			# if amd linux-firmware-amd
 xorg
 xinit
 xf86-video-amdgpu
@@ -38,7 +38,7 @@ corectrl # undervolt gpu
 snapper
 gnome
 gnome-apps
-kitty # https://sw.kovidgoyal.net/kitty/shell-integration/
+kitty	# https://sw.kovidgoyal.net/kitty/shell-integration/
 base-devel
 p7zip
 python3
@@ -52,14 +52,14 @@ htop
 axel
 micro
 wine
-pipewire https://docs.voidlinux.org/config/media/pipewire.html
+pipewire	# https://docs.voidlinux.org/config/media/pipewire.html
 alsa-pipewire
 libjack-pipewire
 NoiseTorch
 helvum
-easyeffects - https://github.com/jaakkopasanen/AutoEq
+easyeffects		# https://github.com/jaakkopasanen/AutoEq
 steam # proton experimental
 gamemode
 mono
 dolphin-emu
-firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/
+firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/

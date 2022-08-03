@@ -3,29 +3,36 @@ void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
+dkms
+dbus # enable service
+python3-dbus
+networkmanager # https://docs.voidlinux.org/config/network/networkmanager.html
 popcorn
 base-system
 socklog-void
 xtools
 vpsm
 linux
+mesa
+mesa-32bit
+mesa-dri
+mesa-dri-32bit
+mesa-vulkan-radeon
+mesa-vulkan-radeon-32bit
+vulkan-loader
+vulkan-loader-32bit
+mesa-opencl
+mesa-opencl-32bit
+libgcc-32bit
+libstdc++-32bit
+libdrm-32bit
+libglvnd-32bit
+libavcodec
 linux-firmware
 intel-ucode - https://wiki.archlinux.org/title/microcode
-mesa
-mesa-32bit # if not installed with the mesa package
-mesa-dri-32bit # if not installed with the mesa package
-mesa-opencl # if not installed with mesa package
-mesa-opencl-32bit # if not installed with mesa package
-libgcc-32bit # if not installed with mesa-dri-32bit package
-libstdc++-32bit # if not installed with mesa-dri-32bit package
-libdrm-32bit # if not installed with mesa-dri-32bit package
-libglvnd-32bit # if not installed with mesa-dri-32bit package
-libavcodec
-dbus # enable service
-python3-dbus
-networkmanager # https://docs.voidlinux.org/config/network/networkmanager.html
 xorg
 xinit
+xf86-video-amdgpu
 intel-undervolt
 corectrl # undervolt gpu
 snapper
@@ -52,5 +59,6 @@ NoiseTorch
 helvum
 easyeffects - https://github.com/jaakkopasanen/AutoEq
 steam # proton experimental
+gamemode
 dolphin-emu
 firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/

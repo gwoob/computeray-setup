@@ -6,6 +6,7 @@ dkms
 dbus	# enable service
 python3-dbus
 networkmanager		# https://docs.voidlinux.org/config/network/networkmanager.html
+openntpd
 popcorn
 base-system
 socklog-void

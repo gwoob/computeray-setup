@@ -71,3 +71,7 @@ steam # proton experimental
 mono
 dolphin-emu
 firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/
+cups
+cups-filters
+avahi
+nss-mdns

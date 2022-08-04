@@ -14,6 +14,7 @@ xtools
 vpsm
 mesa
 mesa-32bit
+adriconf
 mesa-dri
 mesa-dri-32bit
 mesa-vulkan-radeon

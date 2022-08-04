@@ -60,6 +60,8 @@ wine
 pipewire	# https://docs.voidlinux.org/config/media/pipewire.html
 alsa-pipewire
 libjack-pipewire
+libspa-bluetooth
+bluez   #add user to bluetooth group
 NoiseTorch
 helvum
 easyeffects		# https://github.com/jaakkopasanen/AutoEq

@@ -59,6 +59,7 @@ htop
 axel
 micro
 wine
+wine-32bit
 pipewire	# https://docs.voidlinux.org/config/media/pipewire.html
 alsa-pipewire
 libjack-pipewire

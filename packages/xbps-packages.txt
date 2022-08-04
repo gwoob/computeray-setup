@@ -22,6 +22,8 @@ vulkan-loader
 vulkan-loader-32bit
 mesa-opencl
 mesa-opencl-32bit
+mesa-vaapi
+mesa-vdpau
 libgcc-32bit
 libstdc++-32bit
 libdrm-32bit
@@ -33,8 +35,7 @@ intel-ucode 			# if amd linux-firmware-amd
 xorg
 xinit
 xf86-video-amdgpu
-intel-undervolt
-corectrl # undervolt gpu
+corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
 snapper
 gnome
 gnome-apps

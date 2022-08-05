@@ -46,6 +46,7 @@ snapper
 gnome
 gnome-core
 gnome-apps
+kvantum
 kitty	# https://sw.kovidgoyal.net/kitty/shell-integration/
 base-devel
 p7zip

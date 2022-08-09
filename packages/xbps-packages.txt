@@ -47,7 +47,6 @@ gnome   # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-short
 gnome-core
 gnome-apps
 kvantum
-kitty	# https://sw.kovidgoyal.net/kitty/shell-integration/
 base-devel
 p7zip
 python3

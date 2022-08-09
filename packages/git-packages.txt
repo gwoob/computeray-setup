@@ -11,3 +11,4 @@ adw-gtk3                # https://github.com/lassekongo83/adw-gtk3
 KvLibadwaita            # https://github.com/GabePoel/KvLibadwaita
 firefox-gnome-theme     # https://github.com/rafaelmardojai/firefox-gnome-theme
 reshade-steam-proton    # https://github.com/kevinlekiller/reshade-steam-proton
+portmaster              # https://docs.safing.io/portmaster/install/linux#arch-linux

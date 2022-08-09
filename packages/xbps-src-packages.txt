@@ -1,2 +1,2 @@
 # xbps-src
-clion
+clion #https://plugins.jetbrains.com/plugin/13920-darcula-solid-theme or adwaita dark theme if possible

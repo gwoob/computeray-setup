@@ -48,6 +48,7 @@ snapper
 gnome   # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
 gnome-apps
 gnome-tweaks
+dconf-editor    # change gnome power options
 adwaita-qt
 gnome-bluetooth
 gnome-screensaver

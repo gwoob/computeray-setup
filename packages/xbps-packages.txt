@@ -49,6 +49,7 @@ gnome   # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-short
 gnome-apps
 gnome-tweaks
 dconf-editor    # change gnome power options
+sushi
 adwaita-qt
 gnome-bluetooth
 gnome-screensaver

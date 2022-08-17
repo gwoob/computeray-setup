@@ -14,3 +14,4 @@ change gnome power oftions dconf editor
 dconf always use location entry
 make home folder templates
 dconf draggable border width 20
+alt+f2 for quick commands

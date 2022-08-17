@@ -12,3 +12,4 @@ undervolt cpu and gpu
 wallpaper # https://commons.wikimedia.org/wiki/File:3840x2160-feldgrau-solid-color-background.jpg https://512pixels.net/projects/default-mac-wallpapers-in-5k/ https://jmd.im/project/black-ii
 change gnome power oftions dconf editor
 dconf always use location entry
+make home folder templates

@@ -13,3 +13,4 @@ wallpaper # https://commons.wikimedia.org/wiki/File:3840x2160-feldgrau-solid-col
 change gnome power oftions dconf editor
 dconf always use location entry
 make home folder templates
+dconf draggable border width 20

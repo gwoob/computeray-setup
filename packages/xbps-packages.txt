@@ -88,3 +88,7 @@ cups
 cups-filters
 avahi
 nss-mdns
+
+
+kicad
+komikku

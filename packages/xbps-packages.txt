@@ -95,3 +95,5 @@ komikku
 
 
 neovim
+
+picom

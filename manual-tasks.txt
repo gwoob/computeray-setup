@@ -17,3 +17,6 @@ dconf draggable border width 20
 alt+f2 for quick commands
 
 setup zsh
+
+
+turn off picom vsync

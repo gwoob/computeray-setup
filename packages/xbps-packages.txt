@@ -97,3 +97,5 @@ komikku
 neovim
 
 picom
+
+YACReader

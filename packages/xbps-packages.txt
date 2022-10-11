@@ -101,3 +101,6 @@ picom
 YACReader
 
 terminus-font	
+
+
+imagemagick

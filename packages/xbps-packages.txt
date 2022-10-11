@@ -99,3 +99,5 @@ neovim
 picom
 
 YACReader
+
+terminus-font	

@@ -20,3 +20,5 @@ setup zsh
 
 
 turn off picom vsync
+
+setup fonts

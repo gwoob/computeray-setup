@@ -6,7 +6,6 @@ dkms
 dbus	# enable service
 python3-dbus
 networkmanager		# https://docs.voidlinux.org/config/network/networkmanager.html
-ufw               # https://christitus.com/linux-security-mistakes/#ufw
 openntpd
 popcorn
 base-system

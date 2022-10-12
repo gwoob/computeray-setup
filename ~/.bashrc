@@ -11,6 +11,7 @@ alias clone='git clone'
 alias cleanup='xbps-install -Su && xbps-remove -oO'
 alias query='xbps-query -Rs'
 alias wget='axel'
+alias nvim='vim'
 
 export GREP_OPTIONS=' — color=auto'
 export EDITOR=micro

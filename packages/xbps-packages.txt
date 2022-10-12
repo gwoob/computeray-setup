@@ -102,3 +102,5 @@ terminus-font
 
 
 imagemagick
+
+protonvpn-cli

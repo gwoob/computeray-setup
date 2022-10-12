@@ -41,6 +41,7 @@ linux-firmware-amd
 linux-firmware-intel	# remove if amd
 intel-ucode 			    # remove if amd
 xorg
+libX11
 xinit
 xf86-video-amdgpu
 corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc

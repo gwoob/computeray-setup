@@ -37,8 +37,6 @@ linux-tools
 linux-firmware
 linux-firmware-network
 linux-firmware-amd
-linux-firmware-intel	# remove if amd
-intel-ucode 			    # remove if amd
 xorg
 libX11
 xinit

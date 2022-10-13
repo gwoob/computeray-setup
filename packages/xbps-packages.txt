@@ -12,6 +12,8 @@ base-system
 socklog-void
 xtools
 vpsm
+vpm
+vsv
 mesa
 mesa-32bit
 adriconf
@@ -30,8 +32,7 @@ libstdc++-32bit
 libdrm-32bit
 libglvnd-32bit
 libavcodec
-vlc
-syncplay
+mpv
 linux
 linux-tools
 linux-firmware
@@ -43,20 +44,11 @@ xinit
 xf86-video-amdgpu
 corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
 snapper
-gnome   # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
-gnome-apps
-gnome-tweaks
-dconf-editor    # change gnome power options
-sushi
-adwaita-qt
-gnome-bluetooth
-gnome-screensaver
-guake
 file-roller
+
 Komikku
-kvantum
+
 p7zip
-clion #https://plugins.jetbrains.com/plugin/13920-darcula-solid-theme or adwaita dark theme if possible
 base-devel
 python3
 python3-pip
@@ -81,7 +73,7 @@ easyeffects		# https://github.com/jaakkopasanen/AutoEq
 steam # proton experimental
 mono
 dolphin-emu
-firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default + MetaGer Search Engine https://metager.org/
+firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 cups
 cups-filters
 avahi
@@ -104,3 +96,9 @@ terminus-font
 imagemagick
 
 protonvpn-cli
+
+
+rust
+cargo
+python3
+lua

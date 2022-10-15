@@ -13,3 +13,9 @@ firefox-gnome-theme     # https://github.com/rafaelmardojai/firefox-gnome-theme
 reshade-steam-proton    # https://github.com/kevinlekiller/reshade-steam-proton
 portmaster              # https://docs.safing.io/portmaster/install/linux#arch-linux
 ani-cli                 # https://github.com/pystardust/ani-cli
+
+
+dwm
+dmenu
+st
+slock

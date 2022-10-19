@@ -10,3 +10,4 @@ ln -s /etc/sv/NetworkManager /var/service/
 ln -s /etc/sv/bluetoothd /var/service/
 ln -s /etc/sv/cupsd /var/service/
 ln -s /etc/sv/avahi-daemon /var/service/
+ln -s /etc/sv/dhcpcd /var/service/

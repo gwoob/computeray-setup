@@ -1,3 +1,4 @@
+# /usr/local/src
 clustergit              # https://github.com/mnagel/clustergit
 gamescope               # fps cap https://github.com/Plagman/gamescope
 leetmouse               # https://github.com/Skyl3r/leetmouse

@@ -1,8 +1,7 @@
 # /usr/local/src
 clustergit              # https://github.com/mnagel/clustergit
 gamescope               # fps cap https://github.com/Plagman/gamescope
-leetmouse               # https://github.com/Skyl3r/leetmouse
-leetmouse-gui           # https://github.com/Skyl3r/leetmouse-gui
+leetmouse               # https://github.com/systemofapwne/leetmouse
 protonup                # https://github.com/AUNaseef/protonup
 yuzu                    # https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux - switch to mainline - mods - 4k textures
 Grapejuice              # https://brinkervii.gitlab.io/grapejuice/docs/Installing-from-source/Void-Linux.html
@@ -10,8 +9,7 @@ libvibrant              # https://github.com/libvibrant/libvibrant
 reshade-steam-proton    # https://github.com/kevinlekiller/reshade-steam-proton
 ani-cli                 # https://github.com/pystardust/ani-cli
 ly                      # https://github.com/fairyglade/ly
-
-dwm
-dmenu
-st
-slock
+dwm                     # https://git.suckless.org/dwm
+dmenu                   # https://git.suckless.org/dmenu
+st                      # https://git.suckless.org/st
+slock                   # https://git.suckless.org/slock

@@ -97,6 +97,9 @@ sxiv
 imagemagick
 
 
+opendoas
+
+
 ufw
 rust
 cargo

@@ -92,12 +92,12 @@ YACReader
 
 terminus-font	
 
-
+feh
+sxiv
 imagemagick
 
-protonvpn-cli
 
-
+ufw
 rust
 cargo
 python3

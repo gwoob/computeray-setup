@@ -3,49 +3,81 @@ void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
 dkms
-dbus	# enable service
+
+# session manager & dbus
+elogind
+dbus-elogind
+dbus-elogind-libs
+dbus-elogind-x11
+
+# time
 openntpd
-popcorn
 base-system
 socklog-void
 xtools
 vpsm
 vpm
 vsv
+
+# mesa
+adriconf
 mesa
 mesa-32bit
-adriconf
-mesa-dri
-mesa-dri-32bit
-mesa-vulkan-radeon
-mesa-vulkan-radeon-32bit
 vulkan-loader
 vulkan-loader-32bit
+mesa-vulkan-radeon
+mesa-vulkan-radeon-32bit
 mesa-opencl
 mesa-opencl-32bit
-mesa-vaapi
-mesa-vdpau
+
+# steam fix
+mesa-dri-32bit
 libgcc-32bit
 libstdc++-32bit
 libdrm-32bit
 libglvnd-32bit
-libavcodec
+
+# mesa video acceleration
+mesa-vaapi
+mesa-vdpau
+
+ffmpeg
 mpv
 linux
 linux-tools
 linux-firmware
 linux-firmware-network
 linux-firmware-amd
+
+picom
+base-devel
+
+runit-iptables
+
+# X
 xorg
-libX11
 xinit
-xf86-video-amdgpu
+libX11
+libX11-devel
+libXft
+libXft-devel
+libXinerama
+libXinerama-devel
+xrandr
+libXrandr
+libXrandr
+freetype
+freetype-devel
+fontconfig
+fontconfig-devel
+xf86-video-ati
+
+
 corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
 snapper
 file-roller
 
 p7zip
-base-devel
 python3
 python3-pip
 git
@@ -58,15 +90,21 @@ htop
 axel
 wine
 wine-32bit
-pipewire	# https://docs.voidlinux.org/config/media/pipewire.html
+
+# audio
+pipewire # https://docs.voidlinux.org/config/media/pipewire.html
 pipewire-utils
+wireplumber # https://youtu.be/Zv1P6-kUn0c
 alsa-pipewire
 libjack-pipewire
 NoiseTorch
-helvum
+qpwgraph
 easyeffects		# https://github.com/jaakkopasanen/AutoEq
+
 steam # proton experimental
-mono
+mono #.NET runtime for steam
+
+desmume
 dolphin-emu
 firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
@@ -77,24 +115,34 @@ komikku
 
 neovim
 
-picom
-
 YACReader
 
 terminus-font	
 
 feh
 sxiv
-imagemagick
 
+
+# zsh
+zsh
+zr # plugin manager
+zsh-autosuggestions
+zsh-history-substring-search
+zsh-syntax-highlighting
+
+tmux
 
 opendoas
 
 firefox
 ponysay
 
+#external programming languages
 rust
 cargo
 python3
-pip3
+python3-devel
 lua
+lua-devel
+ruby
+ruby-devel

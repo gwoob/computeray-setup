@@ -1,14 +1,13 @@
 # /usr/local/src
+lunarvim                # (nightly) https://www.lunarvim.org/docs/installation#nightly
 clustergit              # https://github.com/mnagel/clustergit
-gamescope               # fps cap https://github.com/Plagman/gamescope
+gamescope               # https://github.com/Plagman/gamescope (cap fps)
 leetmouse               # https://github.com/systemofapwne/leetmouse
 protonup                # https://github.com/AUNaseef/protonup
 yuzu                    # https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux - switch to mainline - mods - 4k textures
 Grapejuice              # https://brinkervii.gitlab.io/grapejuice/docs/Installing-from-source/Void-Linux.html
 libvibrant              # https://github.com/libvibrant/libvibrant
 reshade-steam-proton    # https://github.com/kevinlekiller/reshade-steam-proton
-ani-cli                 # https://github.com/pystardust/ani-cli
-ly                      # https://github.com/fairyglade/ly
 dwm                     # https://git.suckless.org/dwm
 dmenu                   # https://git.suckless.org/dmenu
 st                      # https://git.suckless.org/st

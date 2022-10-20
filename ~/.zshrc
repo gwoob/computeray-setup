@@ -13,7 +13,7 @@ alias usr='cd /usr'
 
 alias wget='axel'
 alias vim='nvim'
-alias nano='nvim'
+alias edit='nvim'
 
 alias xi='doas xbps-install -Syu'
 alias xmanpage='xmandoc'

@@ -18,7 +18,7 @@ alias edit='nvim'
 alias xi='doas xbps-install -Syu'
 alias xmanpage='xmandoc'
 alias xrm='doas xbps-remove -Rf'
-alias xrmorphans='xbps-install -Su && xbps-remove -oO'
+alias xrmorphans='doas xbps-install -Su && xbps-remove -oO'
 
 alias python='python3'
 alias pip='pip3'

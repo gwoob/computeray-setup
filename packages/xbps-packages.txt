@@ -123,6 +123,13 @@ feh
 sxiv
 
 
+
+sx # replace startx
+
+
+
+
+
 # zsh
 zsh
 zr # plugin manager

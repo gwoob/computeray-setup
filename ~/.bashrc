@@ -2,6 +2,9 @@
 
 ponysay -f rainbowdrag Oh, hi! Welcome to the terminal! Do something cool.
 
+#bash completion
+complete -cf doas
+
 alias poweroff='doas poweroff'
 alias reboot='doas reboot'
 alias home='cd ~'
@@ -24,9 +27,6 @@ alias sudo='echo "you meant: doas"'
 alias sudoedit='echo "you meant: doasedit"'
 alias doasedit='sudoedit nvim' # hehe fake doasedit hehe
 
-# thefuck "fuck"
-eval "$(thefuck --alias)"
-
 # git alias
 alias g=’git’
 alias st=’git status’
@@ -37,5 +37,8 @@ alias lg=’git log’
 alias u=’git add -u’
 alias all=’git add .’
 
+# color in grep
 export GREP_OPTIONS=' — color=auto'
-export EDITOR=micro
+
+# Set nvim default editor
+export EDITOR=nvim

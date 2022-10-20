@@ -10,14 +10,15 @@ alias reboot='doas reboot'
 alias home='cd ~'
 alias root='cd /'
 alias usr='cd /usr'
-alias massacre-entire-orphinage='xbps-install -Su && xbps-remove -oO'
 
 alias wget='axel'
 alias vim='nvim'
 alias nano='nvim'
 
-alias xisyu='xi -Syu'
+alias xi='doas xbps-install -Syu'
 alias xmanpage='xmandoc'
+alias xrm='doas xbps-remove -Rf'
+alias xrmorphans='xbps-install -Su && xbps-remove -oO'
 
 alias python='python3'
 alias pip='pip3'

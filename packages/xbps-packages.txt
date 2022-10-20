@@ -99,9 +99,11 @@ imagemagick
 
 opendoas
 
+firefox
+ponysay
 
-ufw
 rust
 cargo
 python3
+pip3
 lua

@@ -14,4 +14,4 @@ pipewire &
 picom &
 slock &
 exec dwmbar &
-exec dbus-launch dwm
+exec dbus-run-session dwm

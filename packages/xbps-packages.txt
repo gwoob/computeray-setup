@@ -141,7 +141,6 @@ tmux
 
 opendoas
 
-firefox
 ponysay
 
 #external programming languages

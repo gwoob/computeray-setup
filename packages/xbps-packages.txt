@@ -4,8 +4,6 @@ void-repo-multilib-nonfree
 void-repo-debug
 dkms
 dbus	# enable service
-python3-dbus
-networkmanager		# https://docs.voidlinux.org/config/network/networkmanager.html
 openntpd
 popcorn
 base-system
@@ -46,8 +44,6 @@ corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
 snapper
 file-roller
 
-Komikku
-
 p7zip
 base-devel
 python3
@@ -57,16 +53,15 @@ curl
 gcc
 tree
 neofetch
+pfetch
 htop
 axel
-micro
 wine
 wine-32bit
 pipewire	# https://docs.voidlinux.org/config/media/pipewire.html
+pipewire-utils
 alsa-pipewire
 libjack-pipewire
-libspa-bluetooth
-bluez   #add user to bluetooth group
 NoiseTorch
 helvum
 easyeffects		# https://github.com/jaakkopasanen/AutoEq
@@ -74,10 +69,6 @@ steam # proton experimental
 mono
 dolphin-emu
 firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
-cups
-cups-filters
-avahi
-nss-mdns
 
 
 kicad

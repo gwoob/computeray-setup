@@ -12,3 +12,4 @@ dwm                     # https://git.suckless.org/dwm
 dmenu                   # https://git.suckless.org/dmenu
 st                      # https://git.suckless.org/st
 slock                   # https://git.suckless.org/slock
+powershell              # https://github.com/PowerShell/PowerShell/blob/master/docs/building/linux.md

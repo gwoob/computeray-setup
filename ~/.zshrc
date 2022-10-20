@@ -29,14 +29,14 @@ alias sudoedit='echo "you meant: doasedit"'
 alias doasedit='sudoedit nvim' # hehe fake doasedit hehe
 
 # git alias
-alias g=’git’
-alias st=’git status’
-alias com=’git commit -m’
-alias clone=’git clone’
-alias sth=’git stash’
-alias lg=’git log’
-alias u=’git add -u’
-alias all=’git add .’
+alias g='git'
+alias st='git status'
+alias com='git commit -m'
+alias clone='git clone'
+alias sth='git stash'
+alias lg='git log'
+alias u='git add -u'
+alias all='git add .'
 
 # color in grep
 export GREP_OPTIONS=' — color=auto'

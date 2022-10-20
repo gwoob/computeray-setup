@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+  exec startx
+fi
+
 ponysay -f rainbowdrag Oh, hi! Welcome to the terminal! Do something cool.
 
 #bash completion

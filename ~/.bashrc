@@ -22,8 +22,9 @@ alias pip='pip3'
 # get used to doas instead of sudo
 alias sudo='echo "you meant: doas"'
 alias sudoedit='echo "you meant: doasedit"'
+alias doasedit='sudoedit nvim' # hehe fake doasedit hehe
 
-#thefuck "fuck"
+# thefuck "fuck"
 eval "$(thefuck --alias)"
 
 # git alias

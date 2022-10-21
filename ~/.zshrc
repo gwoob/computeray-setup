@@ -45,7 +45,7 @@ alias myip='curl http://ipecho.net/plain; echo' #display current ip address
 
 alias doagain='doas !!'
 
-alias extract='7z -ex'
+alias extract='7z -lex'
 
 
 # Set nvim default editor

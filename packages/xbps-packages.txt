@@ -9,8 +9,6 @@ dkms
 
 dbus
 
-dash
-
 # time
 openntpd
 base-system
@@ -130,8 +128,11 @@ sx # replace startx
 
 
 
-# zsh
+# shells
 zsh
+dash
+
+# zsh plugins/manager
 zr # plugin manager
 zsh-autosuggestions
 zsh-history-substring-search

@@ -1,14 +1,15 @@
+# add repos
 void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
+
+
 dkms
 
-# session manager & dbus
-elogind
-dbus-elogind
-dbus-elogind-libs
-dbus-elogind-x11
+dbus
+
+dash
 
 # time
 openntpd
@@ -56,6 +57,7 @@ runit-iptables
 
 # X
 xorg
+xauth
 xinit
 libX11
 libX11-devel
@@ -78,8 +80,6 @@ snapper
 file-roller
 
 p7zip
-python3
-python3-pip
 git
 curl
 gcc

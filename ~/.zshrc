@@ -23,11 +23,6 @@ alias xrmorphans='doas xbps-install -Su && doas xbps-remove -oO'
 alias python='python3'
 alias pip='pip3'
 
-# get used to doas instead of sudo
-alias sudo='echo "you meant: doas"'
-alias sudoedit='echo "you meant: doasedit"'
-alias doasedit='sudoedit nvim' # hehe fake doasedit hehe
-
 # git alias
 alias g='git'
 alias st='git status'
@@ -38,8 +33,20 @@ alias lg='git log'
 alias u='git add -u'
 alias all='git add .'
 
-# color in grep
-export GREP_OPTIONS=' — color=auto'
+alias ls="ls --color -l -h" # ls color verbose and human file size
+
+alias grep="grep -n --color" # color and show line and number for each
+
+alias mkdir="mkdir -pv" # create parent directories as needed
+
+alias ping="ping -c 5" # stop ping after 5
+
+alias myip='curl http://ipecho.net/plain; echo' #display current ip address
+
+alias doagain='doas !!'
+
+alias extract='7z -ex'
+
 
 # Set nvim default editor
 export EDITOR=nvim

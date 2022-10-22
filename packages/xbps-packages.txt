@@ -19,6 +19,15 @@ dbus
 # time
 openntpd
 
+
+
+
+firefox
+
+
+
+
+
 # void specific utilies
 socklog-void
 xtools

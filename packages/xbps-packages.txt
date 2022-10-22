@@ -4,14 +4,22 @@ void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
 
+# efi boot manager
+efibootmgr
 
+# dynamic kernel module support
 dkms
 
+#gnu privacy gaurd librewolf make dependency
+gnupg
+
+# session manager
 dbus
 
 # time
 openntpd
-base-system
+
+# void specific utilies
 socklog-void
 xtools
 vpsm
@@ -144,7 +152,8 @@ opendoas
 
 ponysay
 
-#external programming languages
+# programming/languages
+base-system
 rust
 cargo
 python3

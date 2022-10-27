@@ -19,7 +19,7 @@ dbus
 # time
 openntpd
 
-
+qpwgraph
 
 
 firefox

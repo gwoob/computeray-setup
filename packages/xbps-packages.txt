@@ -162,7 +162,7 @@ opendoas
 ponysay
 
 # programming/languages
-base-system
+base-devel
 rust
 cargo
 python3

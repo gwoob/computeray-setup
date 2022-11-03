@@ -22,3 +22,6 @@ setup zsh
 turn off picom vsync
 
 setup fonts
+
+
+setup treestyletabs and remove normal tabs

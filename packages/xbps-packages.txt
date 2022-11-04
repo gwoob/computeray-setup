@@ -16,8 +16,8 @@ gnupg
 # session manager
 dbus
 
-# time
-openntpd
+# NTP implementation
+chrony
 
 qpwgraph
 

@@ -13,6 +13,8 @@ dkms
 # session manager
 dbus
 
+polkit
+
 # NTP implementation
 chrony
 
@@ -21,6 +23,11 @@ qpwgraph
 
 firefox
 
+
+# Virtualization
+virt-manager
+libvirt
+qemu
 
 feh
 

@@ -1,6 +1,4 @@
 # /usr/local/src
-librewolf               # https://gitlab.com/librewolf-community/browser/source
-lunarvim                # (nightly) https://www.lunarvim.org/docs/installation#nightly
 clustergit              # https://github.com/mnagel/clustergit
 gamescope               # https://github.com/Plagman/gamescope (cap fps)
 leetmouse               # https://github.com/systemofapwne/leetmouse

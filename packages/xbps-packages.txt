@@ -168,7 +168,5 @@ ponysay
 base-devel
 rust
 cargo
-python3
 python3-devel
-lua
 lua-devel

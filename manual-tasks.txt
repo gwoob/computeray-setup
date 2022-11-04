@@ -19,6 +19,8 @@ alt+f2 for quick commands
 setup zsh
 
 
+enable asynchronous trim with btrfs - mount filesystem with '-o discard=async'
+
 turn off picom vsync
 
 setup fonts

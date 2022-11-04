@@ -11,6 +11,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 fi
 
 pipewire &
+pipewire-pulse &
 picom &
 slock &
 exec dwmbar &

@@ -10,9 +10,6 @@ efibootmgr
 # dynamic kernel module support
 dkms
 
-#gnu privacy gaurd librewolf make dependency
-gnupg
-
 # session manager
 dbus
 

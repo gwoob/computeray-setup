@@ -27,6 +27,8 @@ firefox
 
 feh
 
+# cron daemon
+cronie # use anacron
 
 # void specific utilies
 socklog-void

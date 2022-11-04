@@ -2,7 +2,6 @@
 clustergit              # https://github.com/mnagel/clustergit
 gamescope               # https://github.com/Plagman/gamescope (cap fps)
 replaysorcery           # https://github.com/matanui159/ReplaySorcery
-leetmouse               # https://github.com/systemofapwne/leetmouse
 protonup                # https://github.com/AUNaseef/protonup
 yuzu                    # https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux - switch to mainline - mods - 4k textures
 Grapejuice              # https://brinkervii.gitlab.io/grapejuice/docs/Installing-from-source/Void-Linux.html

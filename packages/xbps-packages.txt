@@ -65,7 +65,9 @@ linux
 linux-tools
 linux-firmware
 linux-firmware-network
-linux-firmware-amd
+
+# team red microcode
+linux-firmware-amd # no configuration required
 
 picom
 base-devel

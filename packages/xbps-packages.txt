@@ -21,6 +21,10 @@ chrony
 qpwgraph
 
 
+xclip
+9menu
+
+
 firefox
 
 

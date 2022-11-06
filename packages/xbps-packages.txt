@@ -23,6 +23,8 @@ qpwgraph
 
 xclip
 9menu
+sxiv
+feh
 
 
 firefox

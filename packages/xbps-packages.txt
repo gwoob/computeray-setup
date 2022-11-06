@@ -45,6 +45,10 @@ vsv
 adriconf
 mesa
 mesa-32bit
+MesaLib-devel
+MesaLib-devel-32bit
+mesa-dri
+mesa-dri-32bit
 vulkan-loader
 vulkan-loader-32bit
 mesa-vulkan-radeon
@@ -64,6 +68,9 @@ mesa-vaapi
 mesa-vdpau
 
 ffmpeg
+lf
+sxiv
+imagemagick
 mpv
 linux
 linux-tools
@@ -75,7 +82,7 @@ linux-firmware-amd # no configuration required
 
 picom
 base-devel
-
+kitty
 runit-iptables
 
 # X

@@ -9,7 +9,7 @@ libvibrant              # https://github.com/libvibrant/libvibrant
 reshade-steam-proton    # https://github.com/kevinlekiller/reshade-steam-proton
 dwm                     # https://git.suckless.org/dwm
 dmenu                   # https://git.suckless.org/dmenu
-st                      # https://git.suckless.org/st
 slock                   # https://git.suckless.org/slock
 powershell              # https://github.com/PowerShell/PowerShell/blob/master/docs/building/linux.md
 joplin                  # https://github.com/laurent22/joplin
+Looking Glass           # https://looking-glass.io

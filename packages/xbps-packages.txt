@@ -173,6 +173,9 @@ sx # replace startx
 zsh
 dash
 
+# check posix compatibility for use with dash
+checkbashisms
+
 # zsh plugins/manager
 zr # plugin manager
 zsh-autosuggestions

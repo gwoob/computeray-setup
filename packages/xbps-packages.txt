@@ -15,6 +15,10 @@ dbus
 
 polkit
 
+
+# ACPI daemon power management
+acpid
+
 # NTP implementation
 chrony
 

@@ -107,15 +107,16 @@ libXinerama
 libXinerama-devel
 xrandr
 libXrandr
-libXrandr
 freetype
 freetype-devel
 fontconfig
 fontconfig-devel
 xf86-video-ati
 
-
+# hardware tweaking and monitoring
 corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
+lm_sensors
+
 snapper
 file-roller
 

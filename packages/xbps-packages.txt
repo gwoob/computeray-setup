@@ -1,10 +1,10 @@
-# add repos
+# repos
 void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
 void-repo-debug
 
-# efi boot manager
+# boot manager
 efibootmgr
 
 # dynamic kernel module support
@@ -13,8 +13,8 @@ dkms
 # session manager
 dbus
 
+# authorization toolkit
 polkit
-
 
 # ACPI daemon power management
 acpid
@@ -22,15 +22,19 @@ acpid
 # NTP implementation
 chrony
 
+# pipewire patchbay
 qpwgraph
 
-
+# X11 clipboard cli
 xclip
+
 9menu
+
 sxiv
+
 feh
 
-
+# browser
 firefox
 
 
@@ -44,51 +48,45 @@ feh
 # cron daemon
 cronie # use anacron
 
-# void specific utilies
+# void utilies
 socklog-void
 xtools
 vpsm
 vpm
 vsv
 
-# mesa
-adriconf
-mesa
-mesa-32bit
-MesaLib-devel
-MesaLib-devel-32bit
-mesa-dri
-mesa-dri-32bit
-vulkan-loader
-vulkan-loader-32bit
-mesa-vulkan-radeon
-mesa-vulkan-radeon-32bit
-mesa-opencl
-mesa-opencl-32bit
+# Nvidia
+nvidia # nvidia drivers
+nvidia-dkms # nvidia dkms kernel module
+nvidia-libs # common nvidia libraries
+nvidia-libs-32bit # 32bit common nvidia libraries
+nv-codec-headers # nvidia ffmpeg headers
+nv-codec-headers-32bit # 32bit nvidia ffmpeg headers
+nvidia-opencl # nvidia opencl implementation
+nvidia-opencl-32bit # 32bit nvidia opencl implementation
 
 # steam fix
-mesa-dri-32bit
 libgcc-32bit
 libstdc++-32bit
 libdrm-32bit
 libglvnd-32bit
 
-# mesa video acceleration
-mesa-vaapi
-mesa-vdpau
-
 ffmpeg
 lf
 sxiv
 imagemagick
+
+# media player
 mpv
+
 linux
 linux-tools
 linux-firmware
 linux-firmware-network
 
-# team red microcode
-linux-firmware-amd # no configuration required
+# microcode
+linux-firmware-amd # amd CPU microcode
+linux-firmware-nvidia # nvidia GPU microcode
 
 picom
 base-devel
@@ -111,15 +109,13 @@ freetype
 freetype-devel
 fontconfig
 fontconfig-devel
-xf86-video-ati
 
-# hardware tweaking and monitoring
-corectrl # undervolt gpu and cpu https://youtu.be/zUkPAVcb9Xc
+# hardware monitoring
 lm_sensors
-radeontop
+nvtop
 
-snapper
-file-roller
+# btrfs snapshots
+btrbk
 
 p7zip
 git
@@ -153,12 +149,12 @@ firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-
 kicad
 komikku
 
+spotify-tui
+
 
 neovim
 
 YACReader
-
-terminus-font	
 
 feh
 sxiv

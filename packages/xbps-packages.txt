@@ -28,6 +28,9 @@ qpwgraph
 # X11 clipboard cli
 xclip
 
+# usb automount
+udevil
+
 9menu
 
 sxiv

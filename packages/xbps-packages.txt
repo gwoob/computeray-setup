@@ -62,15 +62,13 @@ vpsm
 vpm
 vsv
 
-# Nvidia
+# Nvidia/Video
 nvidia # nvidia drivers
 nvidia-dkms # nvidia dkms kernel module
 nvidia-libs # common nvidia libraries
-nvidia-libs-32bit # 32bit common nvidia libraries
 nv-codec-headers # nvidia ffmpeg headers
-nv-codec-headers-32bit # 32bit nvidia ffmpeg headers
 nvidia-opencl # nvidia opencl implementation
-nvidia-opencl-32bit # 32bit nvidia opencl implementation
+libva-vdpau-driver # VDPAU backend for VA-API
 
 # steam fix
 libgcc-32bit
@@ -104,17 +102,12 @@ xorg
 xauth
 xinit
 libX11
-libX11-devel
 libXft
-libXft-devel
 libXinerama
-libXinerama-devel
 xrandr
 libXrandr
 freetype
-freetype-devel
 fontconfig
-fontconfig-devel
 
 # hardware monitoring
 lm_sensors

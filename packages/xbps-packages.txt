@@ -5,7 +5,7 @@ void-repo-multilib-nonfree
 void-repo-debug
 
 # boot manager
-efibootmgr
+efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 
 # dynamic kernel module support
 dkms

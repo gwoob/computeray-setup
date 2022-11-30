@@ -59,8 +59,6 @@ cronie # use anacron
 socklog-void
 xtools
 vpsm
-vpm
-vsv
 
 # Nvidia/Video
 nvidia # nvidia drivers

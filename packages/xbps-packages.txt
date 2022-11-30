@@ -127,6 +127,7 @@ wine
 wine-32bit
 
 # audio
+alsa-utils
 pipewire # https://docs.voidlinux.org/config/media/pipewire.html
 pipewire-utils
 wireplumber # https://youtu.be/Zv1P6-kUn0c

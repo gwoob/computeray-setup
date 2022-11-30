@@ -25,6 +25,10 @@ chrony
 # pipewire patchbay
 qpwgraph
 
+# firewall
+iptables
+runit-iptables # to set rules at startup
+
 # X11 clipboard cli
 xclip
 
@@ -94,7 +98,6 @@ linux-firmware-nvidia # nvidia GPU microcode
 picom
 base-devel
 kitty
-runit-iptables
 
 # X
 xorg

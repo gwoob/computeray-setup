@@ -31,6 +31,9 @@ dbus
 # authorization toolkit
 polkit
 
+# minimal sudo alternative
+opendoas
+
 # network time protocol
 openntpd
 
@@ -107,6 +110,9 @@ picom
 # browser
 librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
+# text editor
+neovim
+
 # media player
 mpv
 
@@ -161,9 +167,6 @@ kicad
 komikku
 
 spotify-tui
-
-
-neovim
 
 YACReader
 

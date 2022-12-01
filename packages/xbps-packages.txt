@@ -110,7 +110,8 @@ librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard
 # media player
 mpv
 
-
+# parallel compression utility
+pigz 
 
 
 
@@ -139,7 +140,6 @@ imagemagick
 lm_sensors
 nvtop
 
-p7zip
 git
 curl
 gcc
@@ -169,8 +169,6 @@ YACReader
 
 feh
 sxiv
-
-sx # replace startx
 
 # shells
 zsh

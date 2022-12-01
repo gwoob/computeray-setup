@@ -1,4 +1,4 @@
-i'm # repos
+# repos
 void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
@@ -43,7 +43,6 @@ feh
 
 # browser
 firefox
-
 
 # Virtualization
 virt-manager
@@ -139,7 +138,6 @@ qpwgraph
 easyeffects		# https://github.com/jaakkopasanen/AutoEq
 
 steam # proton experimental
-mono #.NET runtime for steam
 
 desmume
 dolphin-emu
@@ -159,13 +157,7 @@ YACReader
 feh
 sxiv
 
-
-
 sx # replace startx
-
-
-
-
 
 # shells
 zsh

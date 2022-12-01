@@ -1,39 +1,97 @@
-# repos
-void-repo-nonfree
-void-repo-multilib
-void-repo-multilib-nonfree	
+# repositories
 void-repo-debug
+void-repo-multilib
+void-repo-multilib-nonfree
+void-repo-nonfree
+
+# void base system
+base-system
+
+# void development tools
+base-devel
+
+# firmware/microcode
+linux-firmware # includes AMD and Nvidia
 
 # boot manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 
+# logging
+socklog-void
+
 # dynamic kernel module support
 dkms
 
-# session manager
+# message bus system
 dbus
 
 # authorization toolkit
 polkit
 
-# ACPI daemon power management
-acpid
+# network time protocol
+openntpd
 
-# NTP implementation
-chrony
+# cron daemon
+cron # anacron
+
+# iptables rules at boot
+runit-iptables
+
+# alsa
+alsa-utils
+alsa-pipewire
+
+# pipewire
+pipewire # https://docs.voidlinux.org/config/media/pipewire.html
+wireplumber # https://youtu.be/Zv1P6-kUn0c
+
+# microphone noise supression
+NoiseTorch
+
+# pipewire effects
+easyeffects # https://github.com/jaakkopasanen/AutoEq
 
 # pipewire patchbay
 qpwgraph
 
-# firewall
-iptables
-runit-iptables # to set rules at startup
+# Nvidia drivers
+nvidia
+
+# VDPAU backend for VA-API
+libva-vdpau-driver
+
+# steam/fixes
+steam
+libgcc-32bit
+libstdc++-32bit
+libdrm-32bit
+libglvnd-32bit
+
+# automount removable media
+udiskie
+
+# opinionated XBPS helpers
+xtools
+
+# XBPS package management helper
+vpm
+
+# XBPS-SRC source management wrapper
+vpsm
+
+# runit services manager
+vsv
 
 # X11 clipboard cli
 xclip
 
-# usb automount
-udevil
+
+
+
+
+
+
+
 
 9menu
 
@@ -51,29 +109,7 @@ qemu
 
 feh
 
-# cron daemon
-cronie # use anacron
 
-# void utilies
-socklog-void
-xtools
-vpm
-vpsm
-vsv
-
-# Nvidia/Video
-nvidia # nvidia drivers
-nvidia-dkms # nvidia dkms kernel module
-nvidia-libs # common nvidia libraries
-nv-codec-headers # nvidia ffmpeg headers
-nvidia-opencl # nvidia opencl implementation
-libva-vdpau-driver # VDPAU backend for VA-API
-
-# steam fix
-libgcc-32bit
-libstdc++-32bit
-libdrm-32bit
-libglvnd-32bit
 
 ffmpeg
 lf
@@ -82,15 +118,6 @@ imagemagick
 
 # media player
 mpv
-
-linux
-linux-tools
-linux-firmware
-linux-firmware-network
-
-# microcode
-linux-firmware-amd # amd CPU microcode
-linux-firmware-nvidia # nvidia GPU microcode
 
 picom
 base-devel
@@ -127,17 +154,6 @@ axel
 wine
 wine-32bit
 
-# audio
-alsa-utils
-pipewire # https://docs.voidlinux.org/config/media/pipewire.html
-pipewire-utils
-wireplumber # https://youtu.be/Zv1P6-kUn0c
-alsa-pipewire
-NoiseTorch
-qpwgraph
-easyeffects		# https://github.com/jaakkopasanen/AutoEq
-
-steam # proton experimental
 
 desmume
 dolphin-emu
@@ -179,7 +195,6 @@ opendoas
 ponysay
 
 # programming/languages
-base-devel
 rust
 cargo
 python3-devel

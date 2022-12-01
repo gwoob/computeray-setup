@@ -85,7 +85,7 @@ vpsm
 # runit services manager
 vsv
 
-# xorg display server
+# display server
 xorg
 
 # DWM dependencies
@@ -134,16 +134,6 @@ imagemagick
 
 # media player
 mpv
-
-# xorg display server
-xorg
-
-# DWM dependencies
-libX11
-libXft
-libXinerama
-freetype
-fontconfig
 
 # hardware monitoring
 lm_sensors

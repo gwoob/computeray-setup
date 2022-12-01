@@ -13,7 +13,7 @@ base-devel
 # firmware/microcode
 linux-firmware # includes AMD and Nvidia
 
-# boot manager
+# UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 
 # logging
@@ -67,6 +67,9 @@ libstdc++-32bit
 libdrm-32bit
 libglvnd-32bit
 
+# terminal emulator
+kitty
+
 # automount removable media
 udiskie
 
@@ -82,8 +85,21 @@ vpsm
 # runit services manager
 vsv
 
+# xorg display server
+xorg
+
+# DWM dependencies
+libX11
+libXft
+libXinerama
+freetype
+fontconfig
+
 # X11 clipboard cli
 xclip
+
+# compositor
+picom
 
 
 
@@ -119,17 +135,13 @@ imagemagick
 # media player
 mpv
 
-picom
-base-devel
-kitty
-
-# X
+# xorg display server
 xorg
-libX11
-libXinerama
 
+# DWM dependencies
+libX11
 libXft
-libXrandr
+libXinerama
 freetype
 fontconfig
 

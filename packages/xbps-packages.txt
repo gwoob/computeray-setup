@@ -19,6 +19,9 @@ efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 # logging
 socklog-void
 
+# btrfs snapshots
+btrbk
+
 # dynamic kernel module support
 dkms
 
@@ -101,8 +104,11 @@ xclip
 # compositor
 picom
 
+# browser
+librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
-
+# media player
+mpv
 
 
 
@@ -114,9 +120,6 @@ picom
 sxiv
 
 feh
-
-# browser
-firefox
 
 # Virtualization
 virt-manager
@@ -132,15 +135,9 @@ lf
 sxiv
 imagemagick
 
-# media player
-mpv
-
 # hardware monitoring
 lm_sensors
 nvtop
-
-# btrfs snapshots
-btrbk
 
 p7zip
 git
@@ -157,7 +154,7 @@ wine-32bit
 
 desmume
 dolphin-emu
-firefox		# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
+# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
 
 kicad

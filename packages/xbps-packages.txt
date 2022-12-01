@@ -1,4 +1,4 @@
-# repos
+i'm # repos
 void-repo-nonfree
 void-repo-multilib
 void-repo-multilib-nonfree	
@@ -58,7 +58,9 @@ cronie # use anacron
 # void utilies
 socklog-void
 xtools
+vpm
 vpsm
+vsv
 
 # Nvidia/Video
 nvidia # nvidia drivers

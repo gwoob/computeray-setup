@@ -125,12 +125,10 @@ kitty
 
 # X
 xorg
-xauth
-xinit
 libX11
-libXft
 libXinerama
-xrandr
+
+libXft
 libXrandr
 freetype
 fontconfig

@@ -175,7 +175,6 @@ sxiv
 
 # shells
 zsh
-dash
 
 # check posix compatibility for use with dash
 checkbashisms
@@ -187,8 +186,6 @@ zsh-history-substring-search
 zsh-syntax-highlighting
 
 tmux
-
-opendoas
 
 ponysay
 

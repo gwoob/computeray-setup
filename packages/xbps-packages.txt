@@ -16,6 +16,9 @@ linux-firmware # includes AMD and Nvidia
 # UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 
+# interactive shell
+zsh
+
 # logging
 socklog-void
 
@@ -74,7 +77,7 @@ libdrm-32bit
 libglvnd-32bit
 
 # terminal emulator
-kitty
+kitty # multiplexing
 
 # automount removable media
 udiskie
@@ -104,6 +107,12 @@ fontconfig
 # X11 clipboard cli
 xclip
 
+# X wallpaper utility
+xwallpaper
+
+# simple X image viewer
+sxiv
+
 # compositor
 picom
 
@@ -113,84 +122,60 @@ librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard
 # text editor
 neovim
 
+# terminal file manager
+lf
+
 # media player
 mpv
 
+# spotify music streaming
+spotify-tui
+
+# manga reader
+komikku
+
 # parallel compression utility
-pigz 
+pigz
 
+# parallel FTP/HTTP downloader
+axel
 
-
-
-9menu
-
-sxiv
-
-feh
-
-# Virtualization
-virt-manager
+# QEMU/KVM virtual machines
 libvirt
+virt-manager
 qemu
+bridge-utils
 
-feh
-
-
-
-ffmpeg
-lf
-sxiv
-imagemagick
-
-# hardware monitoring
+# temp/voltage/fan sensors utility
 lm_sensors
+
+# gpu process monitor
 nvtop
+
+# programming languages
+python3-devel
+rust
+cargo
+
+# system info fetch
+neofetch
+pfetch
 
 git
 curl
-gcc
+
+# recursive directory listing
 tree
-neofetch
-pfetch
+
+# command line fuzzy finder
+fzf
+
+# interactive process viewer
 htop
-axel
-wine
-wine-32bit
 
-
+# emulation
 desmume
 dolphin-emu
-# https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
-
-
-kicad
-komikku
-
-spotify-tui
-
-YACReader
-
-feh
-sxiv
-
-# shells
-zsh
-
-# check posix compatibility for use with dash
-checkbashisms
-
-# zsh plugins/manager
-zr # plugin manager
-zsh-autosuggestions
-zsh-history-substring-search
-zsh-syntax-highlighting
-
-tmux
-
-ponysay
-
-# programming/languages
-rust
-cargo
-python3-devel
-lua-devel
+yuzu
+rpcs3
+grapejuice

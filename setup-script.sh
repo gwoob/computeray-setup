@@ -31,3 +31,8 @@ sed -i 's|https://repo-us.voidlinux.org/|<repository>|g' /etc/xbps.d/*-repositor
 
 # set proper timezone
 ln -sf /usr/share/zoneinfo/los_angeles /etc/localtime
+
+# enable the PipeWire ALSA device and set as default
+mkdir -p /etc/alsa/conf.d
+ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d
+ln -s /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d

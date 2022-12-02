@@ -23,3 +23,8 @@ usermod -a -G libvirt ben
 
 # add flathub flatpak repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# set optimal package repo
+mkdir -p /etc/xbps.d
+cp /usr/share/xbps.d/*-repository-*.conf /etc/xbps.d/
+sed -i 's|https://repo-us.voidlinux.org/|<repository>|g' /etc/xbps.d/*-repository-*.conf

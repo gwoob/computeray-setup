@@ -4,14 +4,8 @@ void-repo-multilib
 void-repo-multilib-nonfree
 void-repo-nonfree
 
-# void base system
-base-system
-
-# void development tools
-base-devel
-
-# firmware/microcode
-linux-firmware # includes AMD and Nvidia
+# flat package manager
+flatpak
 
 # UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
@@ -33,9 +27,6 @@ dbus
 
 # authorization toolkit
 polkit
-
-# minimal sudo alternative
-opendoas
 
 # network time protocol
 openntpd
@@ -76,14 +67,8 @@ libstdc++-32bit
 libdrm-32bit
 libglvnd-32bit
 
-# terminal emulator
-kitty # multiplexing
-
 # automount removable media
 udiskie
-
-# opinionated XBPS helpers
-xtools
 
 # XBPS package management helper
 vpm
@@ -94,16 +79,6 @@ vpsm
 # runit services manager
 vsv
 
-# display server
-xorg
-
-# DWM dependencies
-libX11
-libXft
-libXinerama
-freetype
-fontconfig
-
 # X11 clipboard cli
 xclip
 
@@ -112,12 +87,6 @@ xwallpaper
 
 # simple X image viewer
 sxiv
-
-# compositor
-picom
-
-# browser
-librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
 # text editor
 neovim
@@ -133,9 +102,6 @@ spotify-tui
 
 # manga reader
 komikku
-
-# parallel compression utility
-pigz
 
 # parallel FTP/HTTP downloader
 axel
@@ -172,10 +138,3 @@ fzf
 
 # interactive process viewer
 htop
-
-# emulation
-desmume
-dolphin-emu
-yuzu
-rpcs3
-grapejuice

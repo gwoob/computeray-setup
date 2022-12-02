@@ -32,7 +32,7 @@ polkit
 openntpd
 
 # cron daemon
-cron # anacron
+dcron
 
 # iptables rules at boot
 runit-iptables

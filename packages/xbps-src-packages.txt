@@ -1,1 +1,55 @@
+#kernel
+linux
 
+# void base system
+base-system
+
+# firmware/microcode
+linux-firmware # includes AMD and Nvidia
+
+# void development tools
+base-devel
+
+# opinionated XBPS helpers
+xtools
+
+# terminal emulator
+kitty # multiplexing
+
+# minimal sudo alternative
+opendoas
+
+# parallel compression utility
+pigz
+
+# display server
+xorg
+
+# DWM dependencies
+libX11
+libXft
+libXinerama
+freetype
+fontconfig
+
+# compositor
+picom
+
+# browser
+librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
+
+gamescope # https://github.com/Plagman/gamescope (cap fps)
+
+protonup # https://github.com/AUNaseef/protonup
+
+libvibrant # https://github.com/libvibrant/libvibrant
+
+reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton
+
+dwm-flexipatch # https://github.com/bakkeby/dwm-flexipatch
+
+dmenu-flexipatch # https://github.com/bakkeby/dmenu-flexipatch
+
+slock-flexipatch # https://github.com/bakkeby/slock-flexipatch
+
+flexipatch-finalizer # https://github.com/bakkeby/flexipatch-finalizer

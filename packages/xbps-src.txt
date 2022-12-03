@@ -46,10 +46,8 @@ libvibrant # https://github.com/libvibrant/libvibrant
 
 reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton
 
-dwm-flexipatch # https://github.com/bakkeby/dwm-flexipatch
+dwm # https://git.suckless.org/dwm
 
-dmenu-flexipatch # https://github.com/bakkeby/dmenu-flexipatch
+dmenu # https://git.suckless.org/dmenu
 
-slock-flexipatch # https://github.com/bakkeby/slock-flexipatch
-
-flexipatch-finalizer # https://github.com/bakkeby/flexipatch-finalizer
+slock # https://git.suckless.org/slock

@@ -1,5 +1,3 @@
-#!/bin/sh
-
 neofetch
 
 # bash completion

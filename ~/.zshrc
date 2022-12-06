@@ -42,7 +42,3 @@ alias dover='doas !!' # execute last command as sudo "do-over"
 alias extract='pigz -dr' # parallel extract recursive
 
 alias stopx='pkill X' # does what it says
-
-
-# Set nvim default editor
-export EDITOR=nvim

@@ -21,6 +21,9 @@ usermod -a -G audio ben
 # add user to libvirt group
 usermod -a -G libvirt ben
 
+# add user to plugdev group
+usermod -a -G plugdev ben
+
 # add flathub flatpak repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 

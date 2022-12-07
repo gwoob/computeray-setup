@@ -30,3 +30,5 @@ setup treestyletabs and remove normal tabs
 
 
 write script to remove old xanmod packages
+
+cron and or xbps hook btrbk backups

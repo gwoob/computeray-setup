@@ -22,8 +22,11 @@ btrbk
 # dynamic kernel module support
 dkms
 
-# message bus system
-dbus
+# elogind/dbus
+elogind
+dbus-elogind
+dbus-elogind-libs
+dbus-elogind-x11
 
 # authorization toolkit
 polkit

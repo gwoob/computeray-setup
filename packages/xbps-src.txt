@@ -4,37 +4,6 @@ xanmod # https://notabug.org/Marcoapc/voidxanmodK
 # void base system
 base-system
 
-# firmware/microcode
-linux-firmware # includes AMD and Nvidia
-
-# void development tools
-base-devel
-
-# opinionated XBPS helpers
-xtools
-
-# terminal emulator
-kitty # multiplexing
-
-# minimal sudo alternative
-opendoas
-
-# parallel compression utility
-pigz
-
-# display server
-xorg
-
-# DWM dependencies
-libX11
-libXft
-libXinerama
-freetype
-fontconfig
-
-# compositor
-picom
-
 # browser
 librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 

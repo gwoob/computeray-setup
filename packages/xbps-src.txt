@@ -9,8 +9,6 @@ librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard
 
 gamescope # https://github.com/Plagman/gamescope (cap fps)
 
-protonup # https://github.com/AUNaseef/protonup
-
 reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton
 
 dwm # https://git.suckless.org/dwm

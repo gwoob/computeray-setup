@@ -5,11 +5,7 @@ xanmod # https://notabug.org/Marcoapc/voidxanmodK
 base-system
 
 # browser
-librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
-
-gamescope # https://github.com/Plagman/gamescope (cap fps)
-
-reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton
+firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
 
 dwm # https://git.suckless.org/dwm
 

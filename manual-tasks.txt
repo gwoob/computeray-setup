@@ -27,3 +27,6 @@ setup fonts
 
 
 setup treestyletabs and remove normal tabs
+
+
+write script to remove old xanmod packages

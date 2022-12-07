@@ -42,8 +42,6 @@ gamescope # https://github.com/Plagman/gamescope (cap fps)
 
 protonup # https://github.com/AUNaseef/protonup
 
-libvibrant # https://github.com/libvibrant/libvibrant
-
 reshade-steam-proton # https://github.com/kevinlekiller/reshade-steam-proton
 
 dwm # https://git.suckless.org/dwm

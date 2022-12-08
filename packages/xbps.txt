@@ -117,8 +117,11 @@ vsv
 # X11 clipboard cli
 xclip
 
-# X wallpaper utility
+# Wallpaper Setting Utility for X
 xwallpaper
+
+# Simple X Hotkey Daemon
+sxhkd
 
 # simple X image viewer
 sxiv

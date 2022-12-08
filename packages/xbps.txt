@@ -68,7 +68,7 @@ dbus-elogind-x11
 polkit
 
 # network time protocol
-openntpd
+chrony
 
 # cron daemon
 dcron

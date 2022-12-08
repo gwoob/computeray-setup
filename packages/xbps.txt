@@ -114,8 +114,14 @@ vpsm
 # runit services manager
 vsv
 
-# X11 clipboard cli
+# Hide cursor while typing
+xbanish
+
+# tool for controlling X11 clipboard
 xclip
+
+# tool for scripting X11 actions
+xdotool
 
 # Wallpaper Setting Utility for X
 xwallpaper
@@ -124,7 +130,7 @@ xwallpaper
 sxhkd
 
 # simple X image viewer
-sxiv
+nsxiv
 
 # text editor
 neovim

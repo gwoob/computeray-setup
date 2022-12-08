@@ -10,9 +10,6 @@ xtools
 # terminal emulator
 kitty # multiplexing
 
-# minimal sudo alternative
-opendoas
-
 # parallel compression utility
 pigz
 
@@ -71,7 +68,7 @@ polkit
 chrony
 
 # cron daemon
-dcron
+snooze
 
 # iptables rules at boot
 runit-iptables

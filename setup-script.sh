@@ -12,17 +12,8 @@ chown -c root:root /etc/doas.conf && chmod 0400 /etc/doas.conf
 # symlink dash /bin/sh
 ln -sfT dash /usr/bin/sh
 
-# add user to socklog group m
-usermod -a -G socklog ben
-
-# add user to audio group
-usermod -a -G audio ben
-
-# add user to libvirt group
-usermod -a -G libvirt ben
-
-# add user to plugdev group
-usermod -a -G plugdev ben
+# add user to socklog, audio, libvirt, and plugdev groups
+usermod -a -G socklog,audio,libvirt,plugdev ben
 
 # add flathub flatpak repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -39,3 +30,7 @@ ln -sf /usr/share/zoneinfo/los_angeles /etc/localtime
 mkdir -p /etc/alsa/conf.d
 ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d
 ln -s /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d
+
+# fix font rendering
+ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
+xbps-reconfigure -f fontconfig

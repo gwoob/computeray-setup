@@ -9,5 +9,4 @@ ln -s /etc/sv/dbus /var/service/default/ # dbus system bus (not to be confused w
 ln -s /etc/sv/libvirtd /var/service/default/ # libvirt
 ln -s /etc/sv/virtlockd /var/service/default/ # libvirt
 ln -s /etc/sv/virtlogd /var/service/default/ # libvirt
-ln -s /etc/sv/alsa /var/service/default/ # alsa
 ln -s /etc/sv/acpid /var/service/default/ # ACPI Daemon

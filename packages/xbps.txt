@@ -76,10 +76,6 @@ dcron
 # iptables rules at boot
 runit-iptables
 
-# alsa
-alsa-utils
-alsa-pipewire
-
 # pipewire
 pipewire # https://docs.voidlinux.org/config/media/pipewire.html
 wireplumber # https://youtu.be/Zv1P6-kUn0c

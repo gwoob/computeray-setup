@@ -4,9 +4,6 @@ xanmod # https://notabug.org/Marcoapc/voidxanmodK
 # void base system
 base-system
 
-# browser
-firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default
-
 dwm # https://git.suckless.org/dwm
 
 dmenu # https://git.suckless.org/dmenu

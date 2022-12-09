@@ -1,5 +1,5 @@
 #!/bin/sh
-ln -s /etc/sv/dhcpcd /var/service/default/ # dhcpd
+ln -s /etc/sv/ndhc /var/service/default/ # Privilege-separated secure DHCPv4 client for Linux
 ln -s /etc/sv/runit-iptables /var/service/default/ # restores the iptables.rules and ip6tables.rules ruleset
 ln -s /etc/sv/cronie /var/service/default/ # cron
 ln -s /etc/sv/chronyd /var/service/default/ # network time protocol

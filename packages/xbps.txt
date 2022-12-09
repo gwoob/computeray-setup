@@ -120,8 +120,8 @@ xclip
 # tool for scripting X11 actions
 xdotool
 
-# Wallpaper Setting Utility for X
-xwallpaper
+# minimal background setter
+bgs
 
 # Simple X Hotkey Daemon
 sxhkd

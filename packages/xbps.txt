@@ -1,6 +1,9 @@
 # firmware/microcode
 linux-firmware # includes AMD and Nvidia
 
+# Privilege-seperated secure DHCPv4 client
+ndhc
+
 # void development tools
 base-devel
 

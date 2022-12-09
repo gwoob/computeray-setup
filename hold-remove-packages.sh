@@ -37,3 +37,4 @@ grub
 os-prober
 vim
 vi
+pulseaudio

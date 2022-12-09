@@ -4,7 +4,6 @@
 # ignorepkg=
 xfsprogs
 f2fs-tools
-openssh
 dhcpcd
 iw
 wpa_supplicant
@@ -36,3 +35,5 @@ xf86-input-vmmous
 # misc
 grub
 os-prober
+vim
+vi

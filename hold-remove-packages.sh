@@ -43,5 +43,3 @@ ignorepkg=hicolor-icon-theme
 ignorepkg=mobile-broadband-provider-info
 ignorepkg=os-prober
 ignorepkg=rtkit
-
-ignorepkg=xbacklight

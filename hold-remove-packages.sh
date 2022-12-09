@@ -1,40 +1,43 @@
 #!/bin/sh
 
+# ignore packages
+
 # inside base-system
-# ignorepkg=
-xfsprogs
-f2fs-tools
-dhcpcd
-iw
-wpa_supplicant
-nvi
-wifi-firmware
-void-artwork
+ignorepkg=xfsprogs
+ignorepkg=f2fs-tools
+ignorepkg=dhcpcd
+ignorepkg=iw
+ignorepkg=wpa_supplicant
+ignorepkg=nvi
+ignorepkg=wifi-firmware
+ignorepkg=void-artwork
 
 # inside linux-firmware
-linux-firmware-broadcom
-linux-firmware-intel
-linux-firmware-qualcomm
+ignorepkg=linux-firmware-broadcom
+ignorepkg=linux-firmware-intel
+ignorepkg=linux-firmware-qualcomm
 
 # inside xorg
-xorg-video-drivers
+ignorepkg=xorg-video-drivers
 
 # inside xorg-apps
-oclock
-xcalc
-xclock
-xeyes
-xlogo
+ignorepkg=oclock
+ignorepkg=xcalc
+ignorepkg=xclock
+ignorepkg=xeyes
+ignorepkg=xlogo
 
 # inside xorg-input-drivers
-xf86-input-synaptics
-xf86-input-wacom
-xf86-input-vmmous
-
+ignorepkg=xf86-input-synaptics
+ignorepkg=xf86-input-wacom
+ignorepkg=xf86-input-vmmous
 
 # misc
-grub
-os-prober
-vim
-vi
-pulseaudio
+ignorepkg=pulseaudio
+ignorepkg=grub
+ignorepkg=os-prober
+ignorepkg=vim
+ignorepkg=vi
+
+# remove packages
+xbps-remove -fOoR xfsprogs f2fs-tools dhcpcd iw wpa_supplicant nvi wifi-firmware  void-artwork linux-firmware-broadcom linux-firmware-intel linux-firmware-qualcomm xorg-video-drivers oclock xcalc xclock xeyes xlogo xf86-input-synaptics xf86-input-wacom xf86-input-vmmous pulseaudio grub os-prober vim vi

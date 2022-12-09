@@ -21,17 +21,10 @@ ignorepkg=xorg-video-drivers
 
 # inside xorg-apps
 oclock
-xbacklight
 xcalc
 xclock
-xcursorgen
 xeyes
 xlogo
-xmessage
-xpr
-xrefresh
-xwd
-xwud
 
 # inside xorg-input-drivers
 xf86-input-synaptics

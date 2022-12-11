@@ -1,21 +1,16 @@
-neofetch
+ufetch
 
-# bash completion
-complete -cf doas
-
-alias poweroff='doas poweroff'
-alias reboot='doas reboot'
+alias poweroff='sudo poweroff'
+alias reboot='sudo reboot'
 
 alias gzip='pigz'
 alias ls='exa'
 alias wget='axel'
 
 alias vim='nvim'
+alias vi='nvim'
 
-alias xi='doas xbps-install -Syu'
-alias xmanpage='xmandoc'
-alias xremove='doas xbps-remove -Rf'
-alias xorphans='doas xbps-install -Su && doas xbps-remove -oO'
+alias xu='sudo xbps-install -Syu'
 
 alias python='python3'
 alias pip='pip3'
@@ -31,12 +26,10 @@ alias addall='git add .'
 
 alias grep='grep -n --color' # color and show line and number for each
 
-alias mkdir='mkdir -p' # create parent directories
-
 alias ping='ping -c 6' # stop ping at 6
 
-alias dover='doas !!' # execute last command as sudo "do-over"
+alias sudover='sudo !!' # execute last command as sudo "do-over"
 
-alias extract='pigz -dr' # parallel extract recursive
+alias unarchive='pigz -dr' # parallel extract recursive
 
-alias stopx='pkill X' # does what it says
+alias killx='pkill X' # does what it says

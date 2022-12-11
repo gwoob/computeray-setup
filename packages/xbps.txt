@@ -174,5 +174,8 @@ tree
 # command line fuzzy finder
 fzf
 
+# better ls
+exa
+
 git
 curl

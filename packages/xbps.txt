@@ -108,6 +108,9 @@ terminus-font
 # browser
 firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
+# sandboxed apps
+flatpak
+
 # steam client and dependencies
 steam
 libgcc-32bit
@@ -148,7 +151,7 @@ pigz
 # parallel FTP/HTTP downloader
 axel
 
-# spotify client and daemon
+# spotify client and daemon # https://www.rockyourcode.com/spotify-in-the-terminal-with-spotify-tui-and-spotifyd
 spotify-tui
 spotifyd
 

@@ -1,68 +1,26 @@
-# firmware/microcode
-linux-firmware # includes AMD and Nvidia
-
-# Privilege-seperated secure DHCPv4 client
-ndhc
-
-# void development tools
-base-devel
-
-# opinionated XBPS helpers
-xtools
-
-# terminal emulator
-kitty # multiplexing
-
-# parallel compression utility
-pigz
-
-# display server
-xorg
-
-# DWM dependencies
-libX11
-libXft
-libXinerama
-freetype
-fontconfig
-
-# compositor
-picom
-
-# browser
-firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
-
-
-
 # repositories
 void-repo-debug
 void-repo-multilib
 void-repo-multilib-nonfree
 void-repo-nonfree
 
-# flat package manager
-flatpak
+# firmware/microcode
+linux-firmware
+
+# Nvidia GPU drivers
+nvidia
+
+# VDPAU backend for VA-API
+libva-vdpau-driver
 
 # UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 
-# interactive shell
-zsh
-
-# logging
-socklog-void
-
-# btrfs snapshots
-btrbk
-
 # dynamic kernel module support
 dkms
 
-# elogind/dbus
-elogind
-dbus-elogind
-dbus-elogind-libs
-dbus-elogind-x11
+# message bus system
+dbus
 
 # authorization toolkit
 polkit
@@ -73,8 +31,65 @@ chrony
 # cron daemon
 snooze
 
-# iptables rules at boot
+# logger
+socklog-void
+
+# iptables
 runit-iptables
+
+# interactive shell
+zsh
+
+# btrfs snapshots
+snazzer
+
+# opinionated XBPS helper tools
+xtools
+
+# XBPS package management helper
+vpm
+
+# Void-Packages Sources Management wrapper 
+vpsm
+
+# Manage and view runit services
+vsv
+
+# terminal emulator
+kitty # multiplexing
+
+# void development tools
+base-devel
+
+# parallel compression utility to replace gzip
+pigz
+
+# Privilege-seperated secure DHCPv4 client
+ndhc
+
+# display server
+xorg
+
+# DWM dependencies
+libX11
+libXft
+libXinerama
+freetype
+fontconfig
+terminus-font
+
+# compositor
+picom
+
+# browser
+firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+
+
+
+
+
+# flat package manager
+flatpak
 
 # pipewire
 pipewire # https://docs.voidlinux.org/config/media/pipewire.html
@@ -89,12 +104,6 @@ easyeffects # https://github.com/jaakkopasanen/AutoEq
 # pipewire patchbay
 qpwgraph
 
-# Nvidia drivers
-nvidia
-
-# VDPAU backend for VA-API
-libva-vdpau-driver
-
 # steam/fixes
 steam
 libgcc-32bit
@@ -105,17 +114,8 @@ libglvnd-32bit
 # automount removable media
 udiskie
 
-# XBPS package management helper
-vpm
-
-# XBPS-SRC source management wrapper
-vpsm
-
-# runit services manager
-vsv
-
-# Hide cursor while typing
-xbanish
+# Hide the mouse cursor if it isn’t being used
+unclutter
 
 # tool for controlling X11 clipboard
 xclip
@@ -143,9 +143,6 @@ mpv
 
 # spotify music streaming
 spotify-tui
-
-# manga reader
-komikku
 
 # parallel FTP/HTTP downloader
 axel

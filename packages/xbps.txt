@@ -158,6 +158,7 @@ spotifyd
 # fetch programs
 neofetch
 pfetch
+ufetch
 
 # temp/voltage/fan sensors utility
 lm_sensors

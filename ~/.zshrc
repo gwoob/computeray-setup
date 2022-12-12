@@ -2,6 +2,7 @@ ufetch
 
 alias poweroff='sudo poweroff'
 alias reboot='sudo reboot'
+alias suspend='sudo zzz -H'
 
 alias gzip='pigz'
 alias ls='exa'

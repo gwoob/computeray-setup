@@ -33,6 +33,8 @@ ignorepkg=xf86-input-wacom
 ignorepkg=xf86-input-vmmous
 
 # misc
+ignorepkg=elogind
+ignorepkg=elogind-devel
 ignorepkg=pulseaudio
 ignorepkg=grub
 ignorepkg=os-prober

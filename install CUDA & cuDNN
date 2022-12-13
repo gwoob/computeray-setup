@@ -1,0 +1,32 @@
+### cuda installation
+
+wget https://developer.download.nvidia.com/compute/cuda/11.3.0/local_installers/cuda_11.3.0_465.19.01_linux.run
+
+sudo sh cuda_11.3.0_465.19.01_linux.run
+
+### cudnn installation
+
+wget https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.2.1.32/11.3_06072021/cudnn-11.3-linux-x64-v8.2.1.32.tgz
+
+tar -xvf cudnn-11.3-linux-x64-v8.2.1.32.tgz
+
+### setting up cudnn
+
+sudo cp cuda/include/cudnn*.h /usr/local/cuda/include
+sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64
+sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
+
+### done
+
+# installing torch stable
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+
+# * torch nightly
+# pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cu113
+
+# installing tensorflow
+pip install tensorflow
+# * tensorflow nightly
+# pip install tf-nightly
+
+### done

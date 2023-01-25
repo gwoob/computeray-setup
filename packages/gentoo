@@ -8,6 +8,8 @@ dkms
 
 # Nvidia GPU drivers
 x11-drivers/nvidia-drivers
+dev-libs/cudnn
+dev-util/nvidia-cuda-toolkit
 
 # VDPAU backend for VA-API
 libva-vdpau-driver

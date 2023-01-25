@@ -22,10 +22,10 @@ qemu
 bridge-utils
 
 # authorization toolkit
-polkit
+sys-auth/polkit
 
 # message bus system
-dbus
+sys-apps/dbus
 
 # network time protocol
 net-misc/chrony
@@ -49,10 +49,7 @@ sys-fs/udiskie
 snazzer
 
 # z shell
-zsh
-
-# void development tools
-base-devel
+app-shells/zsh
 
 # programming languages and corresponding package managers
 python3-devel
@@ -60,26 +57,27 @@ rust
 cargo
 
 # xorg meta-package
-xorg
+x11-base/xorg-x11
+x11-apps/xinit
 
 # compositor
-picom
+x11-misc/picom
 
 # pipewire
-pipewire # https://docs.voidlinux.org/config/media/pipewire.html
-wireplumber # https://youtu.be/Zv1P6-kUn0c
+media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
+media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
 
 # pipewire patchbay
 qpwgraph
 
 # pipewire effects
-easyeffects # https://github.com/jaakkopasanen/AutoEq
+media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 
 # microphone noise supression
 NoiseTorch
 
 # terminal emulator
-kitty # multiplexing
+x11-terms/kitty # multiplexing
 
 # dwm, dmenu, slock dependencies
 libX11
@@ -90,10 +88,11 @@ fontconfig
 terminus-font
 
 # browser
-firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+https://gitlab.com/librewolf-community/browser/gentoo/-/tree/master/www-client/librewolf
 
 # sandboxed apps
-flatpak
+sys-apps/flatpak
 
 # steam client and dependencies
 steam

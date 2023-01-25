@@ -115,20 +115,17 @@ neovim
 # media player
 mpv
 
-# Hide mouse cursor
-unclutter
-
 # tool for controlling X11 clipboard
-xclip
+x11-misc/xclip
 
 # tool for scripting X11 actions
-xdotool
+x11-misc/xdotool
 
 # minimal background setter
-bgs
+x11-misc/xwallpaper
 
 # Simple X Hotkey Daemon
-sxhkd
+x11-misc/sxhkd
 
 # parallel compression utility to replace gzip
 pigz

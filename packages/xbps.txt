@@ -15,9 +15,6 @@ dkms
 # Nvidia GPU drivers
 nvidia
 
-# VDPAU backend for VA-API
-libva-vdpau-driver
-
 # UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB
 

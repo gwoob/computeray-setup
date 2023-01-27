@@ -1,6 +1,7 @@
 xanmod https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources
 
-dhcpcd
+# DHCP client
+net-misc/dhcpcd
 
 # firmware/microcode
 linux-firmware
@@ -13,7 +14,7 @@ libvirt
 virt-manager
 qemu
 bridge-utils
-
+it
 # authorization toolkit
 polkit
 

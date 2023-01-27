@@ -6,9 +6,6 @@ linux-firmware
 # Nvidia GPU drivers
 nvidia
 
-# UEFI boot entries manager
-efibootmgr # https://wiki.archlinux.org/title/EFISTUB
-
 # QEMU/KVM virtual machines
 libvirt
 virt-manager
@@ -25,40 +22,22 @@ dbus
 chrony
 
 # cron daemon
-snooze
+dcron
 
 # logging
-socklog-void
+app-admin/sysklogd
 
-# Privilege-seperated secure DHCPv4 client
-ndhc
-
-# iptables firewall
-runit-iptables
+# firewall
+net-firewall/nftables
 
 # automount removable media
 udiskie
-
-# opinionated XBPS helper tools
-xtools
-
-# XBPS package management helper
-vpm
-
-# Void-Packages Sources Management wrapper 
-vpsm
-
-# Manage and view runit services
-vsv
 
 # btrfs snapshots
 snazzer
 
 # z shell
 zsh
-
-# void development tools
-base-devel
 
 # programming languages and corresponding package managers
 python3-devel

@@ -10,7 +10,7 @@ pipewire &
 
 pipewire-pulse &
 
-xwallpaper --zoom [file]
+bgs -z [file]
 
 slock &
 

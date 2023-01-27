@@ -11,8 +11,8 @@ x11-drivers/nvidia-drivers
 dev-libs/cudnn
 dev-util/nvidia-cuda-toolkit
 
-# VDPAU backend for VA-API
-libva-vdpau-driver
+# NVDEC VA-API implementation
+media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-vaapi-driver
 
 # UEFI boot entries manager
 efibootmgr # https://wiki.archlinux.org/title/EFISTUB

@@ -14,4 +14,3 @@ ln -s /etc/sv/snooze-hourly /var/service/default/ # snooze (cron alternative)
 ln -s /etc/sv/snooze-daily /var/service/default/ # ^
 ln -s /etc/sv/snooze-weekly /var/service/default/ # ^
 ln -s /etc/sv/snooze-monthly /var/service/default/ # ^
-ln -s /etc/sv/spotifyd /var/service/default/ # spotify client as a daemon

@@ -1,3 +1,5 @@
+xanmod https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources
+
 dhcpcd
 
 # firmware/microcode
@@ -75,17 +77,10 @@ fontconfig
 terminus-font
 
 # browser
-firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
-# sandboxed apps
-flatpak
-
-# steam client and dependencies
-steam
-libgcc-32bit
-libstdc++-32bit
-libdrm-32bit
-libglvnd-32bit
+# steam client
+games-util/steam-launcher
 
 # file manager
 lf
@@ -119,10 +114,6 @@ pigz
 
 # parallel FTP/HTTP downloader
 axel
-
-# spotify client and daemon # https://www.rockyourcode.com/spotify-in-the-terminal-with-spotify-tui-and-spotifyd
-spotify-tui
-spotifyd
 
 # fetch programs
 neofetch

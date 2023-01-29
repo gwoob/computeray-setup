@@ -1,13 +1,17 @@
-xanmod https://gitlab.com/src_prepare/src_prepare-overlay/-/tree/master/sys-kernel/xanmod-sources
+sys-kernel/genkernel
+
+sys-boot/systemd-boot
 
 # DHCP client
 net-misc/dhcpcd
 
 # firmware/microcode
-linux-firmware
+sys-kernel/linux-firmware
 
 # Nvidia GPU drivers
-nvidia
+x11-drivers/nvidia-drivers
+dev-util/nvidia-cuda-toolkit
+media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-vaapi-driver
 
 # QEMU/KVM virtual machines
 libvirt
@@ -84,7 +88,7 @@ librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ff
 games-util/steam-launcher
 
 # file manager
-lf
+app-misc/lfm
 
 # simple X image viewer
 nsxiv

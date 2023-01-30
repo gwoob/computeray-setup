@@ -5,6 +5,9 @@ sys-boot/systemd-boot
 # DHCP client
 net-misc/dhcpcd
 
+# s2ram
+sys-power/suspend
+
 # firmware/microcode
 sys-kernel/linux-firmware
 
@@ -15,10 +18,11 @@ media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-v
 
 # QEMU/KVM virtual machines
 libvirt
-virt-manager
-qemu
+app-emulation/virt-manager
+app-emulation/qemu
 bridge-utils
 it
+
 # authorization toolkit
 polkit
 

@@ -37,8 +37,8 @@ app-admin/sysklogd
 # firewall
 net-firewall/nftables
 
-# automount removable media
-udiskie
+# automount
+sys-apps/udevil
 
 # btrfs snapshots
 snazzer

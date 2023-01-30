@@ -2,6 +2,12 @@ sys-kernel/genkernel
 
 sys-boot/systemd-boot
 
+# file indexing
+sys-apps/mlocate
+
+# Btrfs filesystem tools
+sys-fs/btrfs-progs
+
 # DHCP client
 net-misc/dhcpcd
 
@@ -27,13 +33,13 @@ it
 polkit
 
 # message bus system
-dbus
+sys-apps/dbus
 
 # network time protocol
-chrony
+net-misc/chrony
 
 # cron daemon
-dcron
+sys-process/dcron
 
 # logging
 app-admin/sysklogd
@@ -47,8 +53,9 @@ sys-apps/udevil
 # btrfs snapshots
 snazzer
 
-# z shell
-zsh
+# shells
+app-shells/fish
+app-shells/dash
 
 # programming languages and corresponding package managers
 python3-devel
@@ -59,23 +66,20 @@ cargo
 xorg
 
 # compositor
-picom
+x11-misc/picom
 
 # pipewire
-pipewire # https://docs.voidlinux.org/config/media/pipewire.html
-wireplumber # https://youtu.be/Zv1P6-kUn0c
+media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
+media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
 
 # pipewire patchbay
 qpwgraph
 
 # pipewire effects
-easyeffects # https://github.com/jaakkopasanen/AutoEq
-
-# microphone noise supression
-NoiseTorch
+media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 
 # terminal emulator
-kitty # multiplexing
+x11-terms/kitty # multiplexing
 
 # dwm, dmenu, slock dependencies
 libX11
@@ -98,31 +102,34 @@ app-misc/lfm
 nsxiv
 
 # text editor
-neovim
+app-editors/neovim
 
 # media player
-mpv
+media-video/mpv
+
+media-video/ffmpeg
 
 # Hide mouse cursor
-unclutter
+x11-misc/unclutter-xfixes
 
 # tool for controlling X11 clipboard
-xclip
+x11-misc/xclip
 
 # tool for scripting X11 actions
-xdotool
+x11-misc/xdotool
 
 # simple x background setter
 x11-misc/xwallpaper
 
 # Simple X Hotkey Daemon
-sxhkd
+x11-misc/sxhkd
 
 # parallel compression utility to replace gzip
-pigz
+app-arch/pigz
+app-arch/p7zip
 
 # parallel FTP/HTTP downloader
-axel
+net-misc/axel
 
 # fetch programs
 neofetch

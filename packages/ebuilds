@@ -2,6 +2,9 @@ sys-kernel/genkernel
 
 sys-boot/systemd-boot
 
+media-gfx/blender
+media-gfx/openscad
+
 # file indexing
 sys-apps/mlocate
 

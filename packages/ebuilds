@@ -98,6 +98,8 @@ librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ff
 # steam client
 games-util/steam-launcher
 
+app-emulation/proton-ge-custom-bin https://gpo.zugaina.org/app-emulation/proton-ge-custom-bin
+
 gui-wm/gamescope
 
 games-emulation/dolphin

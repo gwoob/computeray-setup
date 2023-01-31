@@ -98,11 +98,13 @@ librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ff
 # steam client
 games-util/steam-launcher
 
+gui-wm/gamescope
+
 # file manager
 app-misc/lfm
 
 # simple X image viewer
-nsxiv
+media-gfx/nsxiv http://gpo.zugaina.org/media-gfx/nsxiv
 
 # text editor
 app-editors/neovim

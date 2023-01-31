@@ -28,14 +28,12 @@ dev-util/nvidia-cuda-toolkit
 media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-vaapi-driver
 
 # QEMU/KVM virtual machines
-libvirt
+app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/qemu
-bridge-utils
-it
 
 # authorization toolkit
-polkit
+sys-auth/polkit
 
 # message bus system
 sys-apps/dbus
@@ -62,11 +60,6 @@ app-backup/btrbk
 app-shells/fish
 app-shells/dash
 
-# programming languages and corresponding package managers
-python3-devel
-rust
-cargo
-
 # xorg meta-package
 x11-base/xorg-x11
 x11-apps/xinit
@@ -79,7 +72,7 @@ media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
 media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
 
 # pipewire patchbay
-qpwgraph
+media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
 
 # pipewire effects
 media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
@@ -146,30 +139,24 @@ app-arch/p7zip
 net-misc/axel
 
 # fetch programs
-neofetch
-pfetch
-ufetch
+app-misc/neofetch
 
 # temp/voltage/fan sensors utility
 lm_sensors
 
-# gpu process monitor
-nvtop
-
 # interactive process viewer
-htop
+sys-process/htop
 
 # recursive directory listing program
-tree
+app-text/tree
 
 # command line fuzzy finder
-fzf
+app-shells/fzf
 
 # better ls
-exa
+sys-apps/exa
 
-git
-curl
+dev-vcs/git
 
 https://gitlab.com/brinkervii/grapejuice
 https://github.com/jD91mZM2/xidlehook

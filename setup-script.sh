@@ -12,6 +12,8 @@ usermod -a -G audio,libvirt,plugdev ben
 # set proper timezone
 ln -sf /usr/share/zoneinfo/los_angeles /etc/localtime
 
+chsh -s /usr/local/bin/fish ben
+
 # enable the PipeWire ALSA device and set as default
 mkdir -p /etc/alsa/conf.d
 ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d

@@ -2,6 +2,8 @@ sys-kernel/genkernel
 
 sys-boot/systemd-boot
 
+media-video/obs-studio
+
 media-gfx/blender
 media-gfx/openscad
 

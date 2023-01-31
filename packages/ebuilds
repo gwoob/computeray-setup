@@ -56,7 +56,7 @@ net-firewall/nftables
 sys-apps/udevil
 
 # btrfs snapshots
-snazzer
+app-backup/btrbk
 
 # shells
 app-shells/fish

@@ -104,6 +104,8 @@ gui-wm/gamescope
 
 games-emulation/dolphin
 
+games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
+
 # file manager
 app-misc/lfm
 

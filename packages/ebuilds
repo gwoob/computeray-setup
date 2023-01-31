@@ -142,7 +142,7 @@ net-misc/axel
 app-misc/neofetch
 
 # temp/voltage/fan sensors utility
-lm_sensors
+sys-apps/lm-sensors
 
 # interactive process viewer
 sys-process/htop

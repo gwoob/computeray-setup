@@ -100,6 +100,8 @@ games-util/steam-launcher
 
 gui-wm/gamescope
 
+games-emulation/dolphin
+
 # file manager
 app-misc/lfm
 
@@ -161,3 +163,5 @@ exa
 
 git
 curl
+
+https://gitlab.com/brinkervii/grapejuice

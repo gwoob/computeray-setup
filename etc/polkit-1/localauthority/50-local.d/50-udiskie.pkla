@@ -1,4 +1,0 @@
-[udiskie]
-Identity=unix-group:plugdev
-Action=org.freedesktop.udisks.*
-ResultAny=yes

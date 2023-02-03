@@ -17,3 +17,5 @@
 /dev/nvme0n1p2	/var				btrfs	defaults,nodatacow,noatime,ssd,noautodefrag,compress=zstd,subvol=@var			0 0
 /dev/nvme0n1p2	/swap				btrfs	defaults,nodatacow,noatime,ssd,noautodefrag,subvol=@swap				0 0
 /swap/swapfile	none				swap	defaults										0 0
+# shm tempfs required for steam
+shm             /dev/shm                        tmpfs   nodev,nosuid,noexec                                                                     0 0

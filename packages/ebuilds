@@ -7,6 +7,7 @@ sys-apps/plocate
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
+sys-apps/util-linux
 net-firewall/nftables
 app-admin/sudo
 app-shells/fish

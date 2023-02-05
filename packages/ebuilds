@@ -8,20 +8,27 @@ net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
 app-admin/sudo
+app-shells/fish
+app-shells/dash
 
 sys-apps/dbus
 sys-auth/elogind
 sys-auth/polkit
 
+x11-drivers/nvidia-drivers
+dev-util/nvidia-cuda-toolkit
+media-libs/vulkan-loader
+media-video/ffmpeg
+
+x11-base/xorg-x11
+x11-apps/xinit
+x11-misc/picom
 
 media-video/obs-studio
 media-gfx/blender
 media-gfx/openscad
 media-gfx/gimp
 
-# Nvidia GPU drivers
-x11-drivers/nvidia-drivers
-dev-util/nvidia-cuda-toolkit
 media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-vaapi-driver
 
 # QEMU/KVM virtual machines
@@ -36,15 +43,6 @@ sys-apps/udevil
 
 # btrfs snapshots
 app-backup/btrbk
-
-# shells
-app-shells/fish
-app-shells/dash
-
-# xorg meta-package
-x11-base/xorg-x11
-x11-apps/xinit
-x11-misc/picom
 
 # pipewire
 media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
@@ -85,8 +83,6 @@ app-editors/neovim
 # media player
 media-video/mpv
 
-media-video/ffmpeg
-
 # Hide mouse cursor
 x11-misc/unclutter-xfixes
 
@@ -111,9 +107,6 @@ net-misc/axel
 
 # fetch programs
 app-misc/neofetch
-
-# temp/voltage/fan sensors utility
-sys-apps/lm-sensors
 
 # interactive process viewer
 sys-process/htop

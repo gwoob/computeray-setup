@@ -7,9 +7,11 @@ sys-apps/plocate
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
+net-firewall/nftables
 app-admin/sudo
 app-shells/fish
 app-shells/dash
+app-editors/neovim
 
 sys-apps/dbus
 sys-auth/elogind
@@ -24,6 +26,9 @@ x11-base/xorg-x11
 x11-apps/xinit
 x11-misc/picom
 
+media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
+media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
+
 media-video/obs-studio
 media-gfx/blender
 media-gfx/openscad
@@ -36,17 +41,12 @@ app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/qemu
 
-net-firewall/nftables
-
 # automount
 sys-apps/udevil
 
 # btrfs snapshots
 app-backup/btrbk
 
-# pipewire
-media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
-media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
 
 # pipewire patchbay
 media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
@@ -62,13 +62,9 @@ librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ff
 
 # steam client
 games-util/steam-launcher
-
 app-emulation/proton-ge-custom-bin https://gpo.zugaina.org/app-emulation/proton-ge-custom-bin
-
 gui-wm/gamescope
-
 games-emulation/dolphin
-
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 
 # file manager
@@ -76,9 +72,6 @@ app-misc/lfm
 
 # simple X image viewer
 media-gfx/nsxiv http://gpo.zugaina.org/media-gfx/nsxiv
-
-# text editor
-app-editors/neovim
 
 # media player
 media-video/mpv

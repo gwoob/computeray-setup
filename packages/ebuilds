@@ -1,26 +1,23 @@
-sys-kernel/genkernel
-
+app-portage/cpuid2cpuflags
+sys-kernel/linux-firmware
+net-misc/dhcpcd
+app-admin/sysklogd
+sys-process/dcron
+sys-apps/plocate
+net-misc/chrony
+sys-fs/btrfs-progs
 sys-boot/systemd-boot
+app-admin/sudo
+
+sys-apps/dbus
+sys-auth/elogind
+sys-auth/polkit
+
 
 media-video/obs-studio
-
 media-gfx/blender
 media-gfx/openscad
-
-# file indexing
-sys-apps/mlocate
-
-# Btrfs filesystem tools
-sys-fs/btrfs-progs
-
-# DHCP client
-net-misc/dhcpcd
-
-# s2ram
-sys-power/suspend
-
-# firmware/microcode
-sys-kernel/linux-firmware
+media-gfx/gimp
 
 # Nvidia GPU drivers
 x11-drivers/nvidia-drivers
@@ -32,22 +29,6 @@ app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/qemu
 
-# authorization toolkit
-sys-auth/polkit
-
-# message bus system
-sys-apps/dbus
-
-# network time protocol
-net-misc/chrony
-
-# cron daemon
-sys-process/dcron
-
-# logging
-app-admin/sysklogd
-
-# firewall
 net-firewall/nftables
 
 # automount
@@ -63,8 +44,6 @@ app-shells/dash
 # xorg meta-package
 x11-base/xorg-x11
 x11-apps/xinit
-
-# compositor
 x11-misc/picom
 
 # pipewire
@@ -79,14 +58,6 @@ media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 
 # terminal emulator
 x11-terms/kitty # multiplexing
-
-# dwm, dmenu, slock dependencies
-libX11
-libXft
-libXinerama
-freetype
-fontconfig
-terminus-font
 
 # browser
 librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy

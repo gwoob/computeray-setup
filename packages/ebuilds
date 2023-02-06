@@ -3,9 +3,9 @@ sys-kernel/linux-firmware
 net-misc/dhcpcd
 app-admin/sysklogd
 sys-process/dcron
-sys-apps/plocate
 net-misc/chrony
 sys-fs/btrfs-progs
+
 sys-boot/systemd-boot
 app-portage/gentoolkit
 sys-apps/util-linux

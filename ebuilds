@@ -12,14 +12,17 @@ app-portage/gentoolkit
 sys-apps/util-linux
 dev-vcs/git
 net-firewall/nftables
-app-shells/zsh
 app-shells/dash
-emerge --ask app-portage/eix
+app-portage/eix
 app-editors/neovim
 
 sys-apps/dbus
 sys-auth/elogind
 sys-auth/polkit
+
+app-shells/zsh
+app-shells/zsh-completions
+app-shells/gentoo-zsh-completions
 
 x11-drivers/nvidia-drivers
 dev-util/nvidia-cuda-toolkit

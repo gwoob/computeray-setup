@@ -9,7 +9,7 @@ ln -sfT dash /usr/bin/sh
 # add user to socklog, audio, libvirt, and plugdev groups
 usermod -a -G audio,libvirt,plugdev ben
 
-chsh -s /usr/local/bin/fish ben
+chsh -s /usr/local/bin/zsh ben
 
 # enable the PipeWire ALSA device and set as default
 mkdir -p /etc/alsa/conf.d

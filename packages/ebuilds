@@ -5,14 +5,16 @@ app-admin/sysklogd
 sys-process/dcron
 net-misc/chrony
 sys-fs/btrfs-progs
-
 sys-boot/systemd-boot
+
+app-admin/sudo
 app-portage/gentoolkit
 sys-apps/util-linux
+dev-vcs/git
 net-firewall/nftables
-app-admin/sudo
-app-shells/fish
+app-shells/zsh
 app-shells/dash
+emerge --ask app-portage/eix
 app-editors/neovim
 
 sys-apps/dbus
@@ -21,7 +23,9 @@ sys-auth/polkit
 
 x11-drivers/nvidia-drivers
 dev-util/nvidia-cuda-toolkit
+media-libs/nv-codec-headers
 media-libs/vulkan-loader
+
 media-video/ffmpeg
 
 x11-base/xorg-x11
@@ -93,13 +97,6 @@ x11-misc/xwallpaper
 # Simple X Hotkey Daemon
 x11-misc/sxhkd
 
-# parallel compression utility to replace gzip
-app-arch/pigz
-app-arch/p7zip
-
-# parallel FTP/HTTP downloader
-net-misc/axel
-
 # fetch programs
 app-misc/neofetch
 
@@ -111,11 +108,6 @@ app-text/tree
 
 # command line fuzzy finder
 app-shells/fzf
-
-# better ls
-sys-apps/exa
-
-dev-vcs/git
 
 https://gitlab.com/brinkervii/grapejuice
 https://github.com/jD91mZM2/xidlehook

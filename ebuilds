@@ -108,8 +108,6 @@ sys-process/htop
 
 # recursive directory listing program
 app-text/tree
-
-# command line fuzzy finder
 app-shells/fzf
 
 https://gitlab.com/brinkervii/grapejuice

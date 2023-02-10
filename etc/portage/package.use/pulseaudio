@@ -1,0 +1,1 @@
+media-sound/pulseaudio -bluetooth -daemon -jack -ofono-headset

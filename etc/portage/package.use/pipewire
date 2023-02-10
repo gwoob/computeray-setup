@@ -1,0 +1,1 @@
+-bluetooth echo-cancel -flatpak -modemmanager pipewire-alsa sound-server

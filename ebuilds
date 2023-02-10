@@ -26,8 +26,6 @@ app-shells/gentoo-zsh-completions
 
 x11-drivers/nvidia-drivers
 dev-util/nvidia-cuda-toolkit
-media-libs/nv-codec-headers
-media-libs/vulkan-loader
 
 media-video/ffmpeg
 

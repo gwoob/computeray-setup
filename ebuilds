@@ -68,11 +68,11 @@ media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 x11-terms/kitty # multiplexing
 
 # browser
-librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
 # steam client
 games-util/steam-launcher
-app-emulation/proton-ge-custom-bin https://gpo.zugaina.org/app-emulation/proton-ge-custom-bin
+app-emulation/proton-ge-custom-bin
 gui-wm/gamescope
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 

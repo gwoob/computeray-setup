@@ -15,6 +15,7 @@ net-firewall/nftables
 app-shells/dash
 app-portage/eix
 app-editors/neovim
+app-text/zathura-meta
 
 sys-apps/dbus
 sys-auth/elogind

@@ -57,7 +57,6 @@ sys-apps/udevil
 # btrfs snapshots
 app-backup/btrbk
 
-
 # pipewire patchbay
 media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
 
@@ -68,7 +67,7 @@ media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 x11-terms/kitty # multiplexing
 
 # browser
-librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
 # steam client
 games-util/steam-launcher

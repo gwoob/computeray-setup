@@ -116,3 +116,5 @@ net-im/ripcord
 app-misc/ufetch
 
 virtual/wine
+
+media-gfx/imagemagick

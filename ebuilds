@@ -27,6 +27,8 @@ app-shells/gentoo-zsh-completions
 x11-drivers/nvidia-drivers
 dev-util/nvidia-cuda-toolkit
 
+sys-kernel/xanmod-sources
+
 media-video/ffmpeg
 
 x11-base/xorg-x11

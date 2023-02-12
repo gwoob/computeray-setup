@@ -74,7 +74,6 @@ librewolf https://gitlab.com/librewolf-community/browser/gentoo.git # https://ff
 games-util/steam-launcher
 app-emulation/proton-ge-custom-bin https://gpo.zugaina.org/app-emulation/proton-ge-custom-bin
 gui-wm/gamescope
-games-emulation/dolphin
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 
 # file manager

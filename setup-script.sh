@@ -7,7 +7,7 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 ln -sfT dash /usr/bin/sh
 
 # add user to socklog, audio, libvirt, and plugdev groups
-usermod -a -G audio,libvirt,plugdev ben
+usermod -a -G audio,video,libvirt,plugdev ben
 
 chsh -s /usr/local/bin/zsh ben
 

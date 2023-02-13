@@ -7,6 +7,8 @@ net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
 
+sys-apps/plocate
+
 app-admin/sudo
 app-portage/gentoolkit
 sys-apps/util-linux

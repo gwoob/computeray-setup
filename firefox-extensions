@@ -1,14 +1,13 @@
-uBlock Origin                       https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
-FastForward                         https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/
-ClearURLs                           https://addons.mozilla.org/en-US/firefox/addon/clearurls/
-Cookie AutoDelete                   https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
-Gesturefy                           https://addons.mozilla.org/en-US/firefox/addon/gesturefy/
-Tridactyl                           https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/
-Search by Image                     https://addons.mozilla.org/en-US/firefox/addon/search_by_image/
-Bitwarden                           https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/
-Firefox Multi-Account Containers    https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/ # gmail and youtube container - google search container
-base16 grayscale dark theme         https://addons.mozilla.org/en-US/firefox/addon/base16/
-xBrowserSync                        https://addons.mozilla.org/en-US/firefox/addon/xbs/
+uBlock Origin
+FastForward
+ClearURLs
+Cookie AutoDelete
+Tridactyl
+Search by Image
+Bitwarden
+Firefox Multi-Account Containers # gmail and youtube container - google search container
+base16 grayscale dark theme
+xBrowserSync
 Link Gopher
 Popup Blocker (Strict)
 Tree Style Tab

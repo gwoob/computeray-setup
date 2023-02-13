@@ -55,9 +55,6 @@ app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/qemu
 
-# automount
-sys-apps/udevil
-
 # btrfs snapshots
 app-backup/btrbk
 

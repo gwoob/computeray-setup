@@ -9,6 +9,8 @@ sys-boot/systemd-boot
 
 sys-apps/plocate
 
+ys-kernel/xanmod-kernel # Linux kernel built with XanMod and Gentoo patches
+
 app-admin/doas
 app-portage/gentoolkit
 sys-apps/util-linux

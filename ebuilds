@@ -120,3 +120,5 @@ app-misc/ufetch
 virtual/wine
 
 media-gfx/imagemagick
+
+slock

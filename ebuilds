@@ -123,5 +123,5 @@ virtual/wine
 
 media-gfx/imagemagick
 
-slock
+x11-misc/slock
 sys-fs/udiskie

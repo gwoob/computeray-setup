@@ -9,7 +9,7 @@ sys-boot/systemd-boot
 
 sys-apps/plocate
 
-app-admin/sudo
+app-admin/doas
 app-portage/gentoolkit
 sys-apps/util-linux
 dev-vcs/git

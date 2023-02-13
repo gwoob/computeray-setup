@@ -39,3 +39,5 @@ slock color 7c7c7c gray
 replace dracut with booster and setup hook
 
 setup xanmod
+
+setup udiskie

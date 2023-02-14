@@ -1,7 +1,7 @@
 # kool fetch!
 ufetch
 
-# I don't got sudo
+# don't got sudo
 alias sudo='doas'
 alias sudoedit='echo "Copy file, edit with doas."'
 

@@ -4,7 +4,7 @@ ClearURLs
 Cookie AutoDelete
 Tridactyl
 Search by Image
-Bitwarden
+Bitwarden # turn off firefox password prompt
 Firefox Multi-Account Containers # gmail and youtube container - google search container
 base16 grayscale dark theme
 xBrowserSync

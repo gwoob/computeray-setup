@@ -3,9 +3,7 @@ ufetch
 
 # I don't got sudo
 alias sudo='doas'
-
-# redo last command as super user "do-over" haha
-alias dover='doas !!'
+alias sudoedit='echo "Copy file, edit with doas."'
 
 # gentoo specific
 alias sync='emaint --auto sync'

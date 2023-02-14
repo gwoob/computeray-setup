@@ -50,3 +50,4 @@ mount -o subvol=@usr_local /dev/nvme0n1p2 /mnt/gentoo/usr/local
 mount -o subvol=@var /dev/nvme0n1p2 /mnt/gentoo/var
 
 echo "Subvolumes are mounted. Don't forget to mount other subvolumes onto the user's directories once made."
+echo "Complete."

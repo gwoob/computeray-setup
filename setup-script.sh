@@ -1,10 +1,5 @@
-eselect sh set /bin/dash
-
 # copy xinitrc to home
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
-
-# symlink dash /bin/sh
-ln -sfT dash /usr/bin/sh
 
 # add user to socklog, audio, libvirt, and plugdev groups
 useadd -m -G users,wheel,audio,video,libvirt,plugdev -s /bin/bash ben

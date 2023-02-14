@@ -18,8 +18,12 @@ btrfs subvolume create @home_ben_.snapshots
 btrfs subvolume create @home_ben_Downloads
 btrfs subvolume create @home_ben_SteamLibrary
 
+echo "Finished creating subvolumes."
+
 # necessary before creating directories
 mount -o subvol=@ /dev/nvme0n1p2 /mnt/gentoo
+
+echo "Root subvolume is mounted, now creating directories."
 
 # creating directories
 mkdir /mnt/gentoo/.snapshots
@@ -32,6 +36,8 @@ mkdir /mnt/gentoo/tmp
 mkdir --parents /mnt/gentoo/usr/local
 mkdir /mnt/gentoo/var
 
+echo "All appropriate directories have been created"
+
 # mounting subvolumes
 mount -o subvol=@.snapshots /dev/nvme0n1p2 /mnt/gentoo/.snapshots
 mount -o subvol=@home /dev/nvme0n1p2 /mnt/gentoo/home
@@ -42,3 +48,5 @@ mount -o subvol=@swap /dev/nvme0n1p2 /mnt/gentoo/swap
 mount -o subvol=@tmp /dev/nvme0n1p2 /mnt/gentoo/tmp
 mount -o subvol=@usr_local /dev/nvme0n1p2 /mnt/gentoo/usr/local
 mount -o subvol=@var /dev/nvme0n1p2 /mnt/gentoo/var
+
+echo "Subvolumes are mounted. Don't forget to mount other subvolumes onto the user's directories once made."

@@ -5,6 +5,10 @@ ufetch
 alias sudo='doas'
 alias sudoedit='echo "copy as user, edit as user, replace as root"'
 
+# politeness
+alias pls='doas'
+alias please='doas'
+
 # gentoo specific
 alias sync='emaint --auto sync'
 alias upgrade='emerge --ask --verbose --update --deep --newuse @world'

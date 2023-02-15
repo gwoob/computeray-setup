@@ -12,7 +12,6 @@ alias depclean='emerge --depclean'
 
 # nvim loyalty
 export EDITOR=nvim
-alias v='nvim'
 alias vi='nvim'
 alias vim='nvim'
 alias nano='nvim'

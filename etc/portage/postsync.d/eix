@@ -6,3 +6,6 @@ eix-update
 if [[ -e /var/cache/eix/previous.eix ]]; then
     eix-diff;
 fi
+
+# ensure this is executable
+# chmod +x /etc/portage/postsync.d/eix

@@ -32,3 +32,6 @@ fi
 
 # Return explicit status.
 exit "${ret}"
+
+# ensure this is executable
+# chmod +x /etc/portage/repo.postsync.d/egencache

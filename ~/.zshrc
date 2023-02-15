@@ -15,3 +15,6 @@ export EDITOR=nvim
 alias vi='nvim'
 alias vim='nvim'
 alias nano='nvim'
+
+# ls with long listing and hidden files
+alias ls='ls -la'

@@ -3,7 +3,7 @@ ufetch
 
 # don't got sudo
 alias sudo='doas'
-alias sudoedit='echo "Copy file, edit with doas."'
+alias sudoedit='echo "Copy, edit as user, replace as root."'
 
 # gentoo specific
 alias sync='emaint --auto sync'

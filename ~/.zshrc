@@ -23,6 +23,9 @@ alias nano='nvim'
 # ls with long listing and hidden files
 alias ls='ls -la'
 
+# grep color
+alias grep='grep --color=auto'
+
 # pipe output to grep
 alias -g G='| grep'
 # pipe output to less

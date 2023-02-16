@@ -1,0 +1,4 @@
+#!/bin/sh
+
+fallocate -l 12GiB /swap/swapfile
+chmod 600 /swap/swapfile

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 fallocate -l 12G /swap/swapfile
-chattr +C /swap/swapfile
+chattr +C /swap
 chmod 600 /swap/swapfile
 mkswap /swap/swapfile
 swapon /swap/swapfile

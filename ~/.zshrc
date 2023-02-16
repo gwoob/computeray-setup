@@ -13,6 +13,7 @@ alias please='doas'
 alias sync='emaint --auto sync'
 alias upgrade='emerge --ask --verbose --update --deep --newuse @world'
 alias depclean='emerge --depclean'
+alias kernel-make-all='make -j32 && make modules_install && make install'
 
 # nvim loyalty
 export EDITOR=nvim

@@ -9,9 +9,7 @@ sys-boot/systemd-boot
 
 sys-apps/plocate
 
-sys-kernel/installkernel-gentoo
-emerge --ask sys-kernel/gentoo-kernel-bin
-ys-kernel/xanmod-kernel # Linux kernel built with XanMod and Gentoo patches
+sys-kernel/xanmod-sources # Overlay: src_prepare-overlay
 
 app-admin/doas
 app-portage/gentoolkit

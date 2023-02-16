@@ -51,3 +51,18 @@ mount -o subvol=@var /dev/nvme0n1p2 /mnt/gentoo/var
 
 echo "Subvolumes are mounted. Don't forget to mount other subvolumes onto the user's directories once made."
 echo "Complete."
+
+@
+@.snapshots
+@home
+@opt
+@root
+@srv
+@tmp
+@usr_local
+@var
+@swap
+@ben
+@ben_.snapshots
+@ben_Downloads
+@ben_SteamLibrary

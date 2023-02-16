@@ -16,6 +16,9 @@ alias depclean='emerge --depclean'
 alias upgrade-shutdown='emerge --verbose --deep --newuse --update --with-bdeps=y @world | tee emerge-log.log && shutdown -h now'
 alias kernel-make-all='make -j32 && make modules_install && make install'
 
+# suspend
+alias suspend='loginctl suspend'
+
 # nvim loyalty
 export EDITOR=nvim
 alias vi='nvim'

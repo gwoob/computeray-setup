@@ -85,6 +85,9 @@ media-gfx/nsxiv http://gpo.zugaina.org/media-gfx/nsxiv
 # media player
 media-video/mpv
 
+media-sound/ncmpcpp
+mpd
+
 # Hide mouse cursor
 x11-misc/unclutter-xfixes
 

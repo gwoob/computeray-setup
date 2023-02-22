@@ -6,7 +6,6 @@ sys-process/dcron
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
-
 sys-apps/plocate
 
 # https://wiki.gentoo.org/wiki/Kernel/Configuration
@@ -33,11 +32,11 @@ app-shells/gentoo-zsh-completions
 
 dev-util/nvidia-cuda-toolkit
 
-sys-kernel/xanmod-sources
+sys-kernel/xanmod-sources # gentoobr
 
 media-video/ffmpeg
 
-x11-base/xorg-x11
+x11-base/xorg-server
 x11-apps/xinit
 x11-misc/picom
 
@@ -73,7 +72,6 @@ www-client/firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb
 
 # steam client
 games-util/steam-launcher
-app-emulation/proton-ge-custom-bin
 gui-wm/gamescope
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 
@@ -112,8 +110,6 @@ app-text/tree
 app-shells/fzf
 
 https://gitlab.com/brinkervii/grapejuice
-https://github.com/jD91mZM2/xidlehook
-
 net-im/ripcord
 
 virtual/wine

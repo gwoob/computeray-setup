@@ -6,11 +6,10 @@ sys-process/dcron
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
-sys-apps/plocate
+-sys-apps/plocate
 
 # https://wiki.gentoo.org/wiki/Kernel/Configuration
-sys-kernel/xanmod-sources # Overlay: src_prepare-overlay
-sys-apps/debianutils
+sys-apps/debianutils # maybe
 
 app-admin/doas
 app-portage/gentoolkit
@@ -20,7 +19,7 @@ net-firewall/nftables
 app-shells/dash
 app-portage/eix
 app-editors/neovim
-app-text/zathura-meta
+app-text/zathura
 
 sys-apps/dbus
 sys-auth/elogind
@@ -67,6 +66,8 @@ media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 # terminal emulator
 x11-terms/kitty # multiplexing
 
+# suckless tmux
+
 # browser
 www-client/firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
@@ -112,7 +113,7 @@ app-shells/fzf
 https://gitlab.com/brinkervii/grapejuice
 net-im/ripcord
 
-virtual/wine
+wine
 
 media-gfx/imagemagick
 

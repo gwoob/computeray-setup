@@ -69,7 +69,7 @@ media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 x11-terms/kitty # multiplexing
 
 # browser
-www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+www-client/firefox # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
 # steam client
 games-util/steam-launcher
@@ -115,7 +115,6 @@ https://gitlab.com/brinkervii/grapejuice
 https://github.com/jD91mZM2/xidlehook
 
 net-im/ripcord
-app-misc/ufetch
 
 virtual/wine
 

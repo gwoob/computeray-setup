@@ -6,7 +6,7 @@ sys-process/dcron
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
--sys-apps/plocate
+- sys-apps/plocate
 
 # https://wiki.gentoo.org/wiki/Kernel/Configuration
 sys-apps/debianutils # maybe
@@ -20,6 +20,8 @@ app-shells/dash
 app-portage/eix
 app-editors/neovim
 app-text/zathura
+euse
+eix
 
 sys-apps/dbus
 sys-auth/elogind

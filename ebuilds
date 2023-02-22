@@ -117,7 +117,7 @@ app-shells/fzf
 https://gitlab.com/brinkervii/grapejuice
 net-im/ripcord
 
-wine
+virtual/wine
 
 media-gfx/imagemagick
 

@@ -25,6 +25,9 @@ alias vi='nvim'
 alias vim='nvim'
 alias nano='nvim'
 
+# librewolf
+alias firefox='librewolf'
+
 # ls with long listing and hidden files
 alias ls='ls -la'
 

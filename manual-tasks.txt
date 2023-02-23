@@ -41,3 +41,5 @@ replace dracut with booster and setup hook
 setup xanmod
 
 setup udiskie
+
+eselect sh set /bin/dash

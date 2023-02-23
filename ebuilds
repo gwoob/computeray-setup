@@ -84,11 +84,6 @@ media-gfx/nsxiv http://gpo.zugaina.org/media-gfx/nsxiv
 # media player
 media-video/mpv
 
-# music https://computingforgeeks.com/how-to-configure-mpd-and-ncmpcpp-on-linux/?amp
-media-sound/ncmpcpp
-mpd
-mpc
-
 # Hide mouse cursor
 x11-misc/unclutter-xfixes
 

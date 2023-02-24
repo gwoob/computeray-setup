@@ -12,7 +12,7 @@ alias please='doas'
 # gentoo specific
 alias sync='emaint --auto sync'
 alias upgrade='emerge --ask --verbose --update --deep --newuse @world'
-alias remove='emerge --ask --deselect'
+alias remove='emerge --ask --deselect --depclean'
 alias depclean='emerge --ask --depclean'
 alias upgrade-shutdown='emerge --verbose --deep --newuse --update --with-bdeps=y @world | tee emerge-log.log && shutdown -h now'
 alias kernel-make-all='make -j32 && make modules_install && make install'

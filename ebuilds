@@ -6,7 +6,6 @@ sys-process/dcron
 net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
-- sys-apps/plocate
 
 # https://wiki.gentoo.org/wiki/Kernel/Configuration
 sys-apps/debianutils # maybe

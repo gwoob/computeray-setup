@@ -7,9 +7,6 @@ net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
 
-# https://wiki.gentoo.org/wiki/Kernel/Configuration
-sys-apps/debianutils # maybe
-
 app-admin/doas
 app-portage/gentoolkit
 sys-apps/util-linux
@@ -19,6 +16,9 @@ app-shells/dash
 app-portage/eix
 app-editors/neovim
 euse
+
+x11-wm/leftwm::guru
+x11-misc/xmobar 
 
 sys-apps/dbus
 sys-auth/elogind
@@ -116,5 +116,3 @@ virtual/wine
 media-gfx/imagemagick
 
 x11-misc/slock
-
-sys-apps/flatpak # grapejuice

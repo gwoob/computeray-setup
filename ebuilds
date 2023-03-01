@@ -116,3 +116,8 @@ virtual/wine
 media-gfx/imagemagick
 
 x11-misc/slock
+
+x11-wm/xmonad
+x11-misc/xmobar
+x11-wm/xmonad-contrib
+x11-themes/vanilla-dmz-xcursors

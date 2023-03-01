@@ -71,7 +71,6 @@ www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/
 
 # steam client
 games-util/steam-launcher
-gui-wm/gamescope
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 
 # file manager

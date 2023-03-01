@@ -30,7 +30,7 @@ app-shells/gentoo-zsh-completions
 
 dev-util/nvidia-cuda-toolkit
 
-sys-kernel/xanmod-sources # gentoobr
+sys-kernel/xanmod-sources::gentoobr
 
 media-video/ffmpeg
 

@@ -1,0 +1,4 @@
+#!/bin/sh
+doas make -j32 && doas make modules_install && doas make install
+
+# create /boot/vmlinuz so that 'make install' will symlink newly built kernels

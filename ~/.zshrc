@@ -36,6 +36,11 @@ alias ls='ls -a'
 # grep color
 alias grep='grep --color=auto'
 
+# add ~/bin to PATH
+if [ -d $HOME/bin ]; then
+    PATH=$PATH:$HOME/bin
+fi
+
 # pipe output to grep
 #alias -p G='| grep'
 # pipe output to less

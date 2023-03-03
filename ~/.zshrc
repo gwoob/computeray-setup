@@ -31,7 +31,7 @@ alias vim='nvim'
 alias nano='nvim'
 
 # ls with long listing and hidden files
-alias ls='ls -la'
+alias ls='ls -a'
 
 # grep color
 alias grep='grep --color=auto'

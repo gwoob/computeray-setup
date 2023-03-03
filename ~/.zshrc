@@ -19,7 +19,7 @@ alias upgrade='doas emerge --ask --verbose --update --deep --newuse @world'
 alias remove='doas emerge --ask --deselect'
 alias depclean='doas emerge --ask --depclean'
 alias upgrade-shutdown='doas emerge --verbose --deep --newuse --update --with-bdeps=y @world | tee emerge-log.log && shutdown -h now'
-alias kernel-make-all='make -j32 && make modules_install && make install'
+alias kernel-make-all='doas make -j32 && doas make modules_install && doas make install'
 
 # suspend
 alias suspend='loginctl suspend'

@@ -1,5 +1,7 @@
 #!/bin/sh
 make -j32 && make modules_install && make install && emerge @module-rebuild
 
+echo "To clean old kernel reference the wiki https://wiki.gentoo.org/wiki/Kernel/Removal"
+
 # create /boot/vmlinuz so that 'make install' will symlink newly built kernels
 # make sure script is executable 'chmod u+x'

@@ -1,5 +1,5 @@
 #!/bin/sh
-make -j32 && make modules_install && make install
+make -j32 && make modules_install && make install && emerge @module-rebuild
 
 # create /boot/vmlinuz so that 'make install' will symlink newly built kernels
 # make sure script is executable 'chmod u+x'

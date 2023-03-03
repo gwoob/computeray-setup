@@ -1,0 +1,2 @@
+#!/bin/sh
+emerge --verbose --deep --newuse --update --with-bdeps=y @world | tee emerge-log.log && shutdown -h now

@@ -122,3 +122,6 @@ x11-wm/xmonad-contrib
 x11-themes/vanilla-dmz-xcursors
 
 gui-wm/gamescope
+app-containers/distrobox
+app-containers/podman
+x11-apps/xhost

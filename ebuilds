@@ -91,8 +91,8 @@ x11-misc/xclip
 # tool for scripting X11 actions
 x11-misc/xdotool
 
-# simple x background setter
-x11-misc/xwallpaper
+# set backround and view images
+feh
 
 # Simple X Hotkey Daemon
 x11-misc/sxhkd

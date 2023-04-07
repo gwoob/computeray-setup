@@ -1,5 +1,5 @@
-UUID=DED3-9BB8                                  /boot   vfat    defaults,noatime                                                                        0 0
-UUID=f4afbdd8-86a5-4732-8fbe-7c00c400dadd       /       btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@           0 0
-UUID=f4afbdd8-86a5-4732-8fbe-7c00c400dadd       /home   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@home       0 0
-UUID=f4afbdd8-86a5-4732-8fbe-7c00c400dadd       /swap   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,nodatacow,subvol=@swap                 0 0
-/swap/swapfile                                  none    swap    defaults                                                                                0 0
+UUID=35CB-ED80                                  /boot   vfat    defaults,noatime 0 0
+UUID=5a12b7f4-d9e0-4b21-afc1-3549720df3a9       /       btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@ 0 0
+UUID=5a12b7f4-d9e0-4b21-afc1-3549720df3a9       /home   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@home 0 0
+UUID=5a12b7f4-d9e0-4b21-afc1-3549720df3a9       /swap   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,nodatacow,subvol=@swap 0 0
+/swap/swapfile                                  none    swap    defaults 0 0

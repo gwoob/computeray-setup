@@ -1,6 +1,5 @@
-/dev/nvme0n1p1	/boot/efi			vfat	defaults,noatime	0 0
-/dev/nvme0n1p2	/			btrfs	defaults,noatime,ssd,noautodefrag,clear_cache,space_cache=v2,compress-force=zstd:3,subvol=@		0 0
-/dev/nvme0n1p2	/home			btrfs	defaults,noatime,ssd,noautodefrag,clear_cache,space_cache=v2,compress-force=zstd:3,subvol=@home		0 0
-/dev/nvme0n1p2	/home/ben/GamesLibrary	btrfs	defaults,noatime,ssd,noautodefrag,clear_cache,space_cache=v2,compress-force=zstd:3,subvol=@steam	0 0
-/dev/nvme0n1p2	/swap			btrfs	defaults,noatime,ssd,noautodefrag,nodatacow,clear_cache,space_cache=v2,subvol=@swap			0 0
-/swap/swapfile	none				swap	defaults														0 0
+/dev/nvme0n1p1  /boot   vfat    defaults,noatime                                                                        0 0
+/dev/nvme0n1p2  /       btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@           0 0
+/dev/nvme0n1p2  /home   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd,subvol=@home       0 0
+/dev/nvme0n1p2  /swap   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,nodatacow,subvol=@swap                 0 0
+/swap/swapfile  none    swap    defaults                                                                                0 0

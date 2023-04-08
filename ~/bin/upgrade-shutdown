@@ -1,2 +1,2 @@
 #!/bin/sh
-emaint --auto sync && emerge -avuDN @world | tee emerge-log.log && poweroff
+emaint --auto sync && emerge -avuDN @world | tee emerge-log.log ; poweroff

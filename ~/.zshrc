@@ -2,8 +2,6 @@ autoload -U compinit promptinit
 compinit
 promptinit; prompt gentoo
 
-XDG_CURRENT_DESKTOP=dwm
-
 zstyle ':completion::complete:*' use-cache 1
 
 # kool fetch!

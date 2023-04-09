@@ -1,0 +1,7 @@
+# xorg.conf is overridden by gnome's monitor.xml
+# nvidia-settings can override monitor.xml during gnome session, but will reset on logout
+# apply monitor settings in gnome-settings for persistent monitor resolution and refresh rate configuration
+
+# gdm might not inherit gnome's monitor.xml
+# copy the monitor.xml settings to make persistent for gdm too
+cp ~/.config/monitors.xml ~gdm/.config/

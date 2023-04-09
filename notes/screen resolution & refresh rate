@@ -3,5 +3,5 @@
 # apply monitor settings in gnome-settings for persistent monitor resolution and refresh rate configuration
 
 # gdm might not inherit gnome's monitor.xml
-# copy the monitor.xml settings to make persistent for gdm too
+# copy the monitor.xml for gdm
 cp ~/.config/monitors.xml ~gdm/.config/

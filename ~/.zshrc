@@ -26,12 +26,3 @@ alias grep='grep --color=auto'
 if [ -d $HOME/bin ]; then
     PATH=$PATH:$HOME/bin
 fi
-
-# pipe output to grep
-#alias -p G='| grep'
-# pipe output to less
-#alias -p L='| less'
-# pipe output to `wc` with option `-l`
-#alias -p W='| wc -l'
-# convert multiline output to single line and copy it to the system clipboard
-#alias -p C='| tr -d ''\n'' | xclip -selection clipboard'  

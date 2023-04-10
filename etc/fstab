@@ -1,5 +1,5 @@
 UUID=                                  /boot   vfat    defaults,noatime 0 0
-UUID=       /       btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd:3,subvol=@ 0 0
+UUID=       /       btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd:3,discard=async,subvol=@ 0 0
 UUID=       /home   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,compress-force=zstd:3,subvol=@home 0 0
 UUID=       /swap   btrfs   ssd,defaults,noatime,noautodefrag,space_cache=v2,nodatacow,subvol=@swap 0 0
 /swap/swapfile                                  none    swap    defaults 0 0

@@ -1,0 +1,3 @@
+# https://wiki.gentoo.org/wiki/Eix#Optional_upstream_optimizations
+
+app-portage/eix eix-extra-econf.conf

@@ -8,6 +8,10 @@ sys-fs/btrfs-progs
 sys-boot/systemd-boot
 
 gnome-light
+media-gfx/gnome-screenshot
+app-editors/gnome-text-editor
+media-gfx/eog
+media-video/celluloid
 
 app-admin/doas
 app-portage/gentoolkit
@@ -17,8 +21,6 @@ net-firewall/nftables
 app-shells/dash
 app-portage/eix
 app-editors/neovim
-euse
-zsh
 
 app-shells/zsh
 app-shells/zsh-completions

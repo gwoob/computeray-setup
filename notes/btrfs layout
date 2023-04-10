@@ -1,0 +1,21 @@
+# Rational - How many subvolumes is too much?
+# I want to rollback my machine on w whim without fear of losing something important
+# I however, do not want a million subvolumes to deal with
+# This is the layout I am settling on
+# Inspired by:
+# https://github.com/archlinux/archinstall/issues/781
+# https://en.opensuse.org/SDB:BTRFS
+# Btrfs Layout - JWillikers
+
+@			/				# root subvolume
+@snapshots		/.snapshots			# root subvolume snapshots
+@home			/home				# home subvolume
+@home.snapshots		/home/.snapshots		# home subvolume snapshots
+@opt			/opt				# for third party installed add-on software
+@root			/root				# root user home needs to be preserved during rollback
+@tmp			/tmp				# temporary files only bloat snapshots
+@usr_local		/usr/local			# for third party installed administrator utilities
+@var			/var				# (DISABLE COW) contains many variable files, VM images, logs, stuff I don't want rolled back
+@containers		~/.local/share/containers	# I want my container images preserved during rollback
+@swap			/swap				# for swapfile
+@games			~/Games				# games only bloat snapshots

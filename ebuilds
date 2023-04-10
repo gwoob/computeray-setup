@@ -7,6 +7,8 @@ net-misc/chrony
 sys-fs/btrfs-progs
 sys-boot/systemd-boot
 
+gnome-light
+
 app-admin/doas
 app-portage/gentoolkit
 sys-apps/util-linux

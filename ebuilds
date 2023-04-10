@@ -16,13 +16,7 @@ app-shells/dash
 app-portage/eix
 app-editors/neovim
 euse
-
-x11-wm/xmonad
-x11-misc/xmobar 
-
-sys-apps/dbus
-sys-auth/elogind
-sys-auth/polkit
+zsh
 
 app-shells/zsh
 app-shells/zsh-completions
@@ -30,22 +24,17 @@ app-shells/gentoo-zsh-completions
 
 dev-util/nvidia-cuda-toolkit
 
-sys-kernel/xanmod-sources::gentoobr
+sys-kernel/xanmod-sources
 
 media-video/ffmpeg
 
 x11-base/xorg-server
-x11-apps/xinit
-x11-misc/picom
 
-media-video/pipewire # https://docs.voidlinux.org/config/media/pipewire.html
-media-video/wireplumber # https://youtu.be/Zv1P6-kUn0c
+media-video/pipewire
 
 media-gfx/blender
 media-gfx/openscad
 media-gfx/gimp
-
-media-plugins/nvidia-vaapi-driver https://gpo.zugaina.org/media-plugins/nvidia-vaapi-driver
 
 # QEMU/KVM virtual machines
 app-emulation/libvirt
@@ -61,9 +50,6 @@ media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
 # pipewire effects
 media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
 
-# terminal emulator
-x11-terms/kitty # multiplexing
-
 # suckless tmux
 
 # browser
@@ -73,29 +59,8 @@ www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/
 games-util/steam-launcher
 games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
 
-# file manager
-app-misc/lfm
-
-# simple X image viewer
-media-gfx/nsxiv http://gpo.zugaina.org/media-gfx/nsxiv
-
-# media player
-media-video/mpv
-
-# Hide mouse cursor
-x11-misc/unclutter-xfixes
-
 # tool for controlling X11 clipboard
 x11-misc/xclip
-
-# tool for scripting X11 actions
-x11-misc/xdotool
-
-# set backround and view images
-feh
-
-# Simple X Hotkey Daemon
-x11-misc/sxhkd
 
 # fetch programs
 app-misc/neofetch
@@ -110,18 +75,6 @@ app-shells/fzf
 https://gitlab.com/brinkervii/grapejuice
 net-im/ripcord
 
-virtual/wine
-
-media-gfx/imagemagick
-
-x11-misc/slock
-
-x11-wm/xmonad
-x11-misc/xmobar
-x11-wm/xmonad-contrib
-x11-themes/vanilla-dmz-xcursors
-
 gui-wm/gamescope
 app-containers/distrobox
 app-containers/podman
-x11-apps/xhost

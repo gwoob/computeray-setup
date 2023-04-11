@@ -1,7 +1,7 @@
+# https://wiki.gentoo.org/wiki/Zsh/Add-ons
 autoload -U compinit promptinit
 compinit
 promptinit; prompt gentoo
-
 zstyle ':completion::complete:*' use-cache 1
 
 # kool fetch!
@@ -9,6 +9,9 @@ neofetch
 
 # don't got sudo
 alias sudo='doas'
+
+# I make typos
+alias daos='doas'
 
 # nvim loyalty
 export EDITOR=nvim

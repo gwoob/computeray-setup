@@ -1,23 +1,7 @@
 set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
-crontab -e root
 wallpaper # https://commons.wikimedia.org/wiki/File:3840x2160-feldgrau-solid-color-background.jpg https://512pixels.net/projects/default-mac-wallpapers-in-5k/ https://jmd.im/project/black-ii
 
 setup zsh
-
-turn off picom vsync
-
-setup fonts
-
-
-setup treestyletabs and remove normal tabs
-
-
-write script to remove old xanmod packages
-
-
-setup xanmod
-
-setup udiskie
 
 eselect sh set /bin/dash
 portage btrfs hook

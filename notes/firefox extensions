@@ -1,5 +1,6 @@
-uBlock Origin
-ClearURLs
-Cookie AutoDelete
-Bitwarden # turn off firefox password prompt
-Firefox Multi-Account Containers # gmail, youtube, google seearch, school containers
+uBlock Origin                     https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
+ClearURLs                         https://addons.mozilla.org/en-US/firefox/addon/clearurls
+Cookie AutoDelete                 https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete
+Bitwarden                         https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager
+Firefox Multi-Account Containers  https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers
+Impulse Blocker                   https://addons.mozilla.org/en-US/firefox/addon/impulse-blocker

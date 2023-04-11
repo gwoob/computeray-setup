@@ -5,7 +5,8 @@
 # Inspired by:
 # https://github.com/archlinux/archinstall/issues/781
 # https://en.opensuse.org/SDB:BTRFS
-# Btrfs Layout - JWillikers
+# https://www.jwillikers.com/btrfs-layout
+# https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html#Layout
 
 @			/				# root subvolume
 @snapshots		/.snapshots			# root subvolume snapshots

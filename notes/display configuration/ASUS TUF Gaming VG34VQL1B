@@ -1,0 +1,15 @@
+# OSD settings
+# inteded for use alongside ~/.nvidia-settings-rc
+
+Variable OD = 40
+FreeSync Premium = ON
+GameVisual = User Mode
+Shadow Boost = OFF
+Brightness = 50
+Contrast = 80
+VividPixel = 0
+ASCR = OFF
+Blue Light Filter = Level 0
+Color Temp = User Mode (R = 90 G = 100 B = 90)
+Saturation = 50
+Skin Tone = Natural

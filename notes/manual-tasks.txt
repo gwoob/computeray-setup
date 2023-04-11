@@ -1,5 +1,4 @@
 set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
-wallpaper # https://commons.wikimedia.org/wiki/File:3840x2160-feldgrau-solid-color-background.jpg
 
 setup zsh
 

@@ -6,6 +6,8 @@ app-editors/gnome-text-editor
 media-video/celluloid
 media-gfx/eog
 
+net-im/signal-desktop-bin
+
 app-admin/doas
 app-portage/gentoolkit
 sys-apps/util-linux

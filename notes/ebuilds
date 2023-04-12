@@ -1,17 +1,9 @@
-app-portage/cpuid2cpuflags
-sys-kernel/linux-firmware
-net-misc/dhcpcd
-app-admin/sysklogd
-sys-process/dcron
-net-misc/chrony
-sys-fs/btrfs-progs
-sys-boot/systemd-boot
-
-gnome-light
-media-gfx/gnome-screenshot
+gnome-base/gnome-light
+gnome-extra/gnome-tweaks
+gnome-base/dconf-editor
 app-editors/gnome-text-editor
-media-gfx/eog
 media-video/celluloid
+media-gfx/eog
 
 app-admin/doas
 app-portage/gentoolkit

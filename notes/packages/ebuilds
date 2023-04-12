@@ -30,17 +30,10 @@ media-gfx/blender
 media-gfx/openscad
 media-gfx/gimp
 
-# QEMU/KVM virtual machines
-app-emulation/virt-manager
-app-emulation/qemu
-
 # btrfs snapshots
 app-backup/btrbk
 
-# pipewire patchbay
 media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
-
-# pipewire effects
 media-sound/easyeffects
 
 # suckless tmux
@@ -54,16 +47,15 @@ games-util/steam-launcher
 # fetch programs
 app-misc/neofetch
 
-# interactive process viewer
-sys-process/htop
-
-# recursive directory listing program
-app-text/tree
 app-shells/fzf
 
 grapejuice
 
 gui-wm/gamescope
+
+
+app-emulation/virt-manager
+app-emulation/qemu
 
 app-containers/distrobox
 app-containers/podman

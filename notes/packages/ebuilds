@@ -7,9 +7,10 @@ media-video/celluloid
 media-gfx/eog
 
 x11-base/xorg-server
+x11-drivers/nvidia-drivers
 
 media-video/pipewire
-media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
+media-sound/qpwgraph
 media-sound/easyeffects
 
 net-im/signal-desktop-bin

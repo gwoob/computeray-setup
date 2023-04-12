@@ -10,7 +10,6 @@ x11-base/xorg-server
 x11-drivers/nvidia-drivers
 
 media-video/pipewire
-media-sound/qpwgraph
 media-sound/easyeffects
 
 net-im/signal-desktop-bin

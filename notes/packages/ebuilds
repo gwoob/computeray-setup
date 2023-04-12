@@ -1,6 +1,7 @@
 gnome-base/gnome-light
 gnome-extra/gnome-tweaks
 gnome-base/dconf-editor
+gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
 media-video/celluloid
 media-gfx/eog

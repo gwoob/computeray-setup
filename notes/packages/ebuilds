@@ -32,10 +32,6 @@ media-gfx/blender
 media-gfx/gimp
 media-studio/obs
 
-media-gfx/openscad
-media-gfx/gimp
-
-# btrfs snapshots
 app-backup/btrbk
 
 # suckless tmux
@@ -43,16 +39,12 @@ app-backup/btrbk
 # browser
 www-client/firefox-bin # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
-# steam client
 games-util/steam-launcher
+gui-wm/gamescope
 
-# fetch programs
 app-misc/neofetch
 
 app-shells/fzf
-
-gui-wm/gamescope
-
 
 app-emulation/virt-manager
 app-emulation/qemu

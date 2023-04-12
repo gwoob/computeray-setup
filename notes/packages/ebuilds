@@ -41,19 +41,15 @@ app-backup/btrbk
 media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
 
 # pipewire effects
-media-sound/easyeffects # https://github.com/jaakkopasanen/AutoEq
+media-sound/easyeffects
 
 # suckless tmux
 
 # browser
-www-client/librewolf # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
+www-client/firefox-bin # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
 
 # steam client
 games-util/steam-launcher
-games-emulation/yuzu https://gpo.zugaina.org/games-emulation/yuzu
-
-# tool for controlling X11 clipboard
-x11-misc/xclip
 
 # fetch programs
 app-misc/neofetch
@@ -68,5 +64,6 @@ app-shells/fzf
 grapejuice
 
 gui-wm/gamescope
+
 app-containers/distrobox
 app-containers/podman

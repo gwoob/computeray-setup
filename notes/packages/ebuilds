@@ -9,6 +9,8 @@ media-gfx/eog
 x11-base/xorg-server
 
 media-video/pipewire
+media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
+media-sound/easyeffects
 
 net-im/signal-desktop-bin
 media-sound/spotify
@@ -27,14 +29,14 @@ app-shells/gentoo-zsh-completions
 dev-util/nvidia-cuda-toolkit
 
 media-gfx/blender
+media-gfx/gimp
+media-studio/obs
+
 media-gfx/openscad
 media-gfx/gimp
 
 # btrfs snapshots
 app-backup/btrbk
-
-media-sound/qpwgraph https://gpo.zugaina.org/media-sound/qpwgraph
-media-sound/easyeffects
 
 # suckless tmux
 
@@ -48,8 +50,6 @@ games-util/steam-launcher
 app-misc/neofetch
 
 app-shells/fzf
-
-grapejuice
 
 gui-wm/gamescope
 

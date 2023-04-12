@@ -7,6 +7,7 @@ media-video/celluloid
 media-gfx/eog
 
 net-im/signal-desktop-bin
+media-sound/spotify
 
 app-admin/doas
 app-portage/gentoolkit

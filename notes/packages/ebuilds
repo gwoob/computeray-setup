@@ -6,36 +6,31 @@ app-editors/gnome-text-editor
 media-video/celluloid
 media-gfx/eog
 
+x11-base/xorg-server
+
+media-video/pipewire
+
 net-im/signal-desktop-bin
 media-sound/spotify
 
 app-admin/doas
 app-portage/gentoolkit
-sys-apps/util-linux
 dev-vcs/git
-net-firewall/nftables
-app-shells/dash
 app-portage/eix
 app-editors/neovim
 
+app-shells/dash
 app-shells/zsh
 app-shells/zsh-completions
 app-shells/gentoo-zsh-completions
 
 dev-util/nvidia-cuda-toolkit
 
-media-video/ffmpeg
-
-x11-base/xorg-server
-
-media-video/pipewire
-
 media-gfx/blender
 media-gfx/openscad
 media-gfx/gimp
 
 # QEMU/KVM virtual machines
-app-emulation/libvirt
 app-emulation/virt-manager
 app-emulation/qemu
 

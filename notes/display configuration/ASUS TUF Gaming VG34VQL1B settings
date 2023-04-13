@@ -1,5 +1,7 @@
 # OSD settings
 # inteded for use alongside ~/.nvidia-settings-rc
+# ~/.nvidia-settings-rc (Digital Vibrance = 200, gamma = 1.1)
+
 
 Variable OD = 40
 FreeSync Premium = ON
@@ -11,5 +13,5 @@ VividPixel = 0
 ASCR = OFF
 Blue Light Filter = Level 0
 Color Temp = User Mode (R = 90 G = 100 B = 90)
-Saturation = 50
+Saturation = 56
 Skin Tone = Natural

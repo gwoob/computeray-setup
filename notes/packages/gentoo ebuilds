@@ -1,5 +1,6 @@
 gnome-base/gnome-light
 gnome-extra/gnome-tweaks
+x11-misc/menulibre
 gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
 media-video/celluloid

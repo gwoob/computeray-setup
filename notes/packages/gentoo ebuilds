@@ -12,7 +12,6 @@ x11-drivers/nvidia-drivers
 media-video/pipewire
 media-sound/easyeffects
 
-net-im/signal-desktop-bin
 media-sound/spotify
 
 app-admin/doas

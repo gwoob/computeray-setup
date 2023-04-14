@@ -1,4 +1,0 @@
-# MIN HOUR DAY MONTH DAYOFWEEK COMMAND
-
-# trim every two days at any available time
-0-59 0-23 * * * ID=trim FREQ=2d /sbin/fstrim --all

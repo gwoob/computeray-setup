@@ -10,6 +10,7 @@ x11-base/xorg-server
 x11-drivers/nvidia-drivers
 
 media-video/pipewire
+sys-auth/rtkit
 media-sound/easyeffects
 
 media-sound/spotify

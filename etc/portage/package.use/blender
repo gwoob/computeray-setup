@@ -1,0 +1,6 @@
+# required by media-gfx/blender-3.3.2::gentoo
+# required by blender (argument)
+>=media-libs/freetype-2.12.1-r2 brotli
+# required by media-gfx/blender-3.3.2::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-4.4.3 opus theora vpx

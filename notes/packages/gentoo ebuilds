@@ -30,7 +30,7 @@ dev-util/nvidia-cuda-toolkit
 
 media-gfx/blender
 media-gfx/gimp
-media-studio/obs
+media-video/obs-studio
 
 app-backup/btrbk
 

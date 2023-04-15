@@ -1,0 +1,3 @@
+# zsh has nicer autocomplete than bash
+
+chsh -s /bin/zsh

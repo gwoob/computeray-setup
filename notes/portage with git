@@ -1,0 +1,9 @@
+# https://wiki.gentoo.org/wiki/Portage_with_Git
+
+eselect repository remove gentoo
+
+eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo.git
+
+rm -r /var/db/repos/gentoo
+
+emaint sync -r gentoo

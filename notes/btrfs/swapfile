@@ -1,4 +1,4 @@
-# create a 12G swapfile on btrfs filesystem
+# create a 32G swapfile on btrfs filesystem
 # https://btrfs.readthedocs.io/en/latest/Swapfile.html
 
 btrfs filesystem mkswapfile --size 32G swapfile

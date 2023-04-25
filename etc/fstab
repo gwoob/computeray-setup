@@ -1,7 +1,7 @@
-UUID=DEB8-150E					/boot		vfat	defaults,noatime 0 0
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/		btrfs	ssd,noatime,noautodefrag,discard=async,space_cache=v2,compress-force=zstd:3,subvol=@ 0 0
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home		btrfs	ssd,noatime,noautodefrag,discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home 0 0
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var		btrfs	ssd,noatime,noautodefrag,discard=async,space_cache=v2,compress-force=zstd:3,subvol=@var 0 0
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap		btrfs	ssd,noatime,noautodefrag,discard=async,space_cache=v2,compress-force=zstd:3,subvol=@games 0 0
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games	btrfs	ssd,noatime,noautodefrag,discard=async,space_cache=v2,nodatacow,subvol=@swap 0 0
+UUID=DEB8-150E					/boot		vfat	defaults 0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@ 0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home 0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@var 0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@games 0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games	btrfs	discard=async,space_cache=v2,nodatacow,subvol=@swap 0 0
 /swap/swapfile					none		swap	defaults 0 0

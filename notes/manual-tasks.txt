@@ -1,6 +1,4 @@
 set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
 
-setup zsh
 
-eselect sh set /bin/dash
 portage btrfs hook

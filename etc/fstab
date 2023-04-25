@@ -1,30 +1,31 @@
 # /dev/nvme0n1p1
-UUID=DEB8-150E					/boot			vfat	defaults									0 0
+UUID=DEB8-150E					/boot			vfat	defaults										0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/			btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@			0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/			btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@				0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/.snapshots		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@.snapshots		0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/.snapshots		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@.snapshots			0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home			btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home			0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home			btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home				0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/.snapshots	btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home.snapshots	0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/.snapshots	btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home.snapshots		0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var/lib/libvirt/images	btrfs	discard=async,space_cache=v2,nodatacow,subvol=@vm				0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var/lib/libvirt/images	btrfs	discard=async,space_cache=v2,nodatacow,subvol=@vm					0 0
 
 # /dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@swap				0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@swap					0 0
 
 #/dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@games		0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@games			0 0
 
 # /dev/nvme0n1p2
-/swap/swapfile					none			swap	defaults									0 0
+/swap/swapfile					none			swap	defaults										0 0
 
 # /dev/nvme0n1p2
 # emerge compile in ram
-tmpfs						/var/tmp/portage	tmpfs	size=60G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev			0 0
+tmpfs						/var/tmp		tmpfs rw,nosuid,noatime,nodev,size=4G,mode=1777							0 0
+tmpfs						/var/tmp/portage	tmpfs rw,nosuid,noatime,nodev,size=4G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775	0 0

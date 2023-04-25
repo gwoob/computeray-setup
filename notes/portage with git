@@ -1,4 +1,4 @@
-# sync using git because faster
+# sync gentoo overlay using git
 # https://wiki.gentoo.org/wiki/Portage_with_Git
 
 eselect repository remove gentoo

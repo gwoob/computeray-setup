@@ -27,5 +27,5 @@ UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games		btrfs	discard=async,s
 
 # /dev/nvme0n1p2
 # emerge compile in ram
-tmpfs						/var/tmp		tmpfs rw,nosuid,noatime,nodev,size=4G,mode=1777							0 0
-tmpfs						/var/tmp/portage	tmpfs rw,nosuid,noatime,nodev,size=4G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775	0 0
+tmpfs						/var/tmp		tmpfs rw,nosuid,noatime,nodev,size=59G,mode=1777							0 0
+tmpfs						/var/tmp/portage	tmpfs rw,nosuid,noatime,nodev,size=59G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775	0 0

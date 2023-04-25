@@ -14,7 +14,7 @@ UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home			btrfs	discard=async,space_cach
 UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/.snapshots	btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@home.snapshots	0 0
 
 #/dev/nvme0n1p2
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@var				0 0
+UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var/lib/libvirt/images	btrfs	discard=async,space_cache=v2,nodatacow,subvol=@vm				0 0
 
 #/dev/nvme0n1p2
 UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@swap				0 0

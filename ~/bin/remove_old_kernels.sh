@@ -10,7 +10,6 @@ fi
 
 # Provide a warning message before removing the old kernel versions
 echo "WARNING: This script will remove all old kernel versions except the currently running one."
-echo "         Make sure you have a backup or snapshot of your system before proceeding."
 echo
 
 # Get a list of old kernel versions

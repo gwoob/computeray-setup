@@ -24,6 +24,7 @@ if ! eselect kernel set $kernel_num >/dev/null; then
 fi
 
 # Get the kernel source directory and check if the config file exists
+# Requires CONFIG_IKCONFIG_PROC=y
 cd /usr/src/linux
 if [ ! -f .config ]; then
   echo "INFO: Config file not found. Generating from /proc/config.gz..."

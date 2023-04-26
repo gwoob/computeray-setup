@@ -50,7 +50,7 @@ if ! make -j$(nproc) install; then
 fi
 
 # Rebuild any necessary modules
-if ! sudo emerge @module-rebuild; then
+if ! emerge @module-rebuild; then
   echo "Failed to rebuild necessary modules." >&2
   exit 1
 fi

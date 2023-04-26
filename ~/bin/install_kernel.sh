@@ -2,12 +2,12 @@
 
 # Install kernel
 
-set -euo pipefail
+set -eu
 
 # Check if we are running as root
 if [ "$(id -u)" -ne 0 ]; then
-echo "This script must be run as root" >&2
-exit 1
+  echo "This script must be run as root" >&2
+  exit 1
 fi
 
 # Provide a warning message before installing new kernel
@@ -24,7 +24,7 @@ fi
 echo "Available kernels:"
 eselect kernel list
 read -p "Enter the number of the kernel you want to install: " kernel_num
-if ! eselect kernel set $kernel_num >/dev/null; then
+if ! eselect kernel set "$kernel_num" >/dev/null 2>&1; then
   echo "Invalid kernel number. Please try again." >&2
   exit 1
 fi
@@ -34,7 +34,10 @@ fi
 cd /usr/src/linux
 if [ ! -f .config ]; then
   echo "Config file not found. Generating from /proc/config.gz..."
-  zcat /proc/config.gz >.config
+  zcat /proc/config.gz >.config || {
+    echo "Failed to generate config file from /proc/config.gz." >&2
+    exit 1
+  }
 fi
 
 # Build and install the new kernel and modules

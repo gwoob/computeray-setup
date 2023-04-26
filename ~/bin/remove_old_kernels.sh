@@ -55,5 +55,6 @@ for kernel in ${old_kernels}; do
   fi
 done
 
+echo
 echo "Kernel cleanup completed successfully"
 exit 0

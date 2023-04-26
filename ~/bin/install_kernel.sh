@@ -14,6 +14,7 @@ read -p "Please enter the number of the kernel you want to install: " kernel_num
 eselect kernel set $kernel_num
 Get the kernel source directory and check if the config file exists
 
+# requires CONFIG_IKCONFIG_PROC set
 cd /usr/src/linux >/dev/null 2>&1
 if [ ! -f .config ]; then
 zcat /proc/config.gz >.config

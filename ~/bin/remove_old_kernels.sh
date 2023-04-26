@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+# Remove old kernels
 
 set -euo pipefail
 

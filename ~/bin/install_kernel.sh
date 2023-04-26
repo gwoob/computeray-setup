@@ -50,6 +50,6 @@ if ! sudo emerge @module-rebuild; then
   exit 1
 fi
 
-echo "INFO: Kernel upgrade completed successfully."
+echo "Kernel upgrade completed successfully."
 exit 0
 

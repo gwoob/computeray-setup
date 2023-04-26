@@ -8,6 +8,6 @@
 @.snapshots	/.snapshots		# root snapshots
 @home		/home			# home subvolume
 @home.snapshots	/home/.snapshots	# home snapshots
-@vm		/var/lib/libvirt/images	# (DISABLE COW) contains many variable files, VM images, logs, stuff I don't want rolled back
+@var		/var			# (DISABLE COW) contains many variable files, VM images, logs, stuff I don't want rolled back
 @swap		/swap			# for swapfile
 @games		~/Games			# games only bloat snapshots

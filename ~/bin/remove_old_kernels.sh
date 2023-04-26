@@ -9,7 +9,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Provide a warning message before removing the old kernel versions
-echo "WARNING: This script will remove all old kernel versions except the currently running one."
+echo "This script will remove all old kernel versions except the currently running one"
 echo
 
 # Get a list of old kernel versions

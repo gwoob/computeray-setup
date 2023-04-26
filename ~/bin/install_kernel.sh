@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+# Install kernel
 
 set -euo pipefail
 

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# This script upgrades the kernel on a Gentoo system
-
 set -euo pipefail
 
 # Check if we are running as root

@@ -24,8 +24,6 @@ fi
 # Remove each old kernel version and related files
 for kernel in ${old_kernels}; do
   echo "Removing old kernel version ${kernel}"
-  cp /boot/${kernel} /boot/${kernel}.bak
-  cp /usr/src/${kernel}/.config /usr/src/${kernel}/.config.bak
   if ! emerge -P gentoo-sources; then
     echo "Failed to remove old kernel package for ${kernel}" >&2
     exit 1
@@ -34,13 +32,18 @@ for kernel in ${old_kernels}; do
     echo "Failed to remove old kernel sources for ${kernel}" >&2
     exit 1
   fi
-  if ! rm -rf "/boot/${kernel}"; then
-    echo "Failed to remove old kernel files from /boot for ${kernel}" >&2
-    exit 1
-  fi
   if ! rm -rf "/lib/modules/${kernel}"; then
     echo "Failed to remove old kernel modules for ${kernel}" >&2
     exit 1
+  fi
+  if [ -f "/boot/vmlinuz-${kernel}" ]; then
+    mv "/boot/vmlinuz-${kernel}" "/boot/vmlinuz-${kernel}.bak"
+  fi
+  if [ -f "/boot/System.map-${kernel}" ]; then
+    mv "/boot/System.map-${kernel}" "/boot/System.map-${kernel}.bak"
+  fi
+  if [ -f "/boot/config-${kernel}" ]; then
+    mv "/boot/config-${kernel}" "/boot/config-${kernel}.bak"
   fi
 done
 

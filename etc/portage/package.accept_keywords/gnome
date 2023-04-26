@@ -1,0 +1,8 @@
+gnome-base/* ~amd64
+gnome-extra/* ~amd64
+dev-libs/gjs ~amd64
+x11-terms/gnome-terminal ~amd64
+x11-themes/adwaita-icon-theme ~amd64
+x11-themes/gnome-backgrounds ~amd64
+x11-themes/gnome-themes-standard ~amd64
+x11-wm/mutter ~amd64

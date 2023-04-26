@@ -1,0 +1,5 @@
+# https://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs
+# copy the /etc/fstab over
+
+# apply changes without reboot
+mount /var/tmp/portage

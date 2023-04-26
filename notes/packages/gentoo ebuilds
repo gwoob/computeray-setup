@@ -33,7 +33,7 @@ media-gfx/blender
 media-gfx/gimp
 media-video/obs-studio
 
-app-backup/btrbk
+app-backup/snapper
 
 # suckless tmux
 

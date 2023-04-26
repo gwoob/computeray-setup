@@ -35,16 +35,6 @@ for kernel in ${old_kernels}; do
   if ! rm -rf "/lib/modules/${kernel}"; then
     echo "Failed to remove old kernel modules for ${kernel}" >&2
     exit 1
-  fi
-  if [ -f "/boot/vmlinuz-${kernel}" ]; then
-    mv "/boot/vmlinuz-${kernel}" "/boot/vmlinuz-${kernel}.bak"
-  fi
-  if [ -f "/boot/System.map-${kernel}" ]; then
-    mv "/boot/System.map-${kernel}" "/boot/System.map-${kernel}.bak"
-  fi
-  if [ -f "/boot/config-${kernel}" ]; then
-    mv "/boot/config-${kernel}" "/boot/config-${kernel}.bak"
-  fi
 done
 
 echo "Kernel cleanup completed successfully"

@@ -2,7 +2,7 @@
 
 # Remove old kernels
 
-set -euo pipefail
+set -eu
 
 # Check if we are running as root
 if [ "$(id -u)" -ne 0 ]; then
@@ -37,7 +37,7 @@ fi
 for kernel in ${old_kernels}; do
   echo "Removing old kernel version ${kernel}"
 
-  if ! emerge -P gentoo-sources; then
+  if ! emerge -P gentoo-sources >/dev/null; then
     echo "Failed to remove old kernel package for ${kernel}" >&2
     exit 1
   fi

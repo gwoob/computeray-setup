@@ -8,6 +8,10 @@ echo "This script must be run as root" >&2
 exit 1
 fi
 
+# Provide a warning message before installing new kernel
+echo "This script will install selected kernel with previous configuration"
+echo
+
 # Check if the 'eselect' command is available
 if ! command -v eselect >/dev/null 2>&1; then
   echo "'eselect' command not found. Please install 'app-admin/eselect'." >&2
@@ -49,5 +53,6 @@ if ! sudo emerge @module-rebuild; then
   exit 1
 fi
 
+echo
 echo "Kernel upgrade completed successfully."
 exit 0

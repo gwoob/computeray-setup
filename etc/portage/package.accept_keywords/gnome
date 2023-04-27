@@ -6,3 +6,4 @@ x11-themes/adwaita-icon-theme ~amd64
 x11-themes/gnome-backgrounds ~amd64
 x11-themes/gnome-themes-standard ~amd64
 x11-wm/mutter ~amd64
+www-client/epiphany ~amd64

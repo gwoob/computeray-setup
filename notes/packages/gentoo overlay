@@ -7,6 +7,8 @@ app-editors/gnome-text-editor
 media-video/celluloid
 media-gfx/eog
 
+www-client/epiphany
+
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 

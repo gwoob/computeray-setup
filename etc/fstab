@@ -12,11 +12,9 @@ UUID=38536e31-a904-4994-ac0b-a584fe354d78	/.snapshots		btrfs	discard=async,space
 
 UUID=38536e31-a904-4994-ac0b-a584fe354d78	/var			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@var					0 0
 
-UUID=38536e31-a904-4994-ac0b-a584fe354d78	/swap			btrfs	discard=async,space_cache=v2,nodatacow,subvol=@swap					0 0
-
 #UUID=38536e31-a904-4994-ac0b-a584fe354d78	/home/ben/Games		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@games			0 0
 
-/swap/swapfile					none			swap	sw											0 0
+/var/swap/swapfile0					none			swap	sw											0 0
 
 # Portage TMPDIR on tmpfs
 tmpfs						/var/tmp		tmpfs rw,nosuid,noatime,nodev,size=32G,mode=1777						0 0

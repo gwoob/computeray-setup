@@ -2,5 +2,5 @@
 # https://btrfs.readthedocs.io/en/latest/Swapfile.html
 # https://wiki.gentoo.org/wiki/Swap#OpenRC_configuration
 
-btrfs filesystem mkswapfile --size 32G swapfile
+btrfs filesystem mkswapfile --size 32G /var/swap/swapfile0
 swapon swapfile

@@ -3,7 +3,7 @@
 # ~/.nvidia-settings-rc (Digital Vibrance = 200, gamma = 1.1)
 
 
-Variable OD = 40
+Variable OD = 20
 FreeSync Premium = ON
 GameVisual = User Mode
 Shadow Boost = OFF

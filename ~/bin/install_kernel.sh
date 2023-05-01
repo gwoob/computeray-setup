@@ -1,3 +1,6 @@
+# UPDATE THIS: if .config exists in /usr/src/linux ask to proceed with that .config or copy from /proc/config.gz or to exit
+
+
 #!/bin/sh
 
 # Install kernel

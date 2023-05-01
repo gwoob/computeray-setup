@@ -1,0 +1,5 @@
+# required to enable swapfile on boot
+# https://wiki.gentoo.org/wiki/Swap#OpenRC_configuration
+
+rc_before="!localmount"
+rc_need="localmount"

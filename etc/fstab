@@ -1,4 +1,4 @@
-# /dev/nvme0n1p1 (2G)
+# /dev/nvme0n1p1 (2GiB)
 UUID=DEB8-150E					/boot			vfat	defaults										0 0
 
 # /dev/nvme0n1p2 (1.8TiB)

@@ -10,6 +10,10 @@ media-gfx/eog
 
 www-client/epiphany
 
+sys-fs/btrfs-progs
+sys-fs/e2fsprogs
+sys-fs/dosfstools
+
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 

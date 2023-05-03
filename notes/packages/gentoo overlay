@@ -7,8 +7,6 @@ gnome-extra/gnome-calculator
 media-video/celluloid
 media-gfx/eog
 
-www-client/epiphany
-
 sys-fs/btrfs-progs
 sys-fs/e2fsprogs
 sys-fs/dosfstools
@@ -25,6 +23,7 @@ sys-auth/rtkit
 media-sound/easyeffects
 
 media-sound/spotify
+media-sound/gmusicbrowser
 
 app-admin/doas
 app-portage/gentoolkit

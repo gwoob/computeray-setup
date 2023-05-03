@@ -24,7 +24,6 @@ sys-auth/rtkit
 media-sound/easyeffects
 
 media-sound/spotify
-media-sound/gmusicbrowser
 
 app-admin/doas
 app-portage/gentoolkit

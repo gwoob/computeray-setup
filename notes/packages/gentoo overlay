@@ -38,11 +38,11 @@ app-shells/gentoo-zsh-completions
 
 dev-util/nvidia-cuda-toolkit
 
-media-gfx/blender
-media-gfx/gimp
 media-video/obs-studio
 media-sound/audacity
 media-sound/ardour
+media-gfx/blender
+media-gfx/gimp
 
 app-backup/snapper
 

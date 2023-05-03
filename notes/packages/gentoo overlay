@@ -39,6 +39,7 @@ media-sound/audacity
 media-sound/ardour
 media-gfx/blender
 media-gfx/gimp
+kde-apps/kdenlive
 
 app-backup/snapper
 

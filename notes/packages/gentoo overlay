@@ -17,8 +17,6 @@ sys-process/dcron
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 
-sys-apps/lm-sensors
-
 media-video/pipewire
 sys-auth/rtkit
 media-sound/easyeffects

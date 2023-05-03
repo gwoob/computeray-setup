@@ -23,8 +23,6 @@ media-video/pipewire
 sys-auth/rtkit
 media-sound/easyeffects
 
-media-sound/spotify
-
 app-admin/doas
 app-portage/gentoolkit
 dev-vcs/git

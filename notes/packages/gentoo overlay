@@ -42,6 +42,7 @@ media-gfx/blender
 media-gfx/gimp
 media-video/obs-studio
 media-sound/audacity
+media-sound/ardour
 
 app-backup/snapper
 

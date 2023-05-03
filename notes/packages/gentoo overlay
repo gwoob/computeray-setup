@@ -44,9 +44,6 @@ app-backup/snapper
 
 # suckless tmux
 
-# browser
-www-client/firefox-bin # https://ffprofile.com/ https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly Firefox Home Default https://restoreprivacy.com/firefox-privacy/ https://wiki.archlinux.org/title/Firefox/Privacy
-
 gui-wm/gamescope
 
 app-misc/neofetch

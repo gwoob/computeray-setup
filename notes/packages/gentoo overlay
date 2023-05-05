@@ -8,6 +8,9 @@ gnome-extra/gnome-calculator
 media-video/celluloid
 media-gfx/eog
 
+app-arch/file-roller
+app-arch/p7zip
+
 sys-fs/btrfs-progs
 sys-fs/e2fsprogs
 sys-fs/dosfstools

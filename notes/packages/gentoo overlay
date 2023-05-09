@@ -48,8 +48,6 @@ app-backup/snapper
 
 # suckless tmux
 
-gui-wm/gamescope
-
 app-misc/neofetch
 
 app-shells/fzf

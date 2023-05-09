@@ -10,6 +10,8 @@ media-video/celluloid
 media-gfx/gnome-photos
 media-gfx/eog
 
+media-fonts/fonts-meta
+
 sys-fs/btrfs-progs
 sys-fs/e2fsprogs
 sys-fs/dosfstools

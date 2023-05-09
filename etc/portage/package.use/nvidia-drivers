@@ -1,4 +1,4 @@
-x11-drivers/nvidia-drivers abi_x86_32 tools wayland
+x11-drivers/nvidia-drivers abi_x86_32 tools
 media-libs/libglvnd abi_x86_32
 x11-libs/libX11 abi_x86_32
 x11-libs/libXext abi_x86_32

@@ -1,3 +1,5 @@
-# mask all packages from third party overlays and selectively unmask packages
-*/*::kzd
+# selectively unmask packages from third party overlays
 */*::xarblu-overlay
+*/*::librewolf
+*/*::steam-overlay
+*/*::kzd

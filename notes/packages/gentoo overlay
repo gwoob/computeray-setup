@@ -5,7 +5,6 @@ gui-apps/gnome-console
 gnome-extra/gnome-logs
 gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
-gnome-extra/gnome-calculator
 media-video/celluloid
 media-gfx/gnome-photos
 media-gfx/eog

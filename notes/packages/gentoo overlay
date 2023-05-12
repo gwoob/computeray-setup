@@ -6,7 +6,6 @@ gnome-extra/gnome-logs
 gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
 media-video/celluloid
-media-gfx/gnome-photos
 media-gfx/eog
 
 media-fonts/fonts-meta
@@ -14,7 +13,6 @@ media-fonts/fonts-meta
 sys-fs/btrfs-progs
 sys-fs/e2fsprogs
 sys-fs/dosfstools
-sys-process/dcron
 
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
@@ -34,14 +32,8 @@ app-shells/zsh
 app-shells/zsh-completions
 app-shells/gentoo-zsh-completions
 
-dev-util/nvidia-cuda-toolkit
-
-media-video/obs-studio
-media-sound/ardour
 media-gfx/blender
 media-gfx/gimp
-kde-apps/kdenlive
-media-sound/audacity
 
 app-backup/snapper
 

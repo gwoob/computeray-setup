@@ -15,6 +15,9 @@ sys-fs/btrfs-progs
 sys-fs/e2fsprogs
 sys-fs/dosfstools
 
+net-p2p/qbittorrent
+net-misc/axel
+
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 

@@ -54,5 +54,3 @@ app-emulation/qemu
 
 app-containers/distrobox
 app-containers/podman
-
-net-im/discord

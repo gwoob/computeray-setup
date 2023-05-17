@@ -1,4 +1,6 @@
-uBlock Origin       https://addons.mozilla.org/en-US/firefox/addon/ublock-origin https://letsblock.it/filters/youtube-shorts
+uBlock Origin       https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
+    https://letsblock.it/filters/youtube-shorts
+    https://easylist.to
 Cookie AutoDelete   https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete
 Bitwarden           https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager
 LanguageTool        https://addons.mozilla.org/en-US/firefox/addon/languagetool

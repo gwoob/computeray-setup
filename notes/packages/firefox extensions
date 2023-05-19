@@ -1,8 +1,10 @@
-uBlock Origin       https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
+uBlock Origin                       https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
     https://letsblock.it/filters/youtube-shorts
     https://easylist.to
-Cookie AutoDelete   https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete
-Bitwarden           https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager
-LanguageTool        https://addons.mozilla.org/en-US/firefox/addon/languagetool
-Tab Stash           https://addons.mozilla.org/en-US/firefox/addon/tab-stash
-FastForward         https://github.com/FastForwardTeam/FastForward
+ClearURLs                           https://addons.mozilla.org/en-US/firefox/addon/clearurls
+Cookie AutoDelete                   https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete
+Bitwarden                           https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager
+LanguageTool                        https://addons.mozilla.org/en-US/firefox/addon/languagetool
+Tab Stash                           https://addons.mozilla.org/en-US/firefox/addon/tab-stash
+FastForward                         https://github.com/FastForwardTeam/FastForward
+Firefox Multi-Account Containers    https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers

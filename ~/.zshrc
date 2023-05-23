@@ -14,10 +14,11 @@ alias sudo='doas'
 alias daos='doas'
 
 # nvim loyalty
-export EDITOR=nvim
-alias vi='nvim'
-alias vim='nvim'
-alias nano='nvim'
+export EDITOR=lvim
+alias vi='lvim'
+alias vim='lvim'
+alias nvim='lvim'
+alias nano='lvim'
 
 # hidden files
 alias la='ls -A'
@@ -26,6 +27,6 @@ alias la='ls -A'
 alias grep='grep --color=auto'
 
 # add ~/bin to PATH
-if [ -d $HOME/bin ]; then
-    PATH=$PATH:$HOME/bin
+if [ -d $HOME/.local/bin ]; then
+    PATH=$PATH:$HOME/.local/bin
 fi

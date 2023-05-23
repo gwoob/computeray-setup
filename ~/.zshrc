@@ -30,3 +30,11 @@ alias grep='grep --color=auto'
 if [ -d $HOME/.local/bin ]; then
     PATH=$PATH:$HOME/.local/bin
 fi
+
+// what is this?
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH

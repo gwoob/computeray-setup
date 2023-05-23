@@ -1,7 +1,8 @@
 # https://wiki.gentoo.org/wiki/Zsh/Add-ons
 autoload -U compinit promptinit
 compinit
-promptinit; prompt gentoo
+# install pure prompt
+promptinit; prompt pure
 zstyle ':completion::complete:*' use-cache 1
 
 # kool fetch!

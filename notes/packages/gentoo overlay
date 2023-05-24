@@ -32,7 +32,6 @@ dev-vcs/git
 app-portage/eix
 app-editors/neovim
 x11-misc/xsel
-app-editors/emacs
 
 app-shells/dash
 app-shells/zsh

@@ -8,6 +8,9 @@ zstyle ':completion::complete:*' use-cache 1
 # kool fetch!
 neofetch
 
+# Enable vi mode
+bindkey -v
+
 # don't got sudo
 alias sudo='doas'
 

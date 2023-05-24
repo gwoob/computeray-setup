@@ -5,11 +5,11 @@ compinit
 promptinit; prompt pure
 zstyle ':completion::complete:*' use-cache 1
 
-# kool fetch!
-neofetch
-
 # Enable vi mode
 bindkey -v
+
+# kool fetch!
+neofetch
 
 # don't got sudo
 alias sudo='doas'

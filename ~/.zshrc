@@ -20,7 +20,10 @@ alias vim='lvim'
 alias nvim='lvim'
 alias nano='lvim'
 
-export PATH='$HOME/.local/bin:$PATH'
+# add ~/.local/bin to PATH
+if [ -d $HOME/.local/bin ]; then
+    PATH=$PATH:$HOME/.local/bin
+fi
 
 # hidden files
 alias la='ls -A'

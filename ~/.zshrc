@@ -1,29 +1,36 @@
-# https://wiki.gentoo.org/wiki/Zsh/Add-ons
-autoload -U compinit promptinit
-compinit
-# install pure prompt
-promptinit; prompt pure
-zstyle ':completion::complete:*' use-cache 1
-
-# Enable vi mode
-bindkey -v
+# ~/.zshrc
 
 # kool fetch!
 neofetch
 
-# don't got sudo
-alias sudo='doas'
+autoload -U compinit promptinit
 
-export EDITOR=lvim
-alias vi='lvim'
-alias vim='lvim'
-alias nvim='lvim'
-alias nano='lvim'
+# load pure prompt
+promptinit; prompt pure
+
+# load additional completions
+compinit
+
+# enable a cache for completions
+zstyle ':completion::complete:*' use-cache 1
+
+# enable vi mode
+bindkey -v
 
 # add ~/.local/bin to PATH
 if [ -d $HOME/.local/bin ]; then
     PATH=$PATH:$HOME/.local/bin
 fi
+
+# don't got sudo
+alias sudo='doas'
+
+# LunarVim alias
+export EDITOR=lvim
+alias vi='lvim'
+alias vim='lvim'
+alias nvim='lvim'
+alias nano='lvim'
 
 # hidden files
 alias la='ls -A'

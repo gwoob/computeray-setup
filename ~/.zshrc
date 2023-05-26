@@ -1,5 +1,3 @@
-# ~/.zshrc
-
 # kool fetch!
 neofetch
 

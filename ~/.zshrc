@@ -1,5 +1,5 @@
 # kool fetch!
-neofetch
+neofetch | sed '/^$/d'
 
 # Load Starship prompt
 eval "$(starship init zsh)"

@@ -1,7 +1,0 @@
-# replace bash with dash as /bin/sh because dash is faster
-# https://wiki.gentoo.org/wiki/Dash
-
-cd /bin
-ln -sf dash sh
-echo /bin/dash >>/etc/shells
-usermod -s /bin/dash root 

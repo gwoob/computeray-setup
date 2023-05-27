@@ -1,3 +1,6 @@
 # zsh has nicer autocomplete than bash
 
 chsh -s /bin/zsh
+
+# run as user
+ln -s ~/.zshrc /root/.zshrc

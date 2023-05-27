@@ -1,15 +1,14 @@
 # kool fetch!
 neofetch
 
+# Load Starship prompt
+eval "$(starship init zsh)"
+
+# Load zsh completions
 autoload -U compinit promptinit
-
-# load pure prompt
-promptinit; prompt pure
-
-# load additional completions
 compinit
 
-# enable a cache for completions
+# Enable a cache for completions
 zstyle ':completion::complete:*' use-cache 1
 
 # enable vi mode

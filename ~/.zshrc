@@ -1,4 +1,4 @@
-# kool fetch!
+# kool fetch! Display system information using neofetch and remove empty lines
 neofetch | sed '/^$/d'
 
 # Load Starship prompt
@@ -11,23 +11,21 @@ compinit
 # Enable a cache for completions
 zstyle ':completion::complete:*' use-cache 1
 
-# enable vi mode
+# Enable vi mode
 bindkey -v
 
-# add ~/.local/bin to PATH
-if [ -d $HOME/.local/bin ]; then
-    PATH=$PATH:$HOME/.local/bin
-fi
+# Add ~/.local/bin to PATH if it exists
+[ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
-# don't got sudo
+# Use 'doas' instead of 'sudo'
 alias sudo='doas'
 
-# LunarVim alias
+# LunarVim
 export EDITOR=lvim
 alias vi='lvim'
 alias vim='lvim'
 alias nvim='lvim'
 alias nano='lvim'
 
-# hidden files
+# List all files (including hidden files)
 alias la='ls -A'

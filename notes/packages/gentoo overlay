@@ -14,7 +14,7 @@ media-video/celluloid
 
 media-fonts/fonts-meta
 
- app-arch/p7zip
+app-arch/p7zip
 
 sys-fs/btrfs-progs
 sys-fs/e2fsprogs

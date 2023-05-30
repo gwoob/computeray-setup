@@ -17,8 +17,10 @@ zstyle ':completion::complete:*' use-cache 1
 # Add ~/.local/bin to PATH if it exists
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
-# Add a space after 'doas' or 'sudo' command
+# Add a space after 'doas' command
 alias doas='doas '
+
+# Don't got sudo
 alias sudo='doas '
 
 # Enable command auto-correction

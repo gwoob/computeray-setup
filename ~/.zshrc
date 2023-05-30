@@ -23,6 +23,9 @@ command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias su
 # Check for sudo and set up alias if only sudo is available
 command -v sudo >/dev/null 2>&1 && { command -v doas >/dev/null 2>&1 || alias doas='sudo'; }
 
+# Enable command auto-correction
+setopt correct
+
 # LunarVim
 export EDITOR=lvim
 alias vi='lvim'

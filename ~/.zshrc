@@ -32,3 +32,9 @@ alias nano='lvim'
 
 # List all files (including hidden files)
 alias ls='ls -A'
+
+# Always prompt for confirmation when copying files
+alias cp='cp -i'
+
+# Always prompt for confirmation when deleting files
+alias rm='rm -i'

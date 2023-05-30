@@ -28,4 +28,4 @@ alias nvim='lvim'
 alias nano='lvim'
 
 # List all files (including hidden files)
-alias la='ls -A'
+alias ls='ls -A'

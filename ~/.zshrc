@@ -1,7 +1,7 @@
 # kool fetch! Display system information using neofetch and remove empty lines
 neofetch | sed '/^$/d'
 
-# Enable zsh-vi-mode plugin
+# Load zsh-vi-mode plugin
 source /opt/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # Load Starship prompt

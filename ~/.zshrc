@@ -1,3 +1,6 @@
+# Enable zsh-vi-mode plugin 
+source /opt/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+
 # kool fetch! Display system information using neofetch and remove empty lines
 neofetch | sed '/^$/d'
 
@@ -10,9 +13,6 @@ compinit
 
 # Enable a cache for completions
 zstyle ':completion::complete:*' use-cache 1
-
-# Enable vi mode
-bindkey -v
 
 # Add ~/.local/bin to PATH if it exists
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin

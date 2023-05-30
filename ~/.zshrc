@@ -17,6 +17,10 @@ zstyle ':completion::complete:*' use-cache 1
 # Add ~/.local/bin to PATH if it exists
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
+# Add a space after 'doas' or 'sudo' command
+alias doas='doas '
+alias sudo='sudo '
+
 # Check for doas and set up alias if only doas is available
 command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias sudo='doas '; }
 

@@ -38,3 +38,9 @@ alias cp='cp -i'
 
 # Always prompt for confirmation when deleting files
 alias rm='rm -i'
+
+# Enable color highlighting for grep
+alias grep='grep --color=auto'
+
+# Automatically create parent directories if they don't exist
+alias mkdir='mkdir -p'

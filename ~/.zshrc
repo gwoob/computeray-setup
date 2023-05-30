@@ -19,13 +19,7 @@ zstyle ':completion::complete:*' use-cache 1
 
 # Add a space after 'doas' or 'sudo' command
 alias doas='doas '
-alias sudo='sudo '
-
-# Check for doas and set up alias if only doas is available
-command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias sudo='doas '; }
-
-# Check for sudo and set up alias if only sudo is available
-command -v sudo >/dev/null 2>&1 && { command -v doas >/dev/null 2>&1 || alias doas='sudo '; }
+alias sudo='doas '
 
 # Enable command auto-correction
 setopt correct

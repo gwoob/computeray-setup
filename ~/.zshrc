@@ -18,10 +18,10 @@ zstyle ':completion::complete:*' use-cache 1
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
 # Check for doas and set up alias if only doas is available
-command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias sudo='doas'; }
+command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias sudo='doas '; }
 
 # Check for sudo and set up alias if only sudo is available
-command -v sudo >/dev/null 2>&1 && { command -v doas >/dev/null 2>&1 || alias doas='sudo'; }
+command -v sudo >/dev/null 2>&1 && { command -v doas >/dev/null 2>&1 || alias doas='sudo '; }
 
 # Enable command auto-correction
 setopt correct

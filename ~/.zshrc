@@ -1,4 +1,4 @@
-# Enable zsh-vi-mode plugin 
+# Enable zsh-vi-mode plugin
 source /opt/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # kool fetch! Display system information using neofetch and remove empty lines

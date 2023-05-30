@@ -17,8 +17,11 @@ zstyle ':completion::complete:*' use-cache 1
 # Add ~/.local/bin to PATH if it exists
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
-# Use 'doas' instead of 'sudo'
-alias sudo='doas'
+# Check for doas and set up alias if only doas is available
+command -v doas >/dev/null 2>&1 && { command -v sudo >/dev/null 2>&1 || alias sudo='doas'; }
+
+# Check for sudo and set up alias if only sudo is available
+command -v sudo >/dev/null 2>&1 && { command -v doas >/dev/null 2>&1 || alias doas='sudo'; }
 
 # LunarVim
 export EDITOR=lvim

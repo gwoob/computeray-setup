@@ -45,6 +45,7 @@ app-shells/dash
 app-shells/zsh
 app-shells/zsh-completions
 app-shells/gentoo-zsh-completions
+app-shells/zsh-syntax-highlighting
 app-shells/starship
 
 media-gfx/blender

@@ -32,8 +32,14 @@ app-admin/doas
 app-portage/gentoolkit
 dev-vcs/git
 app-portage/eix
+
 app-editors/neovim
 x11-misc/xsel
+
+# Some LunarVim dependencies
+dev-python/pynvim
+sys-apps/ripgrep
+dev-util/tree-sitter-cli
 
 app-shells/dash
 app-shells/zsh

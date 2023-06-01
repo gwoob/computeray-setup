@@ -34,7 +34,7 @@ dev-vcs/git
 app-portage/eix
 
 app-editors/neovim
-x11-misc/xsel
+x11-misc/xclip
 
 # Some LunarVim dependencies
 dev-python/pynvim

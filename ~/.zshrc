@@ -42,6 +42,10 @@ alias cp='cp -i'
 # Always prompt for confirmation when deleting files
 alias rm='rm -i'
 
+# Aliases for clipboard copy and paste using 'xsel'
+alias pbcopy=’xsel — clipboard — input’
+alias pbpaste=’xsel — clipboard — output’
+
 # Enable color highlighting for grep
 alias grep='grep --color=auto'
 

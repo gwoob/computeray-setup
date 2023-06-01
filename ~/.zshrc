@@ -31,8 +31,8 @@ alias nano='lvim'
 alias doas='doas '
 alias sudo='doas '
 
-# List all files (including hidden files)
-alias ls='ls -A'
+# List all files (including hidden files) with color
+alias ls='ls -AG'
 
 # Always prompt for confirmation when copying files
 alias cp='cp -i'

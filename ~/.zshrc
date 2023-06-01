@@ -14,17 +14,11 @@ compinit
 # Enable a cache for completions
 zstyle ':completion::complete:*' use-cache 1
 
-# Add ~/.local/bin to PATH if it exists
-[ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
-
-# Add a space after 'doas' command
-alias doas='doas '
-
-# Don't got sudo
-alias sudo='doas '
-
 # Enable command auto-correction
 setopt correct
+
+# Add ~/.local/bin to PATH if it exists
+[ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
 # LunarVim
 export EDITOR=lvim
@@ -32,6 +26,10 @@ alias vi='lvim'
 alias vim='lvim'
 alias nvim='lvim'
 alias nano='lvim'
+
+# Add space after 'doas'; 'doas' as substitute for 'sudo'
+alias doas='doas '
+alias sudo='doas '
 
 # List all files (including hidden files)
 alias ls='ls -A'

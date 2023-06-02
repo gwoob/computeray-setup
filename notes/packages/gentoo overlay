@@ -66,3 +66,13 @@ app-containers/distrobox
 app-containers/podman
 
 net-wireless/bluez
+
+# steam-overlay
+games-util/steam-launcher
+
+# xarblu-overlay
+sys-kernel/xanmod-sources
+media-sound/qpwgraphay
+
+# librewolf (overlay)
+www-client/librewolf

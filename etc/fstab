@@ -22,4 +22,4 @@ tmpfs						/var/tmp		tmpfs rw,nosuid,noatime,nodev,size=20G,mode=1777						0 0
 tmpfs						/var/tmp/portage	tmpfs rw,nosuid,noatime,nodev,size=20G,mode=775,uid=portage,gid=portage,x-mount.mkdir=775	0 0
 
 # /dev/nvme1n1p1
-UUID=e4389c26-d805-43f1-8a0c-090f9ca2fc73	/mnt/SSD		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@SSD0				0 0
+UUID=e4389c26-d805-43f1-8a0c-090f9ca2fc73	/mnt/drive_0		btrfs	discard=async,space_cache=v2,compress-force=zstd:3,subvol=@SSD0				0 0

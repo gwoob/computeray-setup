@@ -52,3 +52,5 @@ alias grep='grep --color=auto'
 
 # Automatically create parent directories if they don't exist
 alias mkdir='mkdir -p'
+
+alias files='nautilus .'

@@ -7,6 +7,7 @@ gui-apps/gnome-console
 gnome-extra/gnome-logs
 gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
+sys-apps/gnome-disk-utility
 gnome-extra/gnome-calculator
 app-arch/file-roller
 media-video/celluloid

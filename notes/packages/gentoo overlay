@@ -36,14 +36,14 @@ app-portage/gentoolkit
 dev-vcs/git
 app-portage/eix
 
-app-misc/tmux
+# app-misc/tmux
 app-editors/neovim
 x11-misc/xclip
 
 # Some LunarVim dependencies
-dev-python/pynvim
-sys-apps/ripgrep
-dev-util/tree-sitter-cli
+# dev-python/pynvim
+# sys-apps/ripgrep
+# dev-util/tree-sitter-cli
 
 app-shells/dash
 app-shells/zsh

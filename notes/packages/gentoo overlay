@@ -5,7 +5,7 @@ x11-misc/menulibre
 media-gfx/gnome-font-viewer # nerdfonts
 gui-apps/gnome-console
 gnome-extra/gnome-logs
-gnome-extra/gnome-system-monitor
+gnome-extra/gnome-system-monitorcom.valvesoftware.Steam
 app-editors/gnome-text-editor
 sys-apps/gnome-disk-utility
 gnome-extra/gnome-calculator
@@ -71,9 +71,6 @@ app-containers/distrobox
 app-containers/podman
 
 net-wireless/bluez
-
-# steam-overlay
-games-util/steam-launcher
 
 # xarblu-overlay
 sys-kernel/xanmod-sources

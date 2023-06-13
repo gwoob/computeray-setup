@@ -1,4 +1,3 @@
 # selectively unmask packages from third party overlays
 */*::xarblu-overlay
 */*::librewolf
-*/*::steam-overlay

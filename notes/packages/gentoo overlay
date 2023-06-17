@@ -74,7 +74,7 @@ net-wireless/bluez
 
 # xarblu-overlay
 sys-kernel/xanmod-sources
-media-sound/qpwgraphay
+media-sound/qpwgraph
 
 # librewolf (overlay)
 www-client/librewolf

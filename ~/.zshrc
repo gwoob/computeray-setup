@@ -23,18 +23,10 @@ setopt correct
 # Add ~/.local/bin to PATH if it exists
 [ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
 
-# LunarVim
-# export EDITOR=lvim
-# alias vi='lvim'
-# alias vim='lvim'
-# alias nvim='lvim'
-# alias nano='lvim'
-
 # Neovim
 export EDITOR=nvim
 alias vi='nvim'
 alias vim='nvim'
-alias nvim='nvim'
 alias nano='nvim'
 
 # Add space after 'doas'; 'doas' as substitute for 'sudo'

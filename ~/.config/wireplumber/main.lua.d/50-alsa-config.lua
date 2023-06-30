@@ -1,5 +1,5 @@
 ["resample.quality"]       = 15,
 ["audio.channels"]         = 2,
 ["audio.format"]           = "S32LE",
-["audio.rate"]             = 48000,
---["audio.allowed-rates"]    = "32000,96000",
+["audio.rate"]             = 44100,
+["audio.allowed-rates"]    = "44100,48000,88200,96000,176400,192000,352800,384000",

@@ -77,3 +77,8 @@ sys-kernel/xanmod-sources
 
 # librewolf (overlay)
 www-client/librewolf
+
+
+gamemode
+gamescope
+cups

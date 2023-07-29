@@ -1,1 +1,1 @@
-gamemoderun VKD3D_CONFIG=no_upload_hvv SDL_VIDEODRIVER=x11 gamescope -W 3440 -H 1440 -b -- %command% -USEALLAVAILABLECORES
+gamemoderun VKD3D_CONFIG=no_upload_hvv %command% -USEALLAVAILABLECORES

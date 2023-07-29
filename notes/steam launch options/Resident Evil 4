@@ -1,0 +1,1 @@
+gamemoderun ENABLE_VKBASALT=1 VKBASALT_CONFIG_FILE=$XDG_CONFIG_HOME/vkBasalt/msaa.conf %command%

@@ -1,6 +1,7 @@
 com.github.tchx84.Flatseal
 org.rncbc.qpwgraph
 com.mattjakeman.ExtensionManager
+flatpak install flathub com.github.Eloston.UngoogledChromium
 com.valvesoftware.Steam
 com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 dev.geopjr.Collision

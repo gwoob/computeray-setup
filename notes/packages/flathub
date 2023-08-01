@@ -1,7 +1,8 @@
 com.github.tchx84.Flatseal
 org.rncbc.qpwgraph
 com.mattjakeman.ExtensionManager
-flatpak install flathub com.github.Eloston.UngoogledChromium
+com.vysp3r.ProtonPlus
+com.github.Eloston.UngoogledChromium
 dev.geopjr.Collision
 org.gnome.gitlab.YaLTeR.VideoTrimmer
 org.signal.Signal

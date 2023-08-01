@@ -12,8 +12,6 @@ gnome-extra/gnome-calculator
 app-arch/file-roller
 media-video/celluloid
 
-dev-util/gnome-builder
-
 app-admin/eclean-kernel
 
 media-fonts/fonts-meta

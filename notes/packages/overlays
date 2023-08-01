@@ -5,7 +5,7 @@ x11-misc/menulibre
 media-gfx/gnome-font-viewer # nerdfonts
 gui-apps/gnome-console
 gnome-extra/gnome-logs
-gnome-extra/gnome-system-monitorcom.valvesoftware.Steam
+gnome-extra/gnome-system-monitor
 app-editors/gnome-text-editor
 sys-apps/gnome-disk-utility
 gnome-extra/gnome-calculator

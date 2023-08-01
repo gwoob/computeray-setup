@@ -40,11 +40,6 @@ app-portage/eix
 app-editors/neovim
 x11-misc/xclip
 
-# Some LunarVim dependencies
-# dev-python/pynvim
-# sys-apps/ripgrep
-# dev-util/tree-sitter-cli
-
 app-shells/dash
 app-shells/zsh
 app-shells/zsh-completions

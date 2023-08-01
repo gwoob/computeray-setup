@@ -54,6 +54,8 @@ media-gfx/inkscape
 
 app-backup/snapper
 
+net-print/cups
+
 # suckless tmux
 
 app-misc/neofetch

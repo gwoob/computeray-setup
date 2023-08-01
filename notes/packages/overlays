@@ -1,3 +1,6 @@
+# steam-overlay
+games-util/steam-client-meta
+
 gnome-base/gnome-light
 gnome-extra/gnome-tweaks
 gnome-base/dconf-editor

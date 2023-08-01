@@ -1,6 +1,12 @@
 # steam-overlay
 games-util/steam-client-meta
 
+# xarblu-overlay
+sys-kernel/xanmod-sources
+
+# librewolf (overlay)
+www-client/librewolf
+
 gnome-base/gnome-light
 gnome-extra/gnome-tweaks
 gnome-base/dconf-editor
@@ -70,13 +76,5 @@ app-containers/podman
 
 net-wireless/bluez
 
-# xarblu-overlay
-sys-kernel/xanmod-sources
-
-# librewolf (overlay)
-www-client/librewolf
-
-
 gamemode
 gamescope
-cups

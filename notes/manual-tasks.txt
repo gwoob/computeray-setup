@@ -1,4 +1,0 @@
-set keyboard shortcuts in gnome # https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
-
-
-portage btrfs hook

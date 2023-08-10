@@ -76,5 +76,9 @@ app-containers/podman
 
 net-wireless/bluez
 
+
+net-im/signal-desktop-bin
+
+
 gamemode
 gamescope

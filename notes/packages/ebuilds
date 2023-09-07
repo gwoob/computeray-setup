@@ -84,3 +84,6 @@ gamemode
 gamescope
 
 media-gfx/freecad
+
+# doom emacs dependency
+ripgrep

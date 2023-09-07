@@ -36,7 +36,7 @@ x11-drivers/nvidia-drivers
 
 media-video/pipewire
 sys-auth/rtkit
-media-sound/easyeffects
+media-sound/easyeffectsefibootmgr --delete-bootnum --bootnum
 
 app-admin/doas
 app-portage/gentoolkit
@@ -89,3 +89,5 @@ media-gfx/freecad
 ripgrep
 
 shellcheck
+
+efibootmgr

@@ -87,3 +87,5 @@ media-gfx/freecad
 
 # doom emacs dependency
 ripgrep
+
+shellcheck

@@ -93,3 +93,5 @@ shellcheck
 efibootmgr
 
 gnome-weather
+
+media-sound/qpwgraph

@@ -1,6 +1,12 @@
 # kool fetch! Display system information using neofetch and remove empty lines
 neofetch | sed '/^$/d'
 
+# History
+HISTFILE=$HOME/.config/zsh/.zhistory
+HISTSIZE=10000
+SAVEHIST=10000
+setopt SHARE_HISTORY
+
 # Load Starship prompt
 eval "$(starship init zsh)"
 

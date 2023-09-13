@@ -43,7 +43,7 @@ alias sudo='doas '
 # alias ls='ls -A --color=auto'
 
 # better 'ls' command
-alias ls='eza --icons'
+alias ls='eza -a --icons'
 
 # Always prompt for confirmation when copying files
 alias cp='cp -i'

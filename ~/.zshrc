@@ -20,9 +20,6 @@ zstyle ':completion::complete:*' use-cache 1
 # Enable command auto-correction
 setopt correct
 
-# Add ~/.local/bin to PATH if it exists
-[ -d $HOME/.local/bin ] && PATH=$PATH:$HOME/.local/bin
-
 # Neovim
 export EDITOR=nvim
 alias vi='nvim'

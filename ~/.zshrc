@@ -48,6 +48,9 @@ alias ls='eza -a --icons'
 # Always prompt for confirmation when copying files
 alias cp='cp -i'
 
+# Always prompt for confirmation when moving files
+alias cp='mv -i'
+
 # Always prompt for confirmation when deleting files
 alias rm='rm -i'
 

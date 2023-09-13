@@ -95,3 +95,5 @@ efibootmgr
 gnome-weather
 
 media-sound/qpwgraph
+
+sys-apps/eza

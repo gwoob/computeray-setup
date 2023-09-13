@@ -1,6 +1,7 @@
-# zsh has nicer autocomplete than bash
+# https://wiki.gentoo.org/wiki/Zsh
 
+# run as user and root
 chsh -s /bin/zsh
 
-# run as user
+# symlink user's .zshrc to root user's home
 ln -s ~/.zshrc /root/.zshrc

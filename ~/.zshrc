@@ -3,8 +3,9 @@ neofetch | sed '/^$/d'
 
 # History
 HISTFILE=$HOME/.config/zsh/.zhistory
-HISTSIZE=10000
-SAVEHIST=10000
+HISTFILESIZE=
+HISTSIZE=
+HISTCONTROL="$HISTCONTROL erasedups:ignoreboth"
 setopt SHARE_HISTORY
 
 # Load Starship prompt

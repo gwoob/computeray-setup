@@ -35,15 +35,15 @@ setopt correct
 # Add ~/Scripts to PATH if it exists
 [ -d $HOME/Scripts ] && PATH=$PATH:$HOME/Scripts
 
-# Neovim
+# Neovim default editor
 export EDITOR=nvim
-alias vi='nvim'
-alias vim='nvim'
-alias nano='nvim'
 
-# Add space after 'doas'; 'doas' as substitute for 'sudo'
-alias doas='doas '
-alias sudo='doas '
+# text editor script
+alias edit='edit.sh'
+
+# Add space after 'sudo'; 'sudo' as substitute for 'doas'
+alias doas='sudo '
+alias sudo='sudo '
 
 # List all files (including hidden files) with color
 # alias ls='ls -A --color=auto'

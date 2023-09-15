@@ -38,7 +38,7 @@ media-video/pipewire
 sys-auth/rtkit
 media-sound/easyeffectsefibootmgr --delete-bootnum --bootnum
 
-app-admin/doas
+app-admin/sudo
 app-portage/gentoolkit
 dev-vcs/git
 app-portage/eix

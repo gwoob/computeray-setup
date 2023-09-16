@@ -4,7 +4,6 @@ com.vysp3r.ProtonPlus
 com.google.Chrome
 com.microsoft.Edge
 dev.geopjr.Collision
-org.gnome.gitlab.YaLTeR.VideoTrimmer
 com.dec05eba.gpu_screen_recorder
 io.github.mrvladus.List
 io.gitlab.news_flash.NewsFlash
@@ -22,3 +21,4 @@ io.github.vinegarhq.Vinegar
 app.drey.MultiplicationPuzzle
 org.gnome.Sudoku
 org.libreoffice.LibreOffice
+de.haeckerfelix.Fragments

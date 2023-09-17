@@ -1,1 +1,8 @@
-gnome-*/* ~amd64
+gnome-*/* **
+gui-libs/gtk **
+gui-libs/libadwaita **
+x11-wm/mutter **
+x11-themes/adwaita-icon-theme **
+sys-apps/xdg-desktop-portal-gnome **
+gui-apps/gnome-console **
+app-editors/gnome-text-editor **

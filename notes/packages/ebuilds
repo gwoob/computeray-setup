@@ -10,7 +10,6 @@ www-client/librewolf
 gnome-base/gnome-light
 gnome-extra/gnome-tweaks
 gnome-base/dconf-editor
-x11-misc/menulibre
 media-gfx/gnome-font-viewer # nerdfonts
 gui-apps/gnome-console
 gnome-extra/gnome-logs

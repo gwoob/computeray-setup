@@ -39,7 +39,7 @@ setopt correct
 export EDITOR=nvim
 
 # text editor script
-alias edit='edit.sh'
+alias edit='edit_script.sh'
 
 # Add space after 'sudo'; 'sudo' as substitute for 'doas'
 alias doas='sudo '

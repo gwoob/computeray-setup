@@ -1,2 +1,1 @@
-app-editor/emacs gui gtk jit
-sys-devel/gcc jit
+app-editor/emacs gui gtk -X

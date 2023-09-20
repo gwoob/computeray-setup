@@ -1,5 +1,3 @@
-# https://wiki.archlinux.org/title/PipeWire#Noticeable_audio_delay_or_audible_pop/crack_when_starting_playback
-
 table.insert (alsa_monitor.rules, {
   matches = {
     {

@@ -1,1 +1,1 @@
-app-editor/emacs gui gtk -X
+app-editor/emacs dynamic-loading harfbuzz imagemagick json source tree-sitter gui gtk webp -X

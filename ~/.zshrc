@@ -60,6 +60,9 @@ alias mv='mv -i'
 # Always prompt for confirmation when deleting files
 alias rm='rm -i'
 
+# Move up one directory
+alias ..='cd ..'
+
 # Aliases for clipboard copy and paste using 'xclip'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'

@@ -1,3 +1,5 @@
 x11-drivers/nvidia-drivers tools
 media-libs/vulkan-loader layers
 dev-util/vulkan-tools cube
+# Required by nvidia-vaapi-driver
+media-video/ffmpeg vaapi

@@ -1,5 +1,5 @@
 # kool fetch! Display system information using neofetch and remove empty lines
-neofetch | sed '/^$/d'
+fastfetch | sed '/^$/d'
 
 # History
 HISTFILE=$HOME/.config/zsh/.zhistory

@@ -1,2 +1,1 @@
-# install all optional plugins
-media-sound/easyeffects *
+media-sound/easyeffects calf doc mda-lv2 zamaudio

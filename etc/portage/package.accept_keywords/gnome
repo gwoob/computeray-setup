@@ -1,4 +1,10 @@
 gnome-*/*
+gnome-*/* ~amd64
+gui-libs/gtk ~amd64
+gui-libs/libadwaita ~amd64
+x11-wm/mutter ~amd64
+gui-apps/gnome-console ~amd64
+app-editors/gnome-text-editor ~amd64
 sys-apps/xdg-desktop-portal
 app-accessibility/orca
 app-crypt/libsecret

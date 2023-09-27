@@ -1,6 +1,57 @@
-gnome-*/* ~amd64
-gui-libs/gtk ~amd64
-gui-libs/libadwaita ~amd64
-x11-wm/mutter ~amd64
-gui-apps/gnome-console ~amd64
-app-editors/gnome-text-editor ~amd64
+gnome-*/*
+sys-apps/xdg-desktop-portal
+app-accessibility/orca
+app-crypt/libsecret
+app-editors/ghex
+app-editors/gnome-text-editor
+app-misc/gnote
+app-misc/tracker
+app-misc/tracker-miners
+dev-cpp/glibmm
+dev-cpp/gtkmm
+dev-libs/gjs
+dev-libs/glib
+dev-libs/gobject-introspection
+dev-libs/gobject-introspection-common
+dev-libs/libdex
+dev-libs/libportal
+dev-util/gdbus-codegen
+dev-util/glib-utils
+games-puzzle/gnome-sudoku
+gnome-base/gdm
+gnome-base/gnome-control-center
+gnome-base/gnome-session
+gnome-base/gnome-settings-daemon
+gnome-base/gnome-shell
+gnome-base/gsettings-desktop-schemas
+gnome-base/librsvg
+gnome-base/nautilus
+gnome-extra/gnome-boxes
+gnome-extra/gnome-calculator
+gnome-extra/gnome-calendar
+gnome-extra/gnome-characters
+gnome-extra/gnome-clocks
+gnome-extra/gnome-contacts
+gnome-extra/gnome-logs
+gnome-extra/gnome-shell-extensions
+gnome-extra/gnome-software
+gnome-extra/gnome-system-monitor
+gnome-extra/gnome-weather
+gnome-extra/sushi
+gnome-extra/tecla
+gui-apps/gnome-console
+gui-libs/gtk
+gui-libs/libadwaita
+media-gfx/eog
+media-gfx/gnome-font-viewer
+media-libs/libshumate
+net-misc/gnome-connections
+net-misc/gnome-remote-desktop
+sci-geosciences/gnome-maps
+sys-apps/baobab
+sys-apps/xdg-desktop-portal-gnome
+sys-process/gnome-usage
+x11-libs/pango
+x11-themes/adwaita-icon-theme
+x11-themes/gnome-backgrounds
+x11-wm/mutter

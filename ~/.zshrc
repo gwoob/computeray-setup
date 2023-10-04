@@ -75,4 +75,4 @@ alias files='nautilus .'
 
 # add emacs.d
 
-alias emacs='emacsclient -c -a 'emacs''
+alias emacs='emacsclient -c -a 'emacs' & disown'

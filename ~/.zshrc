@@ -72,4 +72,7 @@ alias mkdir='mkdir -p'
 
 alias files='nautilus .'
 
+
+# add emacs.d
+
 alias emacs='emacsclient -c -a 'emacs''

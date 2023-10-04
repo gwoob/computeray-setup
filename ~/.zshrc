@@ -1,5 +1,5 @@
 # Display system information
-fastfetch --logo-type small --gpu-force-vulkan true --structure OS:Kernel:Packages:Uptime:Memory:CPU:GPU --logo-color-1 white --logo-color-2 white --color black
+fastfetch --logo-type small --gpu-force-vulkan true --structure OS:Kernel:Packages:Uptime:Memory:CPU:GPU
 
 # History
 HISTFILE=$HOME/.config/zsh/.zhistory

@@ -71,3 +71,5 @@ alias grep='grep --color=auto'
 alias mkdir='mkdir -p'
 
 alias files='nautilus .'
+
+alias emacs='emacsclient -c -a 'emacs''

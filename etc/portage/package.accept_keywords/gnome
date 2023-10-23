@@ -1,3 +1,3 @@
 gnome-base/gnome ~amd64
-gnome-base/gnome-light ~
+gnome-base/gnome-light ~amd64
 gnome-*/* ~amd64

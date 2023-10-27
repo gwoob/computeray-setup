@@ -1,1 +1,2 @@
 gnome-*/* ~amd64
+x11-wm/mutter ~amd64

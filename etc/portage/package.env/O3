@@ -1,6 +1,2 @@
 www-client/librewolf O3.conf
 dev-lang/python O3.conf
-x11-wm/mutter O3.conf
-app-shells/dash O3.conf
-app-shells/zsh O3.conf
-app-editors/emacs O3.conf

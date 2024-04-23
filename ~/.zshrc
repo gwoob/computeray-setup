@@ -72,8 +72,4 @@ alias mkdir='mkdir -p'
 
 alias files='nautilus .'
 
-
-# Add emacs to path and alias Emacsclient
-[ -d $HOME/.emacs.d/bin ] && PATH=$PATH:$HOME/.emacs.d/bin
-
 alias emacs='emacsclient -c -a 'emacs' & disown'
